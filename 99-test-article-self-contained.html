@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel - Deutsche Telekom & Mobilfunk Blog</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f5f5; }
+        .header { background: #333; color: white; padding: 15px 0; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .logo h1 a { color: white; text-decoration: none; font-size: 24px; }
+        .nav { margin-top: 10px; }
+        .nav ul { list-style: none; display: flex; gap: 20px; }
+        .nav a { color: white; text-decoration: none; }
+        .main { padding: 40px 0; }
+        .article-detail { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .category-badge { display: inline-block; background: #007bff; color: white; padding: 5px 15px; border-radius: 20px; font-size: 12px; margin-bottom: 15px; }
+        .article-detail h1 { font-size: 32px; color: #333; margin-bottom: 15px; line-height: 1.3; }
+        .article-meta { color: #666; font-size: 14px; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+        .article-featured-image { margin: 20px 0; }
+        .article-featured-image img { width: 100%; height: 400px; object-fit: cover; border-radius: 8px; }
+        .article-excerpt { font-size: 18px; color: #555; line-height: 1.6; padding: 20px; background: #f8f9fa; border-left: 4px solid #007bff; border-radius: 4px; margin: 20px 0; }
+        .article-content { line-height: 1.8; color: #333; margin-top: 30px; }
+        .article-content h2 { font-size: 24px; margin: 30px 0 15px 0; color: #333; }
+        .article-content h3 { font-size: 20px; margin: 25px 0 12px 0; color: #444; }
+        .article-content p { margin-bottom: 15px; }
+        .article-content ul, .article-content ol { margin: 15px 0 15px 30px; }
+        .article-content li { margin-bottom: 8px; }
+        .article-content code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 14px; }
+        .article-content pre { background: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto; margin: 15px 0; }
+        .article-content pre code { background: none; padding: 0; }
+        .article-content blockquote { border-left: 4px solid #007bff; padding-left: 20px; margin: 20px 0; color: #666; font-style: italic; }
+        .back-link { margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; }
+        .back-link a { color: #007bff; text-decoration: none; }
+        .error-message { background: #f8d7da; color: #721c24; padding: 20px; border-radius: 5px; margin: 20px 0; }
+        .debug-panel { background: #d1ecf1; color: #0c5460; padding: 15px; border-radius: 5px; margin: 20px 0; font-size: 13px; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">Telekom & Mobilfunk Blog</a></h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="about.html">Über mich</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <article class="article-detail" id="articleContent">
+                <!-- Article content will be loaded here -->
+            </article>
+            <div class="back-link">
+                <a href="index.html">← Zurück zur Übersicht</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" style="background: #333; color: white; padding: 30px 0; margin-top: 50px; text-align: center;">
+        <div class="container">
+            <p>&copy; 2026 Telekom & Mobilfunk Blog. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script>
+        // ===== 内联完整功能，无外部依赖 =====
+        
+        // 文章数据（包含完整内容）
+        const articlesData = {
+            "telekom": {
+                "name": "Telekom & Netz",
+                "subcategories": {
+                    "news": {
+                        "name": "Telekom Neuigkeiten",
+                        "articles": [
+                            {
+                                "id": "deutsche-telekom-kuendigt-neue-5g-initiative-an",
+                                "title": "Deutsche Telekom kündigt neue 5G-Initiative an",
+                                "date": "2026-02-01",
+                                "excerpt": "Die Deutsche Telekom hat heute eine neue 5G-Initiative angekündigt, die Millionen von Kunden zugutekommen wird.",
+                                "content": "<h2>Einleitung</h2><p>Die Deutsche Telekom hat heute eine bahnbrechende 5G-Initiative angekündigt. Diese umfasst den Ausbau des 5G-Netzes in ganz Deutschland und wird Millionen von Kunden erreichen.</p><h2>Die Details der Initiative</h2><p>Das Projekt umfasst:</p><ul><li>Ausbau der 5G-Abdeckung in ländlichen Gebieten</li><li>Investitionen in Höhe von mehreren Milliarden Euro</li><li>Neueste 5G-Technologie für schnellere Geschwindigkeiten</li></ul><h2>Fazit</h2><p>Die Initiative markiert einen wichtigen Meilenstein für die digitale Infrastruktur in Deutschland.</p>",
+                                "image": "https://picsum.photos/800/400?random=9698"
+                            }
+                        ]
+                    }
+                }
+            },
+            "mobilfunk": {
+                "name": "Mobilfunk & SIM",
+                "subcategories": {
+                    "sim-types": {
+                        "name": "SIM-Karten Typen",
+                        "articles": [
+                            {
+                                "id": "esim-so-aktivieren-sie-die-elektronische-sim-karte",
+                                "title": "eSIM: So aktivieren Sie die elektronische SIM-Karte",
+                                "date": "2026-02-05",
+                                "excerpt": "Eine Schritt-für-Schritt-Anleitung zur Aktivierung einer eSIM.",
+                                "content": "<h2>Was ist eine eSIM?</h2><p>Eine eSIM (embedded SIM) ist ein digitaler SIM-Chip, der fest in Ihr Smartphone integriert ist. Sie müssen keine physische SIM-Karte mehr einlegen.</p><h2>Aktivierung Schritt für Schritt</h2><ol><li>Öffnen Sie die Einstellungen Ihres Smartphones</li><li>Wählen Sie \"Mobilfunk\" oder \"Netzwerk\"</li><li>Tippen Sie auf \"eSIM hinzufügen\"</li><li>Scannen Sie den QR-Code Ihres Anbieters</li><li>Warten Sie, bis die Aktivierung abgeschlossen ist</li></ol><h2>Vorteile der eSIM</h2><ul><li>Kein physischer SIM-Wechsel mehr nötig</li><li>Perfekt für Reisen ins Ausland</li><li>Platzsparend im Gerät</li></ul><h2>Fazit</h2><p>Die eSIM ist die Zukunft der Mobilfunktechnologie und sehr einfach zu aktivieren.</p>",
+                                "image": "https://picsum.photos/800/400?random=8858"
+                            }
+                        ]
+                    }
+                }
+            }
+        };
+
+        // 获取URL参数
+        function getUrlParameter(name) {
+            var params = new URLSearchParams(window.location.search);
+            return params.get(name);
+        }
+
+        // 根据ID查找文章
+        function findArticleById(articleId) {
+            for (var catKey in articlesData) {
+                var category = articlesData[catKey];
+                for (var subKey in category.subcategories) {
+                    var subcategory = category.subcategories[subKey];
+                    for (var i = 0; i < subcategory.articles.length; i++) {
+                        if (subcategory.articles[i].id === articleId) {
+                            return {
+                                article: subcategory.articles[i],
+                                categoryName: category.name,
+                                subcategoryName: subcategory.name
+                            };
+                        }
+                    }
+                }
+            }
+            return null;
+        }
+
+        // 加载并渲染文章
+        function loadArticle() {
+            var articleId = getUrlParameter('id');
+            
+            var debugInfo = document.createElement('div');
+            debugInfo.className = 'debug-panel';
+            debugInfo.innerHTML = '<strong>Debug-Informationen:</strong><br>';
+            debugInfo.innerHTML += 'URL Parameter "id": ' + (articleId || '<span style="color:red">NICHT GEFUNDEN</span>') + '<br>';
+            
+            if (!articleId) {
+                showError('Keine Artikel-ID in der URL gefunden. Bitte fügen Sie ?id=ARTICLE_ID zur URL hinzu.');
+                debugInfo.innerHTML += 'Status: <span style="color:red">FEHLER</span> - Keine ID in URL';
+                document.querySelector('.article-detail').appendChild(debugInfo);
+                return;
+            }
+            
+            var result = findArticleById(articleId);
+            
+            debugInfo.innerHTML += 'Artikel gesucht: ' + articleId + '<br>';
+            debugInfo.innerHTML += 'Artikel gefunden: ' + (result ? '<span style="color:green">JA</span>' : '<span style="color:red">NEIN</span>') + '<br>';
+            
+            if (!result) {
+                showError('Artikel mit ID "' + articleId + '" nicht gefunden.');
+                debugInfo.innerHTML += 'Status: <span style="color:red">FEHLER</span> - Artikel nicht gefunden';
+                document.querySelector('.article-detail').appendChild(debugInfo);
+                return;
+            }
+            
+            debugInfo.innerHTML += 'Status: <span style="color:green">ERFOLGREICH</span><br>';
+            document.querySelector('.article-detail').appendChild(debugInfo);
+            
+            renderArticle(result.article, result.categoryName);
+        }
+
+        // 渲染文章
+        function renderArticle(article, categoryName) {
+            var container = document.getElementById('articleContent');
+            if (!container) {
+                console.error('articleContent container not found');
+                return;
+            }
+            
+            var html = '';
+            html += '<div class="category-badge">' + categoryName + '</div>';
+            html += '<h1>' + article.title + '</h1>';
+            html += '<div class="article-meta">Veröffentlicht am ' + article.date + '</div>';
+            
+            if (article.image) {
+                html += '<div class="article-featured-image">';
+                html += '<img src="' + article.image + '" alt="' + article.title + '" loading="lazy">';
+                html += '</div>';
+            }
+            
+            html += '<div class="article-excerpt">' + article.excerpt + '</div>';
+            html += '<div class="article-content">';
+            html += article.content || '<p>Artikelinhalt wird geladen...</p>';
+            html += '</div>';
+            
+            container.innerHTML = html;
+            
+            // 更新页面标题
+            document.title = article.title + ' - Deutsche Telekom & Mobilfunk Blog';
+        }
+
+        // 显示错误信息
+        function showError(message) {
+            var container = document.getElementById('articleContent');
+            if (container) {
+                container.innerHTML = '<div class="error-message"><h2>Fehler</h2><p>' + message + '</p>' +
+                    '<p><a href="index.html">← Zurück zur Startseite</a></p></div>';
+            }
+        }
+
+        // 页面加载完成后执行
+        document.addEventListener('DOMContentLoaded', function() {
+            loadArticle();
+        });
+    </script>
+</body>
+</html>

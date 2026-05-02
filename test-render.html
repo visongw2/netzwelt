@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Article Rendering</title>
+    <style>
+        .article-card {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f9f9f9;
+        }
+        .article-card h3 {
+            color: #002D6D;
+            margin: 10px 0;
+        }
+        .debug {
+            background: #ff;
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Article Rendering Test</h1>
+    
+    <div class="debug">
+        <h2>Debug Info:</h2>
+        <div id="debug">JavaScript not loaded yet...</div>
+    </div>
+    
+    <h2>Telekom Articles:</h2>
+    <div id="telekomArticles"></div>
+    
+    <h2>Mobilfunk Articles:</h2>
+    <div id="mobilfunkArticles"></div>
+    
+    <script>
+        // Update debug info
+        document.getElementById('debug').innerHTML = '✓ JavaScript is working!<br>';
+        
+        // Test article data
+        var articles = {
+            "telekom": {
+                "name": "Telekom & Netz",
+                "subcategories": {
+                    "news": {
+                        "name": "Telekom Neuigkeiten",
+                        "articles": [
+                            {
+                                "id": "test-article-1",
+                                "title": "Test Article 1 - Telekom",
+                                "date": "2026-01-15",
+                                "excerpt": "This is test article 1 for Telekom category.",
+                                "image": "https://picsum.photos/400/300?random=1"
+                            },
+                            {
+                                "id": "test-article-2",
+                                "title": "Test Article 2 - Telekom",
+                                "date": "2026-02-20",
+                                "excerpt": "This is test article 2 for Telekom category.",
+                                "image": "https://picsum.photos/400/300?random=2"
+                            }
+                        ]
+                    }
+                }
+            },
+            "mobilfunk": {
+                "name": "Mobilfunk & SIM",
+                "subcategories": {
+                    "sim-types": {
+                        "name": "SIM-Karten Typen",
+                        "articles": [
+                            {
+                                "id": "test-article-3",
+                                "title": "Test Article 3 - Mobilfunk",
+                                "date": "2026-03-10",
+                                "excerpt": "This is test article 3 for Mobilfunk category.",
+                                "image": "https://picsum.photos/400/300?random=3"
+                            },
+                            {
+                                "id": "test-article-4",
+                                "title": "Test Article 4 - Mobilfunk",
+                                "date": "2026-04-05",
+                                "excerpt": "This is test article 4 for Mobilfunk category.",
+                                "image": "https://picsum.photos/400/300?random=4"
+                            }
+                        ]
+                    }
+                }
+            }
+        };
+        
+        document.getElementById('debug').innerHTML += '✓ Article data created<br>';
+        document.getElementById('debug').innerHTML += 'Telekom articles: ' + articles['telekom'].subcategories['news'].articles.length + '<br>';
+        
+        // Function to render articles
+        function renderArticles(categoryId, containerId) {
+            var container = document.getElementById(containerId);
+            if (!container) {
+                document.getElementById('debug').innerHTML += '✗ Container not found: ' + containerId + '<br>';
+                return;
+            }
+            
+            var category = articles[categoryId];
+            if (!category) {
+                document.getElementById('debug').innerHTML += '✗ Category not found: ' + categoryId + '<br>';
+                return;
+            }
+            
+            var allArticles = [];
+            for (var subKey in category.subcategories) {
+                allArticles = allArticles.concat(category.subcategories[subKey].articles);
+            }
+            
+            var html = '';
+            for (var i = 0; i < allArticles.length; i++) {
+                var article = allArticles[i];
+                html += '<div class="article-card">';
+                html += '<h3>' + article.title + '</h3>';
+                html += '<p><strong>Date:</strong> ' + article.date + '</p>';
+                html += '<p>' + article.excerpt + '</p>';
+                html += '</div>';
+            }
+            
+            container.innerHTML = html;
+            document.getElementById('debug').innerHTML += '✓ Rendered ' + allArticles.length + ' articles for ' + categoryId + '<br>';
+        }
+        
+        // Render on DOMContentLoaded
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('debug').innerHTML += '✓ DOM Content Loaded<br>';
+            renderArticles('telekom', 'telekomArticles');
+            renderArticles('mobilfunk', 'mobilfunkArticles');
+            document.getElementById('debug').innerHTML += '✓ Rendering complete!<br>';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ – NetzWelt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="18" y1="32" x2="18" y2="14" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+                        <line x1="13" y1="18" x2="23" y2="18" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+                        <line x1="18" y1="32" x2="12" y2="32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="18" y1="32" x2="24" y2="32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M12 11 Q10 13.5 12 16" stroke="#E20074" stroke-width="2" stroke-linecap="round" fill="none"/>
+                        <path d="M9 8.5 Q5.5 13 9 17.5" stroke="#E20074" stroke-width="1.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+                        <path d="M24 11 Q26 13.5 24 16" stroke="#E20074" stroke-width="2" stroke-linecap="round" fill="none"/>
+                        <path d="M27 8.5 Q30.5 13 27 17.5" stroke="#E20074" stroke-width="1.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+                        <circle cx="18" cy="12.5" r="1.8" fill="#E20074"/>
+                    </svg>
+                    <div class="logo-text">
+                        <span class="logo-title">Netz<span>Welt</span></span>
+                        <span class="logo-subtitle">5G · eSIM · Mobilfunk</span>
+                    </div>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="about.html">Über mich</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="about-page">
+                <h2>Häufig gestellte Fragen (FAQ)</h2>
+
+                <div class="about-content">
+                    <p>Hier finden Sie Antworten auf die am häufigsten gestellten Fragen rund um NetzWelt, 5G, eSIM und Mobilfunk-Tarife.</p>
+
+                    <div class="faq-list" id="faqList">
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">Was ist NetzWelt? <span>▾</span></div>
+                            <div class="faq-answer">
+                                <p>NetzWelt ist ein unabhängiger Informations-Blog rund um die Themen 5G, eSIM, Mobilfunk-Tarife und die Deutsche Telekom. Unser Ziel ist es, komplexe Technik verständlich zu erklären und bei der Tarifwahl zu helfen.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">Was ist der Unterschied zwischen 5G und 5G SA? <span>▾</span></div>
+                            <div class="faq-answer">
+                                <p>5G (Non-Standalone) nutzt noch Teile des 4G/LTE-Netzes, während 5G SA (Standalone) ein komplett eigenständiges 5G-Kernnetz ist. 5G SA bietet geringere Latenzzeiten, höhere Zuverlässigkeit und ermöglicht echte 5G-Features wie Network Slicing.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">Wie aktiviere ich eine eSIM bei der Telekom? <span>▾</span></div>
+                            <div class="faq-answer">
+                                <p>Sie erhalten nach der Bestellung einen QR-Code per E-Mail. Gehen Sie auf Ihrem Smartphone zu Einstellungen → Mobilfunk → SIM hinzufügen und scannen Sie den QR-Code. Detaillierte Anleitungen für iOS und Android finden Sie in unserem <a href="article.html?id=esim-so-aktivieren-sie-die-elektronische-sim-karte">eSIM-Artikel</a>.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">Was ist besser: Prepaid oder Postpaid? <span>▾</span></div>
+                            <div class="faq-answer">
+                                <p>Prepaid-Tarife sind ideal für die Kostenkontrolle – man zahlt nur das, was man auch wirklich verbraucht, ohne Mindestvertragslaufzeit. Postpaid-Tarife (Vertragstarife) bieten oft mehr Datenvolumen und Geräte-Subventionen. Lesen Sie unseren <a href="article.html?id=prepaid-vs-postpaid-vor-und-nachteile">Vergleichsartikel</a> für eine detaillierte Analyse.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">Funktioniert EU-Roaming automatisch? <span>▾</span></div>
+                            <div class="faq-answer">
+                                <p>Ja, bei den meisten Telekom- und Prepaid-Tarifen ist EU-Roaming automatisch enthalten. Allerdings gelten FUP-Grenzen (Fair Use Policy). Sobald diese überschritten werden, können Zusatzkosten anfallen. Mehr dazu erfahren Sie in unserem <a href="article.html?id=eu-roaming-bei-prepaid-karten">Roaming-Artikel</a>.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">Wie kann ich mein Datenvolumen sparen? <span>▾</span></div>
+                            <div class="faq-answer">
+                                <p>Die effektivsten Methoden sind: WLAN prioritären, Datenspar-Modus im Browser aktivieren, automatische Updates nur über WLAN zulassen und Hintergrund-App-Daten einschränken. Unsere <a href="article.html?id=datenvolumen-sparen-10-praktische-tipps">10 praktischen Tipps</a> helfen Ihnen weiter.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">Erhalte ich eine persönliche Beratung? <span>▾</span></div>
+                            <div class="faq-answer">
+                                <p>NetzWelt ist ein Informations-Blog. Für vertragliche Angelegenheiten und Tarifabschlüsse wenden Sie sich bitte direkt an die <a href="kontakt.html">Deutsche Telekom oder Ihren Anbieter</a>. Wir bieten keine rechtliche Beratung an.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">Wie oft werden neue Artikel veröffentlicht? <span>▾</span></div>
+                            <div class="faq-answer">
+                                <p>Wir streben an, wöchentlich neue Artikel zu aktuellen Entwicklungen im Bereich 5G, eSIM und Mobilfunk zu veröffentlichen. Sie können unseren <a href="rss.html">RSS-Feed</a> abonnieren, um keine Neuigkeit zu verpassen.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <h3 style="margin-top: 2rem;">Keine Antwort gefunden?</h3>
+                    <p>Wenn Sie hier keine Antwort auf Ihre Frage finden, schreiben Sie uns gerne über das <a href="kontakt.html">Kontaktformular</a>. Wir antworten in der Regel innerhalb von 2 Werktagen.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-nav">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+            </nav>
+            <p>&copy; 2026 NetzWelt. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleFaq(el) {
+            const item = el.parentElement;
+            const answer = item.querySelector('.faq-answer');
+            const isOpen = item.classList.toggle('open');
+            if (isOpen) {
+                answer.classList.add('open');
+            } else {
+                answer.classList.remove('open');
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Test - Vollständig Selbst-Enthalten</title>
+    <style>
+        * { margin:0; padding:0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f5f5; }
+        .header { background: #333; color: white; padding: 15px 0; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .logo h1 a { color: white; text-decoration: none; font-size: 24px; }
+        .nav { margin-top: 10px; }
+        .nav ul { list-style: none; display: flex; gap: 20px; }
+        .nav a { color: white; text-decoration: none; }
+        .main { padding: 40px 0; }
+        .article-detail { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .category-badge { display: inline-block; background: #007bff; color: white; padding: 5px 15px; border-radius: 20px; font-size: 12px; margin-bottom: 15px; }
+        .article-detail h1 { font-size: 32px; color: #333; margin-bottom: 15px; line-height: 1.3; }
+        .article-meta { color: #666; font-size: 14px; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+        .article-featured-image { margin: 20px 0; }
+        .article-featured-image img { width: 100%; height: 400px; object-fit: cover; border-radius: 8px; }
+        .article-excerpt { font-size: 18px; color: #555; line-height: 1.6; padding: 20px; background: #f8f9fa; border-left: 4px solid #007bff; border-radius: 4px; margin: 20px 0; }
+        .article-content { line-height: 1.8; color: #333; margin-top: 30px; }
+        .article-content h2 { font-size: 24px; margin: 30px 0 15px 0; color: #333; }
+        .article-content h3 { font-size: 20px; margin: 25px 0 12px 0; color: #444; }
+        .article-content p { margin-bottom: 15px; }
+        .article-content ul, .article-content ol { margin: 15px 0 15px 30px; }
+        .article-content li { margin-bottom: 8px; }
+        .article-content code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 14px; }
+        .article-content pre { background: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto; margin: 15px 0; }
+        .back-link { margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; }
+        .back-link a { color: #007bff; text-decoration: none; }
+        .error-message { background: #f8d7da; color: #721c24; padding: 20px; border-radius: 5px; margin: 20px 0; }
+        .debug-panel { background: #d1ecf1; color: #0c5460; padding: 15px; border-radius: 5px; margin: 20px 0; font-size: 13px; font-family: monospace; }
+        .success-panel { background: #d4edda; color: #155724; padding: 15px; border-radius: 5px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">Telekom & Mobilfunk Blog</a></h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="about.html">Über mich</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <article class="article-detail" id="articleContent">
+                <div class="debug-panel">
+                    <strong>🔄 Lade...</strong><br>
+                    JavaScript wird ausgeführt...
+                </div>
+            </article>
+            <div class="back-link">
+                <a href="index.html">← Zurück zur Übersicht</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" style="background: #333; color: white; padding: 30px 0; margin-top: 50px; text-align: center;">
+        <div class="container">
+            <p>&copy; 2026 Telekom & Mobilfunk Blog. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script>
+        // ===== 完全自包含，无外部依赖 =====
+        
+        // 模拟文章数据（内嵌）
+        const testArticle = {
+            id: "test-artikel-001",
+            title: "Test Artikel - Vollständig Selbst-Enthalten",
+            date: "2026-05-02",
+            excerpt: "Dies ist eine Test-Seite zur Überprüfung, ob JavaScript und HTML korrekt funktionieren.",
+            image: "https://picsum.photos/800/400?random=9999",
+            categoryName: "Test Kategorie",
+            content: `<h2>Einleitung</h2>
+<p>Dies ist ein <strong>Test-Artikel</strong> zur Überprüfung der Artikel-Detailseite. Wenn Sie diesen Text sehen, funktioniert alles korrekt.</p>
+
+<h2>Hauptinhalt</h2>
+<h3>Hintergrundinformationen</h3>
+<p>Die Deutsche Telekom ist einer der führenden Telekommunikationsanbieter in Europa. Mit innovativen Technologien und zuverlässigen Dienstleistungen überzeugt das Unternehmen Millionen von Kunden.</p>
+
+<h3>Technische Details</h3>
+<p>Moderne Telekommunikation erfordert leistungsfähige Netze und innovative Lösungen. 5G-Technologie, Fiber-Optik und Satellitenkommunikation sind nur einige der Technologien, die heute zum Einsatz kommen.</p>
+
+<h3>Praktische Anwendung</h3>
+<p>Für Endkunden bedeutet dies schnellere Datenraten, bessere Netzabdeckung und innovative Dienste. Ob im Home-Office, bei der Nutzung von Streaming-Diensten oder in der Smart-Home-Steuerung - moderne Telekommunikation macht vieles möglich.</p>
+
+<h2>Features dieser Test-Seite</h2>
+<ul>
+<li>✅ Keine externen Abhängigkeiten (kein CDN, kein fetch())</li>
+<li>✅ Funktioniert mit <code>file://</code> Protokoll</li>
+<li>✅ JavaScript ist vollständig in HTML eingebettet</li>
+<li>✅ CSS ist vollständig in HTML eingebettet</li>
+<li>✅ Bilder werden von picsum.photos geladen (externe URL, aber optional)</li>
+</ul>
+
+<h2>Code Beispiel</h2>
+<pre><code>function loadArticle() {
+    const articleId = getUrlParameter('id');
+    console.log('Loading article:', articleId);
+    // ...
+}</code></pre>
+
+<h2>Fazit</h2>
+<p>Wenn alle Punkte oben angezeigt werden und <strong>keine leere Seite</strong> zu sehen ist, dann ist das Problem behoben. Die ursprüngliche artikel.html hatte möglicherweise:</p>
+<ol>
+<li>Fehlerhafte externe JS-Datei (Pfad falsch)</li>
+<li>CDN-Ladefehler (keine Internetverbindung oder CORS)</li>
+<li>JavaScript-Syntaxfehler</li>
+</ol>
+<p><strong>Datum:</strong> 2026-05-02<br>
+<strong>Kategorie:</strong> Test<br>
+<strong>Autor:</strong> System</p>`
+        };
+
+        // 获取URL参数
+        function getUrlParameter(name) {
+            var params = new URLSearchParams(window.location.search);
+            return params.get(name);
+        }
+
+        // 渲染文章
+        function renderArticle() {
+            var container = document.getElementById('articleContent');
+            if (!container) {
+                console.error('articleContent not found');
+                return;
+            }
+
+            var article = testArticle;
+
+            var html = '';
+            html += '<div class="category-badge">' + article.categoryName + '</div>';
+            html += '<h1>' + article.title + '</h1>';
+            html += '<div class="article-meta">Veröffentlicht am ' + article.date + '</div>';
+            
+            if (article.image) {
+                html += '<div class="article-featured-image">';
+                html += '<img src="' + article.image + '" alt="' + article.title + '" loading="lazy">';
+                html += '</div>';
+            }
+            
+            html += '<div class="article-excerpt">' + article.excerpt + '</div>';
+            html += '<div class="article-content">';
+            html += article.content;
+            html += '</div>';
+
+            container.innerHTML = html;
+
+            // Debug-Info
+            console.log('✅ Article rendered successfully');
+            console.log('Title:', article.title);
+        }
+
+        // 显示错误
+        function showError(msg) {
+            var container = document.getElementById('articleContent');
+            if (container) {
+                container.innerHTML = '<div class="error-message"><h2>❌ Fehler</h2><p>' + msg + '</p></div>';
+            }
+        }
+
+        // 主程序
+        try {
+            console.log('=== START TEST ===');
+            
+            // 检查DOM
+            if (!document.getElementById('articleContent')) {
+                throw new Error('Element "articleContent" nicht gefunden');
+            }
+            console.log('✅ DOM element found');
+
+            // 渲染文章
+            renderArticle();
+            
+            // 更新页面标题
+            document.title = testArticle.title + ' - Test';
+            
+            console.log('=== TEST ERFOLGREICH ===');
+        } catch (error) {
+            console.error('❌ FEHLER:', error);
+            showError('JavaScript Fehler: ' + error.message + '<br><br>Öffnen Sie die <strong>Browser-Konsole (F12)</strong> für Details.');
+        }
+    </script>
+</body>
+</html>

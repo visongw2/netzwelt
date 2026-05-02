@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt – NetzWelt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="18" y1="32" x2="18" y2="14" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+                        <line x1="13" y1="18" x2="23" y2="18" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+                        <line x1="18" y1="32" x2="12" y2="32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="18" y1="32" x2="24" y2="32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M12 11 Q10 13.5 12 16" stroke="#E20074" stroke-width="2" stroke-linecap="round" fill="none"/>
+                        <path d="M9 8.5 Q5.5 13 9 17.5" stroke="#E20074" stroke-width="1.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+                        <path d="M24 11 Q26 13.5 24 16" stroke="#E20074" stroke-width="2" stroke-linecap="round" fill="none"/>
+                        <path d="M27 8.5 Q30.5 13 27 17.5" stroke="#E20074" stroke-width="1.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+                        <circle cx="18" cy="12.5" r="1.8" fill="#E20074"/>
+                    </svg>
+                    <div class="logo-text">
+                        <span class="logo-title">Netz<span>Welt</span></span>
+                        <span class="logo-subtitle">5G · eSIM · Mobilfunk</span>
+                    </div>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="about.html">Über mich</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="about-page">
+                <h2>Kontakt</h2>
+
+                <div class="about-content">
+                    <p>Haben Sie Fragen zu 5G, eSIM oder Mobilfunk-Tarifen? Schreiben Sie mir – ich antworte gerne!</p>
+
+                    <h3>Kontaktmöglichkeiten</h3>
+                    <ul>
+                        <li><strong>E-Mail:</strong> <a href="mailto:info@netzwelt-blog.de">info@netzwelt-blog.de</a></li>
+                        <li><strong>Telefon:</strong> 0179 9435292 (Mo–Fr, 9:00–17:00 Uhr)</li>
+                        <li><strong>Postanschrift:</strong><br>
+                            Alexander Kirberg<br>
+                            Droste-Hülshoff-Str. 12 a<br>
+                            47506 Neukirchen-Vluyn<br>
+                            Deutschland
+                        </li>
+                    </ul>
+
+                    <h3>Nachricht senden</h3>
+                    <form class="contact-form" onsubmit="alert('Vielen Dank für Ihre Nachricht! (Hinweis: Dies ist eine Demo-Seite – in der Live-Umgebung wird das Formular tatsächlich versendet.)'); return false;">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Ihr Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-Mail *</label>
+                            <input type="email" id="email" name="email" required placeholder="ihre.email@beispiel.de">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Betreff</label>
+                            <select id="subject" name="subject">
+                                <option value="frage">Allgemeine Frage</option>
+                                <option value="tarif">Hilfe bei Tarifwahl</option>
+                                <option value="esim">eSIM / SIM-Karte</option>
+                                <option value="fehler">Fehler im Artikel melden</option>
+                                <option value="sonstiges">Sonstiges</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nachricht *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Ihre Nachricht..."></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="background: var(--primary-color); color: white; border: none; padding: 12px 32px; border-radius: 6px; font-size: 1rem; cursor: pointer;">Nachricht senden</button>
+                    </form>
+
+                    <h3 style="margin-top: 2rem;">Häufige Anliegen</h3>
+                    <p>Viele Fragen beantworten sich bereits in unseren <a href="index.html">Artikeln</a>. Bitte schauen Sie dort zuerst vorbei – vielleicht finden Sie die Antwort sofort!</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-nav">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+            </nav>
+            <p>&copy; 2026 NetzWelt. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>

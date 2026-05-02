@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>NetzWelt – 5G, eSIM &amp; Mobilfunk</title>
+    <description>Dein Guide für 5G, eSIM &amp; Mobilfunk – unabhängige Artikel rund um Telekom, Netztechnik und Tarife.</description>
+    <link>https://www.netzwelt-blog.de</link>
+    <atom:link href="https://www.netzwelt-blog.de/rss.xml" rel="self" type="application/rss+xml"/>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 02 May 2026 06:00:00 GMT</lastBuildDate>
+    <managingEditor>info@netzwelt-blog.de (Alexander Kirberg)</managingEditor>
+    <webMaster>info@netzwelt-blog.de (Alexander Kirberg)</webMaster>
+    <copyright>Copyright 2026 NetzWelt</copyright>
+    <image>
+        <url>https://www.netzwelt-blog.de/favicon.ico</url>
+        <title>NetzWelt</title>
+        <link>https://www.netzwelt-blog.de</link>
+    </image>
+
+    <item>
+        <title>5G-SA: Standalone-Architektur bei Telekom</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=5g-sa-standalone-architektur-bei-telekom</link>
+        <description>Die Deutsche Telekom rollt die 5G Standalone-Architektur bundesweit aus. Erfahren Sie alles über das neue Kernnetz, Netzarchitektur und die Vorteile für Verbraucher.</description>
+        <pubDate>Wed, 13 Nov 2024 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=5g-sa-standalone-architektur-bei-telekom</guid>
+    </item>
+
+    <item>
+        <title>Carrier Aggregation: Telekom bündelt Frequenzen</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=carrier-aggregation-telekom-buendelt-frequenzen</link>
+        <description>Carrier Aggregation wurde von der Telekom eingeführt, um die Datenraten zu erhöhen. Lesen Sie, wie mehrere Frequenzbänder gleichzeitig genutzt werden.</description>
+        <pubDate>Fri, 27 Jun 2025 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=carrier-aggregation-telekom-buendelt-frequenzen</guid>
+    </item>
+
+    <item>
+        <title>Edge Computing: Telekom baut Rechenzentren aus</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=edge-computing-telekom-baut-rechenzentren-aus</link>
+        <description>Edge Computing wird von der Telekom für geringe Latenzzeiten und neue 5G-Anwendungen genutzt. Alles über den Ausbau der Edge-Rechenzentren in Deutschland.</description>
+        <pubDate>Mon, 06 Oct 2025 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=edge-computing-telekom-baut-rechenzentren-aus</guid>
+    </item>
+
+    <item>
+        <title>Deutsche Telekom kündigt neue 5G-Initiative an</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=deutsche-telekom-kuendigt-neue-5g-initiative-an</link>
+        <description>Die Deutsche Telekom hat heute eine neue 5G-Initiative angekündigt, die Millionen von Kunden zugutekommen wird. Alle Details zur Strategie 2026.</description>
+        <pubDate>Sat, 01 Feb 2026 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=deutsche-telekom-kuendigt-neue-5g-initiative-an</guid>
+    </item>
+
+    <item>
+        <title>Die besten Prepaid-Tarife 2026</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=die-besten-prepaid-tarife-2026</link>
+        <description>Eine Übersicht der besten Prepaid-Tarife im Jahr 2026. Wir vergleichen Telekom, Vodafone, O2 und MediaMarkt-Saturn für Ihre optimale Wahl.</description>
+        <pubDate>Sat, 21 Feb 2026 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=die-besten-prepaid-tarife-2026</guid>
+    </item>
+
+    <item>
+        <title>eSIM: So aktivieren Sie die elektronische SIM-Karte</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=esim-so-aktivieren-sie-die-elektronische-sim-karte</link>
+        <description>Eine Schritt-für-Schritt-Anleitung zur Aktivierung einer eSIM auf iOS und Android. Inklusive QR-Code-Scan und Einrichtungs-Tipps.</description>
+        <pubDate>Thu, 05 Feb 2026 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=esim-so-aktivieren-sie-die-elektronische-sim-karte</guid>
+    </item>
+
+    <item>
+        <title>eSIM vs. Physikalische SIM: Was ist besser?</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=esim-vs-physikalische-sim</link>
+        <description>Der große Vergleich zwischen moderner eSIM-Technologie und traditionellen SIM-Karten. Vor- und Nachteile im direkten Vergleich.</description>
+        <pubDate>Sat, 15 Mar 2025 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=esim-vs-physikalische-sim</guid>
+    </item>
+
+    <item>
+        <title>Glasfaser-Ausbau: Telekom erreicht 50 Mio. Haushalte</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=glasfaser-ausbau-telekom-erreicht-50-mio-haushalte</link>
+        <description>Die Deutsche Telekom hat ihr Ziel von 50 Millionen Glasfaser-Haushalten erreicht. Details zum FTTH/FTTB-Ausbau in Deutschland.</description>
+        <pubDate>Mon, 24 Jun 2024 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=glasfaser-ausbau-telekom-erreicht-50-mio-haushalte</guid>
+    </item>
+
+    <item>
+        <title>Datenvolumen sparen: 10 praktische Tipps</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=datenvolumen-sparen-10-praktische-tipps</link>
+        <description>Zehn praktische Tipps, um Datenvolumen zu sparen – vom WLAN-Priorisieren bis zum Datenspar-Modus. Ideal für Prepaid-Nutzer.</description>
+        <pubDate>Mon, 14 Apr 2026 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=datenvolumen-sparen-10-praktische-tipps</guid>
+    </item>
+
+    <item>
+        <title>MagentaMobil Tarif-Familie im Überblick</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=magentamobil-tarif-familie-im-ueberblick</link>
+        <description>Alle MagentaMobil Tarife der Deutschen Telekom im detaillierten Überblick. Von MagentaMobil S bis XL – finden Sie den passenden Tarif.</description>
+        <pubDate>Thu, 19 Feb 2025 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=magentamobil-tarif-familie-im-ueberblick</guid>
+    </item>
+
+    <item>
+        <title>Datenschutz auf dem Smartphone</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=datenschutz-auf-dem-smartphone</link>
+        <description>Wie Sie Ihre Privatsphäre auf dem Smartphone effektiv schützen. 10 Maßnahmen für mehr Datenschutz unter Android und iOS.</description>
+        <pubDate>Fri, 20 Apr 2026 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=datenschutz-auf-dem-smartphone</guid>
+    </item>
+
+    <item>
+        <title>iSIM vs eSIM: Was ist der Unterschied?</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=isim-vs-esim-was-ist-der-unterschied</link>
+        <description>iSIM und eSIM werden in diesem Artikel detailliert verglichen. Erfahren Sie, warum iSIM die nächste Evolution der SIM-Technologie ist.</description>
+        <pubDate>Thu, 22 Jan 2026 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=isim-vs-esim-was-ist-der-unterschied</guid>
+    </item>
+
+    <item>
+        <title>Massive MIMO: Telekom setzt auf neue Antennentechnik</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=massive-mimo-telekom-setzt-auf-neue-antennentechni</link>
+        <description>Massive MIMO-Technologie wird von der Deutschen Telekom eingeführt, um Netzkapazitäten drastisch zu erhöhen. Alle Details zur Antennentechnik.</description>
+        <pubDate>Fri, 18 Apr 2025 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=massive-mimo-telekom-setzt-auf-neue-antennentechni</guid>
+    </item>
+
+    <item>
+        <title>Business-Tarife: Telekom für Unternehmen</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=business-tarife-telekom-fuer-unternehmen</link>
+        <description>Die Deutsche Telekom bietet spezielle Business-Tarife für Unternehmen an. Von Telekom Business Mobil bis individualisierten Fleet-Lösungen.</description>
+        <pubDate>Mon, 02 Jun 2024 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=business-tarife-telekom-fuer-unternehmen</guid>
+    </item>
+
+    <item>
+        <title>EU-Roaming bei Prepaid-Karten</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=eu-roaming-bei-prepaid-karten</link>
+        <description>EU-Roaming ist bei den meisten Prepaid-Karten inklusive. Erfahren Sie alles über FUP-Grenzen und was im EU-Ausland gilt.</description>
+        <pubDate>Fri, 13 Mar 2025 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=eu-roaming-bei-prepaid-karten</guid>
+    </item>
+
+    <item>
+        <title>Netzvirtualisierung: Telekom setzt auf NFV</title>
+        <link>https://www.netzwelt-blog.de/article.html?id=netzvirtualisierung-telekom-setzt-auf-nfv</link>
+        <description>Network Function Virtualization wird vom Telekom-Netz zum Standard. Lesen Sie, wie virtuelle Netzfunktionen die Telekommunikation revolutionieren.</description>
+        <pubDate>Sun, 05 Apr 2026 08:00:00 GMT</pubDate>
+        <guid>https://www.netzwelt-blog.de/article.html?id=netzvirtualisierung-telekom-setzt-auf-nfv</guid>
+    </item>
+
+</channel>
+</rss>

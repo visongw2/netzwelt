@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS Feed – NetzWelt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="alternate" type="application/rss+xml" title="NetzWelt RSS Feed" href="rss.xml">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="18" y1="32" x2="18" y2="14" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+                        <line x1="13" y1="18" x2="23" y2="18" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+                        <line x1="18" y1="32" x2="12" y2="32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="18" y1="32" x2="24" y2="32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M12 11 Q10 13.5 12 16" stroke="#E20074" stroke-width="2" stroke-linecap="round" fill="none"/>
+                        <path d="M9 8.5 Q5.5 13 9 17.5" stroke="#E20074" stroke-width="1.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+                        <path d="M24 11 Q26 13.5 24 16" stroke="#E20074" stroke-width="2" stroke-linecap="round" fill="none"/>
+                        <path d="M27 8.5 Q30.5 13 27 17.5" stroke="#E20074" stroke-width="1.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+                        <circle cx="18" cy="12.5" r="1.8" fill="#E20074"/>
+                    </svg>
+                    <div class="logo-text">
+                        <span class="logo-title">Netz<span>Welt</span></span>
+                        <span class="logo-subtitle">5G · eSIM · Mobilfunk</span>
+                    </div>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Startseite</a></li>
+                    <li><a href="about.html"><i class="fas fa-user"></i> Über mich</a></li>
+                    <li><a href="kontakt.html"><i class="fas fa-envelope"></i> Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <div class="page-header" style="text-align: center; padding: 3rem 0;">
+                <h1><i class="fas fa-rss" style="color: #E20074;"></i> RSS Feed</h1>
+                <p class="page-subtitle">Abonnieren Sie unseren RSS-Feed und verpassen Sie keine Neuigkeiten!</p>
+            </div>
+
+            <div class="rss-page" style="max-width: 900px; margin: 0 auto;">
+                <div class="rss-info" style="background: var(--white); padding: 1.5rem; border-radius: 12px; margin-bottom: 2rem; box-shadow: var(--shadow);">
+                    <h2 style="color: var(--primary-color); margin-bottom: 1rem;"><i class="fas fa-info-circle"></i> Was ist RSS?</h2>
+                    <p style="color: var(--text-light); line-height: 1.7;">
+                        RSS (Really Simple Syndication) ermöglicht es Ihnen, unsere neuesten Artikel automatisch zu erhalten.
+                        Fügen Sie diesen Feed in Ihren RSS-Reader ein, um immer auf dem Laufenden zu bleiben.
+                    </p>
+                    <div style="margin-top: 1rem; padding: 1rem; background: var(--bg-light); border-radius: 8px;">
+                        <p style="margin: 0; font-family: monospace; color: var(--primary-color);">
+                            <i class="fas fa-link"></i> <strong>Feed-URL:</strong> https://www.netzwelt-blog.de/rss.xml
+                        </p>
+                    </div>
+                </div>
+
+                <div class="rss-reader" style="background: var(--white); padding: 1.5rem; border-radius: 12px; box-shadow: var(--shadow);">
+                    <h2 style="color: var(--primary-color); margin-bottom: 1.5rem; border-bottom: 2px solid var(--secondary-color); padding-bottom: 0.5rem;">
+                        <i class="fas fa-newspaper"></i> Neueste Artikel
+                    </h2>
+
+                    <div class="rss-entries">
+                        <!-- RSS entries will be loaded here by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="rss-readers" style="margin-top: 2rem; background: var(--white); padding: 1.5rem; border-radius: 12px; box-shadow: var(--shadow);">
+                    <h2 style="color: var(--primary-color); margin-bottom: 1rem;"><i class="fas fa-book-reader"></i> Empfohlene RSS-Reader</h2>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 0.75rem; border-bottom: 1px solid var(--border-color);">
+                            <i class="fab fa-firefox-browser" style="color: #E20074; width: 24px;"></i>
+                            <strong>Firefox</strong> – Integrierter Live Bookmarks
+                        </li>
+                        <li style="padding: 0.75rem; border-bottom: 1px solid var(--border-color);">
+                            <i class="fab fa-chrome" style="color: #4285F4; width: 24px;"></i>
+                            <strong>Chrome</strong> – RSS Feed Reader Extension
+                        </li>
+                        <li style="padding: 0.75rem; border-bottom: 1px solid var(--border-color);">
+                            <i class="fas fa-envelope-open-text" style="color: #4285F4; width: 24px;"></i>
+                            <strong>Thunderbird</strong> – E-Mail-Client mit RSS-Funktion
+                        </li>
+                        <li style="padding: 0.75rem;">
+                            <i class="fas fa-rss-square" style="color: #FF6600; width: 24px;"></i>
+                            <strong>Feedly</strong> – Online RSS-Aggregator
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-home"></i> Startseite</a></li>
+                        <li><a href="category.html?cat=telekom"><i class="fas fa-broadcast-tower"></i> Telekom & Netz</a></li>
+                        <li><a href="category.html?cat=mobilfunk"><i class="fas fa-sim-card"></i> Mobilfunk & SIM</a></li>
+                        <li><a href="about.html"><i class="fas fa-user"></i> Über mich</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Rechtliches</h3>
+                    <ul>
+                        <li><a href="impressum.html"><i class="fas fa-gavel"></i> Impressum</a></li>
+                        <li><a href="datenschutz.html"><i class="fas fa-shield-alt"></i> Datenschutz</a></li>
+                        <li><a href="agb.html"><i class="fas fa-file-contract"></i> AGB</a></li>
+                        <li><a href="cookie-richtlinie.html"><i class="fas fa-cookie"></i> Cookie-Richtlinie</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kategorien</h3>
+                    <ul>
+                        <li><a href="category.html?cat=telekom&sub=news"><i class="fas fa-newspaper"></i> Telekom Neuigkeiten</a></li>
+                        <li><a href="category.html?cat=telekom&sub=technology"><i class="fas fa-cogs"></i> Netztechnologie</a></li>
+                        <li><a href="category.html?cat=telekom&sub=tarife"><i class="fas fa-euro-sign"></i> Tarife & Preise</a></li>
+                        <li><a href="category.html?cat=mobilfunk&sub=sim-types"><i class="fas fa-mobile-alt"></i> SIM-Karten Typen</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontakt & Info</h3>
+                    <ul>
+                        <li><a href="kontakt.html"><i class="fas fa-envelope"></i> Kontakt</a></li>
+                        <li><a href="rss.html"><i class="fas fa-rss"></i> RSS Feed</a></li>
+                        <li><a href="sitemap.html"><i class="fas fa-sitemap"></i> Sitemap</a></li>
+                        <li><a href="faq.html"><i class="fas fa-question-circle"></i> FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <nav class="footer-nav">
+                    <a href="index.html">Startseite</a>
+                    <a href="impressum.html">Impressum</a>
+                    <a href="datenschutz.html">Datenschutz</a>
+                    <a href="about.html">Über mich</a>
+                    <a href="kontakt.html">Kontakt</a>
+                </nav>
+                <p>&copy; 2026 NetzWelt. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Load RSS entries
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('rss.xml')
+                .then(response => response.text())
+                .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
+                .then(data => {
+                    const items = data.querySelectorAll('item');
+                    const container = document.querySelector('.rss-entries');
+
+                    items.forEach(item => {
+                        const title = item.querySelector('title').textContent;
+                        const link = item.querySelector('link').textContent;
+                        const description = item.querySelector('description').textContent;
+                        const pubDate = item.querySelector('pubDate').textContent;
+                        const date = new Date(pubDate);
+                        const formattedDate = date.toLocaleDateString('de-DE', {
+                            day: '2-digit',
+                            month: 'long',
+                            year: 'numeric'
+                        });
+
+                        const entry = document.createElement('div');
+                        entry.className = 'rss-entry';
+                        entry.style.cssText = 'padding: 1.25rem 0; border-bottom: 1px solid var(--border-color);';
+                        entry.innerHTML = `
+                            <h3 style="margin: 0 0 0.5rem 0; color: var(--primary-color);">
+                                <a href="${link}" style="text-decoration: none; color: inherit;">${title}</a>
+                            </h3>
+                            <p style="margin: 0 0 0.5rem 0; color: var(--text-light); font-size: 0.9rem;">
+                                <i class="fas fa-calendar-alt"></i> ${formattedDate}
+                            </p>
+                            <p style="margin: 0; color: var(--text-color); line-height: 1.6;">${description}</p>
+                        `;
+                        container.appendChild(entry);
+                    });
+                })
+                .catch(error => {
+                    console.error('RSS Load Error:', error);
+                    document.querySelector('.rss-entries').innerHTML = `
+                        <p style="color: var(--text-light); text-align: center; padding: 2rem;">
+                            <i class="fas fa-exclamation-triangle"></i> RSS-Feed konnte nicht geladen werden.
+                        </p>
+                    `;
+                });
+        });
+    </script>
+</body>
+</html>
