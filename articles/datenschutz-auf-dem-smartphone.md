@@ -98,7 +98,7 @@ Apps aktualisieren sich im Hintergrund – das verbraucht nicht nur Datenvolumen
 
 1. Gehen Sie zu **Einstellungen → App Store**.
 2. Deaktivieren Sie **"App-Aktualisierung"**.
-3. **Zusätzlich:** Deaktivieren Sie **"App-Downloads"** (verhindert, dass Apps automatisch heruntergeladen werden, wenn Sie sich in der Nähe eines Apple Stores oder已知的 Wi-Fi befinden).
+3. **Zusätzlich:** Deaktivieren Sie **"App-Downloads"** (verhindert, dass Apps automatisch heruntergeladen werden, wenn Sie sich in der Nähe eines Apple Stores oder bekannter Wi-Fi-Netzwerke befinden).
 
 ### Android – Automatische Updates deaktivieren:*
 

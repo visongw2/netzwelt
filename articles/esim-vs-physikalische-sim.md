@@ -172,7 +172,7 @@ Die **eSIM (embedded SIM)** ist ein **fest verlöteter Chip** im Gerät, der die
 - ❌ Muss im Ausland eine physische SIM kaufen (Sprachbarriere, Kompatibilität).
 - ❌ Deutsche SIM muss herausgenommen und sicher verwahrt werden (Verlustrisiko).
 
-**Empfehlung:** eSIM (大地模型)
+**Empfehlung:** eSIM (ideal für Reisende)
 
 ### 2. Geschäftsleute (Trennung privat/geschäftlich)
 

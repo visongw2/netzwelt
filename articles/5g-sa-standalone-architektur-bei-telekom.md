@@ -177,7 +177,7 @@ Die Telekom bietet Unternehmen auch den Aufbau privater 5G-SA-Netze an:
 
 ## Technische Herausforderungen und Lösungen
 
-###频谱协调 und Nachbarschaftsinterferenzen
+### Spektrumkoordination und Nachbarschaftsinterferenzen
 
 Ein technisches Problem bei der Implementierung von 5G-SA ist die Koordination der Frequenzen mit bestehenden 4G/LTE-Netzen. Die Telekom nutzt **Dynamic Spectrum Sharing (DSS)**, um Frequenzen flexibel zwischen 4G und 5G aufzuteilen.
 

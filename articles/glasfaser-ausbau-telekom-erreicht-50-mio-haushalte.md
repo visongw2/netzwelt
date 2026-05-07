@@ -43,7 +43,7 @@ Die Telekom ist nicht der einzige Glasfaseranbieter in Deutschland. Der Wettbewe
 | **Deutsche Telekom** | 50,2 Mio. | ~45% |
 | **Vodafone (inkl. Kabel Deutschland)** | 25 Mio. (Kabel + Glasfaser) | ~22% |
 | **Deutsche Glasfaser (DG)** | 1,5 Mio. | ~3% |
-| **NetCologne, M-net,区域性Anbieter** | 5 Mio. | ~10% |
+| **NetCologne, M-net, regionale Anbieter** | 5 Mio. | ~10% |
 | **Andere (z.B. EWE, SWN)** | 8 Mio. | ~20% |
 
 **Vodafone** bietet zwar noch viele Kabelanschlüsse (DOCSIS 3.1), baut aber ebenfalls Glasfaser aus. **Deutsche Glasfaser** fokussiert sich auf ländliche Gebiete ("Wir habeen dsL..."-Werbekampagne).

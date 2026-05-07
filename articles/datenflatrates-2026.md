@@ -11,7 +11,7 @@ In der moderneen, zunehmend vernetzten Welt ist eine **zuverlässige mobile Date
 **Warum Datenflatrates so wichtig sind:**
 1. **Flexibilität:** Internet überall, wo es Netzabdeckung gibt (Zug, Park, Café).
 2. **Zweitgeräte:** Tablet und Laptop können unterwegs ins Internet (ohne auf oft unsichere öffentliche WLANs angewiesen zu sein).
-3. **Mobile Hotspots:** Der智能手机 kann als WLAN-Hotspot für andere Geräte dienen (Tethering).
+3. **Mobile Hotspots:** Der Smartphone kann als WLAN-Hotspot für andere Geräte dienen (Tethering).
 4. **Reisen:** In der EU (und zunehmend weltweit) können Datenflatrates im Ausland genutzt werden (Roaming).
 
 Im Jahr **2026** hat sich der Markt für Datenflatrates weiterentwickelt:
