@@ -132,11 +132,11 @@ const articlesData = {
                 "name": "SIM-Karten Typen",
                 "articles": [
                     {
-                        "id": "esim-vollstaendiger-leitfaden-2026",
-                        "title": "eSIM完全指南2026：你需要了解的一切",
+                        "id": "esim-komplettguide-2026",
+                        "title": "eSIM komplettGuide 2026: Alles was Sie wissen müssen",
                         "date": "2026-05-08",
-                        "excerpt": "2026年eSIM完全指南：了解eSIM技术、激活方法、与物理SIM的对比，以及未来发展趋势。",
-                        "file": "esim-vollstaendiger-leitfaden-2026.md",
+                        "excerpt": "eSIM komplettGuide 2026: Alles über eSIM-Technologie, Aktivierungsmethoden, Vergleich mit physischen SIMs und Zukunftstrends.",
+                        "file": "esim-komplettguide-2026.md",
                         "image": "https://picsum.photos/400/300?random=21"
                     },
                     {
