@@ -8,14 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="alternate" hreflang="de" href="https://netzpul.com/article.html" />
     <link rel="alternate" hreflang="x-default" href="https://netzpul.com/article.html" />
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5M0SGMDNQ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-D5M0SGMDNQ');
-    </script>
+    <!-- Cookie Consent - GDPR Compliant -->
+    <link rel="stylesheet" href="css/cookie-consent.css">
       <meta name="description" content="Alle SIM-Karten-Formate werden in diesem Artikel erklärt.">
     <meta name="keywords" content="5g-technologie, Mobilfunk, 5G, eSIM">
     <link rel="canonical" href="https://netzpul.com/articles/5g-technologie/sim-karten-formate-von-mini-bis-nano.html">
@@ -285,7 +279,35 @@
         </div>
     </footer>
 
+    <!-- Cookie Consent Banner - GDPR Compliant -->
+    <div id="cookie-banner" style="display: none;">
+        <div class="cookie-banner-content">
+            <div class="cookie-banner-text">
+                <h3><i class="fas fa-cookie-bite"></i> Cookie-Einstellungen</h3>
+                <p>
+                    Wir verwenden Cookies, um Ihnen ein optimales Webseiten-Erlebnis zu bieten. 
+                    Dazu zählen technisch notwendige Cookies sowie Analyse-Cookies (z.B. Google Analytics). 
+                    Sie können selbst entscheiden, welche Kategorien Sie zulassen möchten. 
+                    Weitere Informationen finden Sie in unserer 
+                    <a href="datenschutz.html">Datenschutzerklärung</a>.
+                </p>
+            </div>
+            <div class="cookie-banner-buttons">
+                <button class="cookie-btn cookie-btn-accept" onclick="acceptCookies()">
+                    <i class="fas fa-check"></i> Alle akzeptieren
+                </button>
+                <button class="cookie-btn cookie-btn-decline" onclick="declineCookies()">
+                    <i class="fas fa-times"></i> Nur notwendige
+                </button>
+                <button class="cookie-btn cookie-btn-settings" onclick="showCookieSettings()">
+                    <i class="fas fa-cog"></i> Einstellungen
+                </button>
+            </div>
+        </div>
+    </div>
+
     
     
+    <script src="js/cookie-consent.js"></script>
 </body>
 </html>
