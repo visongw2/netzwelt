@@ -1,6 +1,6 @@
 /*
  * Cookie Consent Banner - GDPR Compliant
- * German language
+ * Integrated with Google Tag Manager (GTM)
  */
 
 (function() {
@@ -24,23 +24,27 @@
         document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/; SameSite=Lax`;
     }
     
-    // Load Google Analytics (only after consent)
-    function loadGA() {
-        const GA_ID = 'G-D5M0SGMDNQ';
-        
-        // Load gtag.js
-        const script = document.createElement('script');
-        script.async = true;
-        script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
-        document.head.appendChild(script);
-        
-        // Initialize gtag
+    // Push consent event to dataLayer for GTM
+    function pushConsentToGTM(consentType) {
         window.dataLayer = window.dataLayer || [];
-        function gtag(){ dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', GA_ID);
         
-        console.log('[Cookie Consent] Google Analytics loaded');
+        if (consentType === 'all') {
+            // User accepted all cookies - grant consent
+            window.dataLayer.push({
+                'event': 'consent_accepted',
+                'consent_analytics': 'granted',
+                'consent_marketing': 'granted'
+            });
+            console.log('[Cookie Consent] Consent granted - GTM event pushed');
+        } else {
+            // User declined - deny non-essential cookies
+            window.dataLayer.push({
+                'event': 'consent_declined',
+                'consent_analytics': 'denied',
+                'consent_marketing': 'denied'
+            });
+            console.log('[Cookie Consent] Consent denied - only necessary cookies');
+        }
     }
     
     // Show cookie banner
@@ -63,18 +67,17 @@
     window.acceptCookies = function() {
         setCookie(COOKIE_NAME, 'all', 365);
         hideBanner();
-        loadGA();
-        console.log('[Cookie Consent] All cookies accepted');
+        pushConsentToGTM('all');
     };
     
     // Decline non-essential cookies
     window.declineCookies = function() {
         setCookie(COOKIE_NAME, 'necessary', 365);
         hideBanner();
-        console.log('[Cookie Consent] Only necessary cookies accepted');
+        pushConsentToGTM('necessary');
     };
     
-    // Show settings (placeholder - can be expanded)
+    // Show settings (can be expanded with granular controls)
     window.showCookieSettings = function() {
         alert('Cookie-Einstellungen: \n\n✅ Notwendige Cookies: Immer aktiv\n❌ Analyse-Cookies (Google Analytics): Deaktiviert\n\nHinweis: Um alle Cookies zu akzeptieren, klicken Sie auf "Alle akzeptieren".');
     };
@@ -87,11 +90,11 @@
             // No consent given - show banner
             showBanner();
         } else if (consent === 'all') {
-            // User accepted all - load GA
-            loadGA();
+            // User previously accepted all - push consent to GTM
+            pushConsentToGTM('all');
         } else {
-            // User declined - only necessary cookies
-            console.log('[Cookie Consent] Only necessary cookies enabled');
+            // User declined - push denied consent
+            pushConsentToGTM('necessary');
         }
     }
     
