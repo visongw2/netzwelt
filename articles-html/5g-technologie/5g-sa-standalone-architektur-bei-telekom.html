@@ -55,6 +55,233 @@
         <div class="container article-container">
             <!-- Main Article Content -->
             <article class="article-detail" id="articleContent">
+            <h1>5G-SA: Standalone-Architektur bei der Telekom – Technische Innovation trifft auf Netzmodernisierung</h1>
+<!-- description: 5G-Netzausbau 2026: Aktueller Stand in Deutschland. Erfahren Sie alles über Geschwindigkeit, Abdeckung und die Zukunft der Mobilfunknetze. -->
+
+<p><em>Die Deutsche Telekom rollt die 5G Standalone-Architektur bundesweit aus und setzt damit neue Maßstäbe in der Mobilfunktechnologie.</em></p>
+<h2>Einleitung</h2>
+<p>Die Evolution des Mobilfunks steht vor einem bedeutenden Meilenstein: Während die erste Phase von 5G (Non-Standalone, NSA) noch auf der bestehenden 4G/LTE-Infrastruktur aufbaute, markiert der Übergang zu 5G Standalone (SA) den Beginn einer völlig neuen Ära der Telekommunikation. Die Deutsche Telekom, als einer der führenden Netzbetreiber in Europa, hat im Jahr 2025 damit begonnen, die 5G-SA-Architektur flächendeckend in ihrem Netz zu implementieren.</p>
+<p>Dieser Artikel bietet eine umfassende technische Analyse der 5G-SA-Architektur bei der Telekom, beleuchtet die zugrundeliegenden Technologien, erklärt die Unterschiede zur Vorgängergeneration und diskutiert die praktischen Auswirkungen für Endkunden sowie Unternehmen.</p>
+<h2>Was ist 5G Standalone (SA)?</h2>
+<h3>Grundlegende Architektur-Unterschiede</h3>
+<p>Um die Bedeutung von 5G Standalone zu verstehen, muss man zunächst die architektonischen Unterschiede zwischen 5G Non-Standalone (NSA) und 5G Standalone (SA) verstehen:</p>
+<p><strong>5G Non-Standalone (NSA):</strong><br />
+- Nutzt das bestehende 4G/LTE-Kernnetz (EPC - Evolved Packet Core)<br />
+- 5G-Funkzellen (gNB) werden an das LTE-Netz angebunden<br />
+- Stellt primär eine Übergangslösung dar<br />
+- Ermöglicht schnelleren 5G-Ausbau, aber mit eingeschränkten Funktionen</p>
+<p><strong>5G Standalone (SA):</strong><br />
+- Verfügt über ein eigenständiges 5G-Kernnetz (5GC - 5G Core)<br />
+- Nutzt ausschließlich 5G-Funkzellen (gNB) und 5G-Core<br />
+- Bietet die volle Funktionalität des 5G-Standards (3GPP Release 16 und höher)<br />
+- Ermöglicht Network Slicing, Ultra-Reliable Low Latency Communications (URLLC) und Massive IoT</p>
+<h3>Technische Komponenten der 5G-SA-Architektur</h3>
+<p>Die 5G-SA-Architektur besteht aus mehreren kritischen Komponenten:</p>
+<ol>
+<li><strong>NG-RAN (Next Generation Radio Access Network):</strong></li>
+<li>Besteht aus gNB (Next Generation Node B) Basisstationen</li>
+<li>Unterstützt erweiterte Funktionen wie Beamforming und Massive MIMO</li>
+<li>
+<p>Nutzt sowohl niedrige Frequenzen (700 MHz, 900 MHz) als auch mittlere (1,8 GHz, 2,1 GHz) und hohe Frequenzen (3,5 GHz, 26 GHz)</p>
+</li>
+<li>
+<p><strong>5G Core (5GC):</strong></p>
+</li>
+<li>Service-basierte Architektur (SBA)</li>
+<li>Besteht aus verschiedenen Network Functions (NFs):<ul>
+<li>AMF (Access and Mobility Management Function)</li>
+<li>SMF (Session Management Function)</li>
+<li>UPF (User Plane Function)</li>
+<li>UDM (Unified Data Management)</li>
+<li>AUSF (Authentication Server Function)</li>
+</ul>
+</li>
+<li>
+<p>Ermöglicht flexible Skalierung und Virtualisierung (NFV)</p>
+</li>
+<li>
+<p><strong>Network Slicing:</strong></p>
+</li>
+<li>Logische Trennung des physischen Netzes in mehrere virtuelle Netze</li>
+<li>Jedes Slice kann individuell für spezifische Anwendungsfälle optimiert werden</li>
+<li>Beispiele:<ul>
+<li><strong>eMBB-Slice (Enhanced Mobile Broadband):</strong> Für hohe Datenraten (z.B. Video-Streaming)</li>
+<li><strong>URLLC-Slice:</strong> Für extrem niedrige Latenzzeiten (z.B. autonomes Fahren, Industrie 4.0)</li>
+<li><strong>mMTC-Slice (Massive Machine Type Communications):</strong> Für Millionen von IoT-Geräten</li>
+</ul>
+</li>
+</ol>
+<h2>Die Implementierung bei der Telekom</h2>
+<h3>Aktueller Ausbaustatus (Stand 2025-2026)</h3>
+<p>Die Deutsche Telekom hat im Jahr 2025 die flächendeckende Implementierung von 5G-SA in Deutschland vorangetrieben. Laut offiziellen Unternehmensangaben erreicht das 5G-Netz der Telekom mittlerweile über 95% der deutschen Bevölkerung, wobei die SA-Architektur schrittweise in den Ballungszentren und entlang der Verkehrsachsen aktiviert wird.</p>
+<p><strong>Wichtige Meilensteine:</strong><br />
+- <strong>2020-2022:</strong> 5G-Start mit NSA-Architektur<br />
+- <strong>2023-2024:</strong> Testbetrieb von 5G-SA in ausgewählten Städten (z.B. Berlin, München, Hamburg)<br />
+- <strong>2025:</strong> Beginn der kommerziellen Ausrollung von 5G-SA<br />
+- <strong>2026:</strong> Geplante flächendeckende Verfügbarkeit in allen größeren Städten</p>
+<h3>Technische Details der Telekom-Implementierung</h3>
+<p>Die Telekom setzt bei ihrem 5G-SA-Ausbau auf folgende technische Strategien:</p>
+<ol>
+<li><strong>Frequenzstrategie:</strong></li>
+<li><strong>700 MHz:</strong> Für flächendeckende Versorgung (gute Gebäudedurchdringung)</li>
+<li><strong>1,8 GHz und 2,1 GHz:</strong> Für Kapazitätserweiterung in städtischen Gebieten</li>
+<li><strong>3,5 GHz:</strong> Für hohe Datenraten in Hotspots</li>
+<li>
+<p><strong>26 GHz (mmWave):</strong> Für spezialisierte Anwendungen (noch im Teststadium)</p>
+</li>
+<li>
+<p><strong>Antennentechnologie:</strong></p>
+</li>
+<li>Einsatz von <strong>Massive MIMO</strong> (64T64R-Konfigurationen in städtischen Gebieten)</li>
+<li><strong>Beamforming</strong> zur gezielten Ausrichtung des Signals auf Endgeräte</li>
+<li>
+<p><strong>Dynamic TDD</strong> zur flexiblen Anpassung von Uplink/Downlink-Kapazitäten</p>
+</li>
+<li>
+<p><strong>Kernnetz-Virtualisierung:</strong></p>
+</li>
+<li>Einsatz von <strong>NFV (Network Functions Virtualization)</strong> und <strong>SDN (Software-Defined Networking)</strong></li>
+<li>Containerisierte Network Functions (Docker, Kubernetes)</li>
+<li>Redundante Rechenzentrums-Infrastruktur für hohe Ausfallsicherheit</li>
+</ol>
+<h3>Network Slicing bei der Telekom</h3>
+<p>Ein herausragendes Merkmal von 5G-SA ist das Network Slicing, das die Telekom insbesondere für Geschäftskunden (B2B) anbietet:</p>
+<ul>
+<li><strong>Industry 4.0 Slice:</strong> </li>
+<li>Garantierte Latenzzeiten &lt; 1 ms</li>
+<li>Priorisierter Datenverkehr für kritische industrielle Anwendungen</li>
+<li>
+<p>Beispiel: Echtzeit-Steuerung von Robotern in der Automobilproduktion</p>
+</li>
+<li>
+<p><strong>Public Safety Slice:</strong></p>
+</li>
+<li>Dediziertes Netzslice für Behörden und Rettungskräfte</li>
+<li>
+<p>Höchste Verfügbarkeit und Priorisierung im Notfall</p>
+</li>
+<li>
+<p><strong>Consumer eMBB Slice:</strong></p>
+</li>
+<li>Optimiert für hohe Datenraten im Downlink</li>
+<li>Ideal für 4K/8K-Video-Streaming und XR-Anwendungen (VR/AR)</li>
+</ul>
+<h2>Praktische Vorteile für Endkunden</h2>
+<h3>Messbare Verbesserungen</h3>
+<p>Die Umstellung auf 5G-SA bietet für Endkunden mehrere konkrete Vorteile:</p>
+<ol>
+<li><strong>Niedrigere Latenzzeiten:</strong></li>
+<li>4G/LTE: 30-50 ms</li>
+<li>5G-NSA: 20-30 ms</li>
+<li>5G-SA: 5-10 ms (theoretisch bis zu 1 ms in URLLC-Szenarien)</li>
+<li>
+<p><strong>Praktischer Nutzen:</strong> Verzögerungsfreies Cloud-Gaming, reaktionsschnelle VR-Anwendungen</p>
+</li>
+<li>
+<p><strong>Höhere Datenraten:</strong></p>
+</li>
+<li>Downlink: Bis zu 1 Gbit/s im realen Netzbetrieb (theoretisch bis zu 20 Gbit/s)</li>
+<li>Uplink: Bis zu 100 Mbit/s (wichtig für Video-Uploads, Live-Streaming)</li>
+<li>
+<p><strong>Praktischer Nutzen:</strong> Schnellere Downloads, reibungsloses 4K-Streaming</p>
+</li>
+<li>
+<p><strong>Bessere Netzabdeckung:</strong></p>
+</li>
+<li>Durch die Nutzung der 700-MHz-Frequenz auch in ländlichen Gebieten und im Gebäudeinneren</li>
+<li>
+<p><strong>Praktischer Nutzen:</strong> Weniger Funklöcher, stabilere Verbindungen</p>
+</li>
+<li>
+<p><strong>Längere Akkulaufzeit:</strong></p>
+</li>
+<li>5G-SA ermöglicht <strong>Power Saving Mode (PSM)</strong> und <strong>Extended Discontinuous Reception (eDRX)</strong></li>
+<li>Das Endgerät kann in tiefere Schlafmodi wechseln, wenn keine Daten übertragen werden</li>
+<li><strong>Praktischer Nutzen:</strong> Bis zu 20% längere Akkulaufzeit im Vergleich zu 5G-NSA</li>
+</ol>
+<h3>Voraussetzungen für Endkunden</h3>
+<p>Um die Vorteile von 5G-SA nutzen zu können, benötigen Kunden:</p>
+<ol>
+<li><strong>Kompatibles Endgerät:</strong></li>
+<li>Smartphone mit 5G-SA-Unterstützung (z.B. iPhone 14/15, Samsung Galaxy S23/S24, Google Pixel 7/8)</li>
+<li>
+<p>Das Gerät muss das 5G-Band n78 (3,5 GHz) und idealerweise n28 (700 MHz) unterstützen</p>
+</li>
+<li>
+<p><strong>Aktivierung durch Provider:</strong></p>
+</li>
+<li>Die Telekom aktiviert 5G-SA schrittweise in verschiedenen Regionen</li>
+<li>
+<p>Kunden können in der Telekom-App oder im Kundencenter prüfen, ob 5G-SA in ihrem Gebiet verfügbar ist</p>
+</li>
+<li>
+<p><strong>Passender Tarif:</strong></p>
+</li>
+<li>5G-SA ist in der Regel in allen 5G-fähigen Telekom-Tarifen enthalten (MagentaMobil-Tarife)</li>
+<li>Keine zusätzlichen Kosten für Endkunden</li>
+</ol>
+<h2>Auswirkungen auf Unternehmen und Industrie</h2>
+<h3>Industrie 4.0 und IIoT (Industrial Internet of Things)</h3>
+<p>5G-SA ist ein Schlüsselenabler für die vierte industrielle Revolution. Die Telekom bietet spezialisierte 5G-SA-Lösungen für Unternehmen an:</p>
+<p><strong>Anwendungsbeispiele:</strong><br />
+1. <strong>Echtzeit-Steuerung von Produktionsanlagen:</strong><br />
+   - Latenzzeiten &lt; 1 ms ermöglichen die Echtzeit-Steuerung von Robotern und CNC-Maschinen<br />
+   - Beispiel: BMW nutzt 5G-SA in seiner Produktion für drahtlose Steuerung von Robotern</p>
+<ol>
+<li><strong>Augmented Reality (AR) in der Wartung:</strong></li>
+<li>Techniker können über AR-Brillen (z.B. Microsoft HoloLens) in Echtzeit von Experten fernunterstützt werden</li>
+<li>
+<p>5G-SA garantiert die notwendige Bandbreite und Latenz für hochauflösende Videostreams</p>
+</li>
+<li>
+<p><strong>Drahtlose Sensorik und Aktuatorik:</strong></p>
+</li>
+<li>Tausende von Sensoren in einer Fabrikhalle können drahtlos angebunden werden (mMTC)</li>
+<li>Kostenersparnis durch Wegfall von teuren Kabelinstallationen</li>
+</ol>
+<h3>Private 5G-Netze (Private SA Networks)</h3>
+<p>Die Telekom bietet Unternehmen auch den Aufbau privater 5G-SA-Netze an:</p>
+<ul>
+<li><strong>Dedizierte Hardware:</strong>private 5G-Core und Basisstationen auf dem Firmengelände</li>
+<li><strong>Vollständige Kontrolle:</strong> Das Unternehmen verwaltet sein eigenes Netz (Sicherheit, Latenz, Bandbreite)</li>
+<li><strong>Beispiele:</strong></li>
+<li><strong>Luftfahrt:</strong> Airbus nutzt ein privates 5G-SA-Netz in seiner Produktion in Hamburg</li>
+<li><strong>Logistik:</strong> Containerhäfen nutzen 5G-SA für die Steuerung von automatisierten Kränen</li>
+</ul>
+<h2>Technische Herausforderungen und Lösungen</h2>
+<h3>Spektrumkoordination und Nachbarschaftsinterferenzen</h3>
+<p>Ein technisches Problem bei der Implementierung von 5G-SA ist die Koordination der Frequenzen mit bestehenden 4G/LTE-Netzen. Die Telekom nutzt <strong>Dynamic Spectrum Sharing (DSS)</strong>, um Frequenzen flexibel zwischen 4G und 5G aufzuteilen.</p>
+<h3>Abdeckungslücken in ländlichen Gebieten</h3>
+<p>Um auch in ländlichen Gebieten eine gute 5G-SA-Abdeckung zu gewährleisten, setzt die Telekom auf:<br />
+- <strong>700-MHz-Frequenz:</strong> Große Reichweite, gute Gebäudedurchdringung<br />
+- <strong>Small Cells:</strong> Ergänzende kleine Zellen in entlegene Gebiete<br />
+- <strong>Satelliten-Backhaul:</strong> Für extrem abgelegene Gebiete ohne Glasfaseranbindung</p>
+<h3>Energieeffizienz des 5G-SA-Netzes</h3>
+<p>5G-SA ist energieeffizienter als 4G/LTE (pro übertragenem Bit). Die Telekom setzt auf:<br />
+- <strong>Sleep-Modi</strong> für Basisstationen in Zeiten geringer Auslastung<br />
+- <strong>Erneuerbare Energien</strong> zur Stromversorgung von Mobilfunkstandorten</p>
+<h2>Zukunftsperspektiven: 6G und Beyond</h2>
+<p>Während 5G-SA gerade erst kommerziell ausgerollt wird, forscht die Telekom bereits an der nächsten Generation:</p>
+<ul>
+<li><strong>6G:</strong> Geplante Kommerzialisierung ab 2030</li>
+<li>Erwartete Datenraten: Bis zu 1 Tbit/s</li>
+<li>Latenzzeiten: &lt; 0,1 ms</li>
+<li>
+<p>Integration von KI in das Netz (AI-Native Air Interface)</p>
+</li>
+<li>
+<p><strong>Satelliten-Integration (NTN - Non-Terrestrial Networks):</strong></p>
+</li>
+<li>5G-SA wird um Satellitenkommunikation erweitert (z.B. Starlink-Integration)</li>
+<li>Globale Abdeckung, auch in abgelegenen Gebieten</li>
+</ul>
+<h2>Fazit</h2>
+<p>Die Einführung von 5G Standalone bei der Deutschen Telekom markiert einen technologischen Wendepunkt in der deutschen Mobilfunklandschaft. Im Gegensatz zur ersten 5G-Phase (NSA) bietet 5G-SA die volle Funktionalität des 5G-Standards: niedrigere Latenzzeiten, höhere Datenraten, Network Slicing und massive IoT-Unterstützung.</p>
+<p>Für Endkunden bedeutet dies spürbare Verbesserungen bei der Netzleistung, während Unternehmen durch neue Anwendungsmöglichkeiten (Industrie 4.0, private 5G-Netze) wettbewerbsfähiger werden.</p>
+<p>Die Telekom hat sich ehrgeizige Ziele gesetzt: Bis 2026 soll 5G-SA in allen größeren deutschen Städten verfügbar sein. Angesichts des derzeitigen Ausbautempos und der technologischen Überlegenheit von 5G-SA ist dies ein realistisches Ziel.</p>
+<p><strong>Die Zukunft des Mobilfunks ist 5G Standalone – und die Telekom ist dabei ganz vorne mit dabei.</strong></p>
+<hr />
+<p><em>Stand der Informationen: Mai 2026. Technische Daten können sich durch laufende Netzoptimierungen ändern.</em></p>
                 <!-- Article content will be loaded here -->
             </article>
 
