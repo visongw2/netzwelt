@@ -1,4 +1,4 @@
-# eSIM komplettGuide 2026: Alles was Sie wissen müssen
+# eSIM Komplettguide 2026: Alles was Sie wissen müssen
 
 ## Was ist eSIM?
 
