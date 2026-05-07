@@ -1,4 +1,6 @@
 # Smartphone-Speicher richtig nutzen
+<!-- description: Smartphone und Mobilfunk: Tipps für den Kauf, Tarifwahl und Optimierung. Alles über Handys und Mobilfunknetze. -->
+
 
 *Tipps zur optimalen Nutzung des Smartphone-Speichers.*
 

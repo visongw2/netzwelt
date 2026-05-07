@@ -1,4 +1,6 @@
 # Neue Familien-Tarife bei Telekom
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom führt neue Familien-Tarife mit attraktiven Konditionen ein.*
 

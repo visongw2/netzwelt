@@ -45,6 +45,14 @@ const articlesData = {
                 "name": "Netztechnologie",
                 "articles": [
                     {
+                        "id": "5g-netzwerk-optimierung-2026",
+                        "title": "5G Netzwerk-Optimierung 2026: Praktische Tipps",
+                        "date": "2026-05-08",
+                        "excerpt": "2026年最新5G网络优化技巧，帮助您提升网络速度和稳定性。包含设置建议和故障排除。",
+                        "file": "5g-netzwerk-optimierung-2026.md",
+                        "image": "https://picsum.photos/400/300?random=22"
+                    },
+                    {
                         "id": "5g-sa-standalone-architektur-bei-telekom",
                         "title": "5G-SA: Standalone-Architektur bei Telekom",
                         "date": "2024-11-13",
@@ -123,6 +131,14 @@ const articlesData = {
             "sim-types": {
                 "name": "SIM-Karten Typen",
                 "articles": [
+                    {
+                        "id": "esim-vollstaendiger-leitfaden-2026",
+                        "title": "eSIM完全指南2026：你需要了解的一切",
+                        "date": "2026-05-08",
+                        "excerpt": "2026年eSIM完全指南：了解eSIM技术、激活方法、与物理SIM的对比，以及未来发展趋势。",
+                        "file": "esim-vollstaendiger-leitfaden-2026.md",
+                        "image": "https://picsum.photos/400/300?random=21"
+                    },
                     {
                         "id": "esim-so-aktivieren-sie-die-elektronische-sim-karte",
                         "title": "eSIM: So aktivieren Sie die elektronische SIM-Karte",
@@ -628,6 +644,34 @@ function replyToComment(authorName) {
     }
 }
 
+// 动态更新 Meta Description
+function updateMetaDescription(description) {
+    if (!description) return;
+    
+    // 移除现有的 meta description 标签
+    var existingMeta = document.querySelector('meta[name="description"]');
+    if (existingMeta) {
+        existingMeta.setAttribute('content', description);
+    } else {
+        // 创建新的 meta description 标签
+        var meta = document.createElement('meta');
+        meta.name = 'description';
+        meta.content = description;
+        document.head.appendChild(meta);
+    }
+    
+    // 同时更新 Open Graph 和 Twitter Card 的 description
+    var ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) {
+        ogDesc.setAttribute('content', description);
+    }
+    
+    var twitterDesc = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDesc) {
+        twitterDesc.setAttribute('content', description);
+    }
+}
+
 // 转义HTML特殊字符
 function escapeHtml(text) {
     var div = document.createElement('div');
@@ -811,6 +855,9 @@ function loadArticleContent(article, categoryName, subcategoryName, categoryKey,
     renderArticleHeader(article, categoryName, subcategoryName);
     renderArticleSidebar(article, categoryKey, subcategoryKey, categoryName, subcategoryName);
     loadMarkdownContent(article);
+    
+    // 动态更新 Meta Description
+    updateMetaDescription(article.excerpt);
 }
 
 // 渲染Markdown（用于搜索到的文章）

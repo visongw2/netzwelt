@@ -1,4 +1,10 @@
 # MagentaEINS: Alle Vorteile im Detail
+<!-- description: In diesem Artikel befassen wir uns ausführlich mit diesem wichtigen Thema rund um Telekommunikation und Mobilfunk in Deutschland.
+
+
+
+Die Deutsche Tele... -->
+
 
 *MagentaEINS-Pakete werden von der Deutschen Telekom im Detail vorgestellt.*
 

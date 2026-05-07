@@ -1,4 +1,6 @@
 # Edge Computing: Telekom baut Rechenzentren aus für die Zukunft der Telekommunikation
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Edge Computing ist eine revolutionäre Technologie, die Rechenleistung näher zum Endnutzer bringt. Die Telekom investiert massiv in den Ausbau von Edge-Rechenzentren, um Latenzzeiten zu minimieren und neue Anwendungen wie autonomes Fahren, Smart Cities und Industrie 4.0 zu ermöglichen.*
 

@@ -1,4 +1,6 @@
 # Prepaid vs Postpaid: Vor- und Nachteile
+<!-- description: Prepaid-SIM-Karten Vergleich 2026: Finden Sie die günstigste Prepaid-Karte. Vergleichen Sie Tarife, Datenpakete und Preise. -->
+
 
 *Prepaid- und Postpaid-Tarife werden in diesem Artikel verglichen.*
 

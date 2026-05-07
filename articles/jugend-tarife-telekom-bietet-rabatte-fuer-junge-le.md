@@ -1,4 +1,6 @@
 # Jugend-Tarife: Telekom bietet Rabatte für junge Leute
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Junge Leute erhalten bei der Deutschen Telekom spezielle Rabatte.*
 

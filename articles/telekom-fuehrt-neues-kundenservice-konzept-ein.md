@@ -1,4 +1,6 @@
 # Telekom führt neues Kundenservice-Konzept ein
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom modernisiert ihr Kundenservice mit KI-gestützten Lösungen.*
 

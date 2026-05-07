@@ -1,4 +1,6 @@
 # 5G-SA: Standalone-Architektur bei der Telekom – Technische Innovation trifft auf Netzmodernisierung
+<!-- description: 5G-Netzausbau 2026: Aktueller Stand in Deutschland. Erfahren Sie alles über Geschwindigkeit, Abdeckung und die Zukunft der Mobilfunknetze. -->
+
 
 *Die Deutsche Telekom rollt die 5G Standalone-Architektur bundesweit aus und setzt damit neue Maßstäbe in der Mobilfunktechnologie.*
 

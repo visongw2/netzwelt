@@ -1,4 +1,6 @@
 # Prepaid-Pakete: Tages-, Wochen- und Monatsoptionen
+<!-- description: Prepaid-SIM-Karten Vergleich 2026: Finden Sie die günstigste Prepaid-Karte. Vergleichen Sie Tarife, Datenpakete und Preise. -->
+
 
 *Verschiedene Prepaid-Pakete werden in diesem Artikel vorgestellt.*
 

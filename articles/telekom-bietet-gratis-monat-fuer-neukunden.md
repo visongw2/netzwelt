@@ -1,4 +1,6 @@
 # Telekom bietet gratis Monat für Neukunden
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Neukunden erhalten bei der Deutschen Telekom einen Monat gratis.*
 

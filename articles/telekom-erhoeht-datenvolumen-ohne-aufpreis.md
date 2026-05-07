@@ -1,4 +1,6 @@
 # Telekom erhöht Datenvolumen ohne Aufpreis
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom erhöht das Datenvolumen vieler Tarife ohne Aufpreis.*
 

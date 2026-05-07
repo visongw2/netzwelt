@@ -1,4 +1,6 @@
 # Datenschutz auf dem Smartphone: Umfassende Tipps für 2026*
+<!-- description: Smartphone und Mobilfunk: Tipps für den Kauf, Tarifwahl und Optimierung. Alles über Handys und Mobilfunknetze. -->
+
 
 *Datenschutz auf dem Smartphone ist wichtiger denn je. Apps, Webseiten und Dienste sammeln permanent Daten. Dieser umfassende Artikel bietet detaillierte, schritt-für-schritt Tipps, um Ihre **Privatsphäre zu schützen** – für iOS (iPhone) und Android.*
 

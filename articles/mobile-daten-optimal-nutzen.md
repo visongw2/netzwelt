@@ -1,4 +1,10 @@
 # Mobile Daten optimal nutzen
+<!-- description: In diesem Artikel befassen wir uns ausführlich mit diesem wichtigen Thema rund um Telekommunikation und Mobilfunk in Deutschland.
+
+
+
+Die Deutsche Tele... -->
+
 
 *Tipps zur optimalen Nutzung mobiler Daten.*
 

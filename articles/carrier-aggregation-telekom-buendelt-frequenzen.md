@@ -1,4 +1,6 @@
 # Carrier Aggregation: Telekom bündelt Frequenzen für maximale Datenraten
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Carrier Aggregation (CA) ist eine Schlüsseltechnologie der Telekom, um die Datenraten im Mobilfunknetz drastisch zu erhöhen. Erfahren Sie, wie die Bündelung mehrerer Frequenzbänder funktioniert und welche Vorteile sie für Kunden bietet.*
 

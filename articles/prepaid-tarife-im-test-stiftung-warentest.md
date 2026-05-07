@@ -1,4 +1,6 @@
 # Prepaid-Tarife im Test: Stiftung Warentest
+<!-- description: Prepaid-SIM-Karten Vergleich 2026: Finden Sie die günstigste Prepaid-Karte. Vergleichen Sie Tarife, Datenpakete und Preise. -->
+
 
 *Die Stiftung Warentest hat Prepaid-Tarife getestet.*
 

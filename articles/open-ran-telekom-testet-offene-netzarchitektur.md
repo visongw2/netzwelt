@@ -1,4 +1,6 @@
 # Open RAN: Telekom testet offene Netzarchitektur
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom testet Open RAN-Technologie in ihrem Netz.*
 

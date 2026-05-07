@@ -1,4 +1,6 @@
 # MagentaMobil Special: Neuer Tarif für Senioren
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 ## Telekom bringt altersgerechten Tarif auf den Markt
 

@@ -1,4 +1,6 @@
 # Datenvolumen sparen: 10 praktische Tipps für 2026*
+<!-- description: Das Datenvolumen ist oft der "Engpass" in Mobilfunktarifen. Besonders wenn Sie nur ein begrenztes Volumen haben (z.B. 5 GB, 10 GB), kann dieses schnel... -->
+
 
 *Datenvolumen ist begrenzt und kann schnell aufgebraucht sein. Dieser umfassende Artikel bietet 10 praktische, detaillierte Tipps, um Datenvolumen zu sparen – für iOS (iPhone) und Android.*
 

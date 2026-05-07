@@ -1,4 +1,6 @@
 # Telekom MagentaMobil Tarife: Lohnt sich der Wechsel?
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 ## Einleitung
 

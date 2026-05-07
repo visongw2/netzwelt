@@ -1,4 +1,6 @@
 # Sicheres mobiles Surfen: VPN für Smartphones
+<!-- description: Smartphone und Mobilfunk: Tipps für den Kauf, Tarifwahl und Optimierung. Alles über Handys und Mobilfunknetze. -->
+
 
 *Ein VPN schützt beim mobilen Surfen.*
 

@@ -1,4 +1,6 @@
 # Telekom erreicht Millionen-Marke bei 5G-Nutzern
+<!-- description: 5G-Netzausbau 2026: Aktueller Stand in Deutschland. Erfahren Sie alles über Geschwindigkeit, Abdeckung und die Zukunft der Mobilfunknetze. -->
+
 
 *Die Deutsche Telekom kann eine neue Millionen-Marke bei 5G-Nutzern verkünden.*
 

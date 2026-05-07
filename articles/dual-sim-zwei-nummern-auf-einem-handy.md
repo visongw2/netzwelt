@@ -1,4 +1,6 @@
 # Dual-SIM: Zwei Nummern auf einem Handy
+<!-- description: SIM-Karten Ratgeber: Von Prepaid bis Vertrag, von eSIM bis physisch. Alles über SIM-Karten und Mobilfunk. -->
+
 
 *Dual-SIM-Funktionalität wird in diesem Artikel erklärt.*
 

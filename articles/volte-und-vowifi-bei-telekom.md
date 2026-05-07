@@ -1,4 +1,6 @@
 # VoLTE und VoWiFi bei Telekom
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Voice over LTE und Voice over WiFi werden bei Telekom ausführlich erklärt.*
 

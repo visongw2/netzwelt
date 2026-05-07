@@ -1,4 +1,10 @@
 # Mobile Hotspots einrichten
+<!-- description: In diesem Artikel befassen wir uns ausführlich mit diesem wichtigen Thema rund um Telekommunikation und Mobilfunk in Deutschland.
+
+
+
+Die Deutsche Tele... -->
+
 
 *Eine Anleitung zum Einrichten eines mobilen Hotspots.*
 

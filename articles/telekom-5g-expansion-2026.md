@@ -1,4 +1,6 @@
 # Telekom kündigt massive 5G-Expansion an
+<!-- description: 5G-Netzausbau 2026: Aktueller Stand in Deutschland. Erfahren Sie alles über Geschwindigkeit, Abdeckung und die Zukunft der Mobilfunknetze. -->
+
 
 ## Neueste Entwicklungen bei der Deutschen Telekom
 

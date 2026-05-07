@@ -1,4 +1,6 @@
 # Telekom testet 6G-Technologie in Deutschland
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom hat begonnen, erste 6G-Technologien in Deutschland zu testen.*
 

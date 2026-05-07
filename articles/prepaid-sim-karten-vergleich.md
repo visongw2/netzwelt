@@ -1,4 +1,6 @@
 # Prepaid SIM-Karten Vergleich 2026: Die besten Tarife
+<!-- description: Prepaid-SIM-Karten Vergleich 2026: Finden Sie die günstigste Prepaid-Karte. Vergleichen Sie Tarife, Datenpakete und Preise. -->
+
 
 ## Einleitung
 

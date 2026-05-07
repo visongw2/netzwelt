@@ -1,4 +1,6 @@
 # Massive MIMO: Telekom setzt auf neue Antennentechnik
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Massive MIMO-Technologie wird von der Deutschen Telekom eingeführt.*
 

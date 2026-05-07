@@ -1,4 +1,6 @@
 # Netzvirtualisierung: Telekom setzt auf NFV
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Network Function Virtualization wird vom Telekom-Netz zum Standard.*
 

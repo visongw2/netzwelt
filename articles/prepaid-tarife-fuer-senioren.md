@@ -1,4 +1,6 @@
 # Prepaid-Tarife für Senioren
+<!-- description: Prepaid-SIM-Karten Vergleich 2026: Finden Sie die günstigste Prepaid-Karte. Vergleichen Sie Tarife, Datenpakete und Preise. -->
+
 
 *Spezielle Prepaid-Tarife für Senioren werden vorgestellt.*
 

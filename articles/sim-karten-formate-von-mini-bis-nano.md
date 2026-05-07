@@ -1,4 +1,6 @@
 # SIM-Karten-Formate: Von Mini bis Nano
+<!-- description: SIM-Karten Ratgeber: Von Prepaid bis Vertrag, von eSIM bis physisch. Alles über SIM-Karten und Mobilfunk. -->
+
 
 *Alle SIM-Karten-Formate werden in diesem Artikel erklärt.*
 

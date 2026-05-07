@@ -1,4 +1,6 @@
 # Telekom baut Glasfaser mit Rekordtempo aus
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 ## Historischer Meilenstein erreicht
 

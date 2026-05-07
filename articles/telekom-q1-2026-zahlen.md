@@ -1,4 +1,6 @@
 # Telekom übertrifft Erwartungen im Q1 2026
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 ## Börsenrekation auf die neuesten Quartalszahlen
 

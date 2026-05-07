@@ -1,4 +1,6 @@
 # SIM-Karten-Sperre: So schützen Sie Ihre Karte
+<!-- description: SIM-Karten Ratgeber: Von Prepaid bis Vertrag, von eSIM bis physisch. Alles über SIM-Karten und Mobilfunk. -->
+
 
 *Eine Anleitung zum Schutz der SIM-Karte vor Missbrauch.*
 

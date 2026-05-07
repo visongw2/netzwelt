@@ -1,4 +1,6 @@
 # Physische SIM-Karte: Noch immer relevant?
+<!-- description: SIM-Karten Ratgeber: Von Prepaid bis Vertrag, von eSIM bis physisch. Alles über SIM-Karten und Mobilfunk. -->
+
 
 *Der Artikel untersucht, ob physische SIM-Karten noch zeitgemäß sind.*
 

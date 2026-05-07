@@ -1,4 +1,6 @@
 # Telekom senkt Preise für Datentarife
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom hat die Preise für ihre Datentarife gesenkt.*
 

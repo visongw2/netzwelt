@@ -1,4 +1,6 @@
 # Netz-Kapazität: Telekom verdoppelt Bandbreite
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom hat die Netzkapazität in Großstädten verdoppelt.*
 

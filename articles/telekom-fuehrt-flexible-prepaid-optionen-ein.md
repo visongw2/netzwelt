@@ -1,4 +1,6 @@
 # Telekom führt flexible Prepaid-Optionen ein
+<!-- description: Prepaid-SIM-Karten Vergleich 2026: Finden Sie die günstigste Prepaid-Karte. Vergleichen Sie Tarife, Datenpakete und Preise. -->
+
 
 *Die Deutsche Telekom hat neue flexible Prepaid-Optionen eingeführt.*
 

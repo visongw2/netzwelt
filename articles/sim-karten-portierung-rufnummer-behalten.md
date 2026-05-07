@@ -1,4 +1,6 @@
 # SIM-Karten-Portierung: Rufnummer behalten
+<!-- description: SIM-Karten Ratgeber: Von Prepaid bis Vertrag, von eSIM bis physisch. Alles über SIM-Karten und Mobilfunk. -->
+
 
 *Eine Anleitung zur Portierung der Rufnummer bei einem Anbieterwechsel.*
 

@@ -1,4 +1,6 @@
 # Telekom und Vodafone vergleichen Netzqualität
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Ein unabhängiger Test vergleicht die Netzqualität von Telekom und Vodafone.*
 

@@ -1,4 +1,6 @@
 # Telekom Tarif-Comparator: Der beste Tarif für Sie
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom bietet einen Online-Tarif-Comparator an.*
 

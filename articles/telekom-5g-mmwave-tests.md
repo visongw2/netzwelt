@@ -1,4 +1,6 @@
 # 5G mmWave: Telekom testet Millimeterwelle
+<!-- description: 5G-Netzausbau 2026: Aktueller Stand in Deutschland. Erfahren Sie alles über Geschwindigkeit, Abdeckung und die Zukunft der Mobilfunknetze. -->
+
 
 ## Revolutionäre Technologie in deutschen Städten
 

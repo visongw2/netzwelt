@@ -1,4 +1,6 @@
 # Telekom startet 5G-Netz in weiteren Städten
+<!-- description: 5G-Netzausbau 2026: Aktueller Stand in Deutschland. Erfahren Sie alles über Geschwindigkeit, Abdeckung und die Zukunft der Mobilfunknetze. -->
+
 
 *Die Deutsche Telekom hat den 5G-Ausbau in weiteren deutschen Städten gestartet.*
 

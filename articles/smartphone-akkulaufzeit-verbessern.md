@@ -1,4 +1,6 @@
 # Smartphone-Akkulaufzeit verbessern
+<!-- description: Smartphone und Mobilfunk: Tipps für den Kauf, Tarifwahl und Optimierung. Alles über Handys und Mobilfunknetze. -->
+
 
 *Tipps zur Verbesserung der Akkulaufzeit eines Smartphones.*
 

@@ -1,4 +1,6 @@
 # Telekom berichtet von Rekordjahr 2025
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom blickt auf ein erfolgreiches Geschäftsjahr 2025 zurück.*
 

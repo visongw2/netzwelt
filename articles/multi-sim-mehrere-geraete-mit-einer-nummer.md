@@ -1,4 +1,6 @@
 # Multi-SIM: Mehrere Geräte mit einer Nummer
+<!-- description: SIM-Karten Ratgeber: Von Prepaid bis Vertrag, von eSIM bis physisch. Alles über SIM-Karten und Mobilfunk. -->
+
 
 *Multi-SIM ermöglicht die Nutzung mehrerer Geräte mit einer Rufnummer.*
 

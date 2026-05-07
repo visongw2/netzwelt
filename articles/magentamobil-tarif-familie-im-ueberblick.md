@@ -1,4 +1,6 @@
 # MagentaMobil Tarif-Familie im Überblick
+<!-- description: Mobilfunktarife im Vergleich: Finden Sie den optimalen Tarif für Ihre Bedürfnisse. Prepaid, Vertrag und Datentlatrate im Überblick. -->
+
 
 *Alle MagentaMobil Tarife der Deutschen Telekom im detaillierten Überblick.*
 

@@ -1,4 +1,6 @@
 # Deutsche Telekom: 5G-Netzausbau 2026 im Überblick
+<!-- description: 5G-Netzausbau 2026: Aktueller Stand in Deutschland. Erfahren Sie alles über Geschwindigkeit, Abdeckung und die Zukunft der Mobilfunknetze. -->
+
 
 ## Einleitung
 

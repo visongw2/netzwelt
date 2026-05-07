@@ -1,4 +1,6 @@
 # Satelliten-Internet: Telekom kooperiert mit SpaceX
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom prüft eine Kooperation mit SpaceX für Satelliten-Internet.*
 

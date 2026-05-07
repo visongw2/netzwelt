@@ -1,4 +1,6 @@
 # Telekom erweitert Netzabdeckung in ländlichen Gebieten
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom investiert massiv in die Netzabdeckung ländlicher Gebiete.*
 

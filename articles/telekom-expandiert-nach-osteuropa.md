@@ -1,4 +1,6 @@
 # Telekom expandiert nach Osteuropa
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom plant die Expansion ihres Netzes in osteuropäische Märkte.*
 

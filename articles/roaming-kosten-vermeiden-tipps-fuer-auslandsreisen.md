@@ -1,4 +1,6 @@
 # Roaming-Kosten vermeiden: Tipps für Auslandsreisen
+<!-- description: EU-Roaming: Informationen für Reisen innerhalb der EU. Erfahren Sie, welche Kosten anfallen und wie Sie beim Roaming sparen. -->
+
 
 *Tipps, um Roaming-Kosten im Ausland zu vermeiden.*
 

@@ -1,4 +1,6 @@
 # Glasfaser-Ausbau: Telekom erreicht 50 Millionen Haushalte – Meilenstein und Strategie
+<!-- description: Deutsche Telekom: Tarife, Netzabdeckung und Services. Erfahren Sie, warum Telekom der führende Mobilfunkanbieter in Deutschland ist. -->
+
 
 *Die Deutsche Telekom hat im Jahr 2025/2026 einen bedeutenden Meilenstein erreicht: 50 Millionen Haushalte in Deutschland sind mit Glasfaser (FTTH - Fiber to the Home) versorgt. Dieser Artikel beleuchtet die Details des Glasfaser-Ausbaus, die Technologien, die Herausforderungen und die Auswirkungen auf Verbraucher und Wirtschaft.*
 

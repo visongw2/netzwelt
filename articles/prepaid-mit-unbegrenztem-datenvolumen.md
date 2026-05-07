@@ -1,4 +1,6 @@
 # Prepaid mit unbegrenztem Datenvolumen
+<!-- description: Prepaid-SIM-Karten Vergleich 2026: Finden Sie die günstigste Prepaid-Karte. Vergleichen Sie Tarife, Datenpakete und Preise. -->
+
 
 *Einige Anbieter bieten inzwischen Prepaid mit unbegrenztem Datenvolumen.*
 

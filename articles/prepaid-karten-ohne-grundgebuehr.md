@@ -1,4 +1,6 @@
 # Prepaid-Karten ohne Grundgebühr
+<!-- description: Prepaid-SIM-Karten Vergleich 2026: Finden Sie die günstigste Prepaid-Karte. Vergleichen Sie Tarife, Datenpakete und Preise. -->
+
 
 *Prepaid-Karten ohne monatliche Grundgebühr werden vorgestellt.*
 
