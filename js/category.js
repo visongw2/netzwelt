@@ -14,7 +14,7 @@ const articles = {
                         "date": "2026-02-01",
                         "excerpt": "Die Deutsche Telekom hat heute eine neue 5G-Initiative angekündigt, die Millionen von Kunden zugutekommen wird.",
                         "file": "deutsche-telekom-kuendigt-neue-5g-initiative-an.md",
-                        "image": "images/cat-telekom-01.jpg",
+                        "image": "images/cat-5g-network-01.jpg",
                     },
                     {
                         "id": "telekom-erreicht-millionen-marke-bei-5g-nutzern",
