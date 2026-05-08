@@ -45,6 +45,14 @@
                     <li><a href="about.html">Über mich</a></li>
                 </ul>
             </nav>
+            <!-- Search Box -->
+            <div class="search-box">
+                <form id="searchForm">
+                    <input type="text" id="searchInput" placeholder="Suche..." autocomplete="off">
+                    <button type="submit" id="searchBtn"><i class="fas fa-search"></i></button>
+                </form>
+                <div class="search-dropdown" id="searchDropdown"></div>
+            </div>
         </div>
     </header>
 
@@ -163,5 +171,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/search-data.js"></script>
+    <script src="js/search.js"></script>
 </body>
 </html>

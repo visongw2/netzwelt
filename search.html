@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtag.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MG27RPSJ');</script>
+    <!-- End Google Tag Manager -->
+    <title>Suche – netzpul</title>
+    <meta name="description" content="Durchsuchen Sie alle Artikel auf netzpul.com – 5G, eSIM, Mobilfunk, Tarife und mehr.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="alternate" hreflang="de" href="https://netzpul.com/search.html" />
+    <link rel="alternate" hreflang="x-default" href="https://netzpul.com/search.html" />
+    <!-- Cookie Consent - GDPR Compliant -->
+    <link rel="stylesheet" href="css/cookie-consent.css">
+    <style>
+        /* Search page specific styles */
+        .search-page-header {
+            background: var(--primary-color);
+            padding: 3rem 0;
+            text-align: center;
+            color: white;
+        }
+        .search-page-header h1 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .search-page-header .search-box {
+            max-width: 600px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.15);
+            border-radius: 30px;
+            padding: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+        .search-page-header .search-box:focus-within {
+            background: white;
+        }
+        .search-page-header #searchInput {
+            flex: 1;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: white;
+            font-size: 1.1rem;
+            padding: 0.5rem 1rem;
+        }
+        .search-page-header .search-box:focus-within #searchInput {
+            color: var(--text-color);
+        }
+        .search-page-header #searchInput::placeholder {
+            color: rgba(255,255,255,0.6);
+        }
+        .search-page-header #searchBtn {
+            background: var(--secondary-color);
+            border: none;
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+        .search-page-header #searchBtn:hover {
+            background: #c40060;
+        }
+        .search-results-info {
+            padding: 1.5rem 0;
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .search-results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1.5rem;
+            padding-bottom: 3rem;
+        }
+        .search-result-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+        }
+        .search-result-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+        }
+        .search-result-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .search-result-card-content {
+            padding: 1.2rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .search-result-card .meta {
+            font-size: 0.8rem;
+            color: #888;
+            margin-bottom: 0.5rem;
+        }
+        .search-result-card h3 {
+            font-size: 1.05rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+        .search-result-card h3 mark {
+            background: #fff3cd;
+            color: inherit;
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+        .search-result-card p {
+            font-size: 0.88rem;
+            color: #666;
+            line-height: 1.5;
+            flex: 1;
+        }
+        .search-result-card p mark {
+            background: #fff3cd;
+            color: inherit;
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+        .search-result-card .read-more {
+            color: var(--secondary-color);
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 0.8rem;
+            text-decoration: none;
+        }
+        .search-result-card:hover .read-more {
+            text-decoration: underline;
+        }
+        .search-no-results {
+            text-align: center;
+            padding: 4rem 0;
+            color: #888;
+        }
+        .search-no-results i {
+            font-size: 3rem;
+            color: #ddd;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        .search-no-results h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .search-no-results p {
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+        .search-no-results .search-suggestions {
+            text-align: left;
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .search-no-results .search-suggestions h3 {
+            font-size: 1rem;
+            color: var(--primary-color);
+            margin-bottom: 0.8rem;
+        }
+        .search-no-results .search-suggestions ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .search-no-results .search-suggestions li {
+            padding: 0.4rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .search-no-results .search-suggestions li:last-child {
+            border-bottom: none;
+        }
+        .search-no-results .search-suggestions a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        .search-no-results .search-suggestions a:hover {
+            text-decoration: underline;
+        }
+        .popular-topics {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .popular-topics a {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            background: var(--light-bg);
+            color: var(--primary-color);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .popular-topics a:hover {
+            background: var(--secondary-color);
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .search-page-header h1 {
+                font-size: 1.5rem;
+            }
+            .search-results-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MG27RPSJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Header with Search -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="18" y1="32" x2="18" y2="14" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+                        <line x1="13" y1="18" x2="23" y2="18" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+                        <line x1="18" y1="32" x2="12" y2="32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="18" y1="32" x2="24" y2="32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M12 11 Q10 13.5 12 16" stroke="#E20074" stroke-width="2" stroke-linecap="round" fill="none"/>
+                        <path d="M9 8.5 Q5.5 13 9 17.5" stroke="#E20074" stroke-width="1.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+                        <path d="M24 11 Q26 13.5 24 16" stroke="#E20074" stroke-width="2" stroke-linecap="round" fill="none"/>
+                        <path d="M27 8.5 Q30.5 13 27 17.5" stroke="#E20074" stroke-width="1.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+                        <circle cx="18" cy="12.5" r="1.8" fill="#E20074"/>
+                    </svg>
+                    <div class="logo-text">
+                        <span class="logo-title">netz<span>pul</span></span>
+                        <span class="logo-subtitle">5G · eSIM · Mobilfunk</span>
+                    </div>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="about.html">Über mich</a></li>
+                </ul>
+            </nav>
+            <!-- Search Box -->
+            <div class="search-box">
+                <form id="searchForm">
+                    <input type="text" id="searchInput" placeholder="Suche..." autocomplete="off">
+                    <button type="submit" id="searchBtn"><i class="fas fa-search"></i></button>
+                </form>
+                <div class="search-dropdown" id="searchDropdown"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Page Header -->
+    <section class="search-page-header">
+        <div class="container">
+            <h1>Artikel durchsuchen</h1>
+            <form id="searchPageForm" class="search-box">
+                <input type="text" id="pageSearchInput" placeholder="Wonach suchen Sie?" autocomplete="off">
+                <button type="submit" id="searchBtn"><i class="fas fa-search"></i> Suchen</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Search Results -->
+    <main class="main">
+        <div class="container">
+            <div class="search-results-info" id="resultsInfo"></div>
+            <div class="search-results-grid" id="resultsGrid"></div>
+            <div class="search-no-results" id="noResults" style="display:none;">
+                <i class="fas fa-search"></i>
+                <h2>Keine Ergebnisse gefunden</h2>
+                <p>Versuchen Sie es mit anderen Suchbegriffen oder stöbern Sie in unseren Kategorien:</p>
+                <div class="search-suggestions">
+                    <h3>Beliebte Themen</h3>
+                    <div class="popular-topics">
+                        <a href="category.html?cat=telekom&sub=news">Telekom News</a>
+                        <a href="category.html?cat=mobilfunk&sub=sim-types">eSIM</a>
+                        <a href="category.html?cat=mobilfunk&sub=prepaid">Prepaid Tarife</a>
+                        <a href="category.html?cat=anbieter&sub=o2">O2 Tarife</a>
+                        <a href="category.html?cat=anbieter&sub=vodafone">Vodafone</a>
+                        <a href="category.html?cat=telekom&sub=technology">5G Technologie</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>netzpul</h3>
+                    <p>Ihr Guide für 5G, eSIM und Mobilfunk in Deutschland. Unabhängig, aktuell und informativ.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Navigation</h3>
+                    <nav class="footer-nav">
+                        <a href="index.html">Startseite</a>
+                        <a href="category.html?cat=telekom">Telekom & Netz</a>
+                        <a href="category.html?cat=mobilfunk">Mobilfunk & SIM</a>
+                        <a href="category.html?cat=anbieter">Anbieter & Tarife</a>
+                        <a href="about.html">Über mich</a>
+                        <a href="kontakt.html">Kontakt</a>
+                    </nav>
+                </div>
+                <div class="footer-col">
+                    <h3>Rechtliches</h3>
+                    <nav class="footer-nav">
+                        <a href="impressum.html">Impressum</a>
+                        <a href="datenschutz.html">Datenschutz</a>
+                        <a href="agb.html">AGB</a>
+                        <a href="cookie-richtlinie.html">Cookie-Richtlinie</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 netzpul. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent -->
+    <div id="cookieConsentBanner" class="cookie-banner" role="dialog" aria-label="Cookie-Einwilligung" style="display:none;">
+        <div class="cookie-banner-content">
+            <p>Wir verwenden Cookies, um Ihnen ein optimales Erlebnis zu bieten. <a href="cookie-richtlinie.html">Mehr erfahren</a></p>
+            <div class="cookie-banner-buttons">
+                <button class="cookie-btn cookie-btn-accept" onclick="acceptCookies()">
+                    <i class="fas fa-check"></i> Alle akzeptieren
+                </button>
+                <button class="cookie-btn cookie-btn-decline" onclick="declineCookies()">
+                    <i class="fas fa-times"></i> Nur notwendige
+                </button>
+                <button class="cookie-btn cookie-btn-settings" onclick="showCookieSettings()">
+                    <i class="fas fa-cog"></i> Einstellungen
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/search-data.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/cookie-consent.js"></script>
+    <script>
+        // Category names mapping
+        const catNames = {
+            telekom: "Telekom & Netz",
+            mobilfunk: "Mobilfunk & SIM",
+            anbieter: "Anbieter & Tarife",
+        };
+        const subcatNames = {
+            news: "Neuigkeiten",
+            technology: "Netztechnologie",
+            tarife: "Tarife & Preise",
+            "sim-types": "SIM-Karten",
+            prepaid: "Prepaid",
+            tips: "Nutzungstipps",
+            o2: "O2",
+            blau: "blau",
+            vodafone: "Vodafone",
+            weitere: "Weitere",
+        };
+
+        // Normalize: lowercase, remove accents, remove extra spaces
+        function normalize(str) {
+            return str
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .replace(/[^\w\s]/g, " ")
+                .replace(/\s+/g, " ")
+                .trim();
+        }
+
+        // Highlight matching text
+        function highlightText(text, query) {
+            if (!query) return text;
+            const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+            const regex = new RegExp("(" + escaped + ")", "gi");
+            return text.replace(regex, "<mark>$1</mark>");
+        }
+
+        // Perform search
+        function search(query) {
+            const q = normalize(query);
+            if (!q || q.length < 1) return [];
+
+            const terms = q.split(" ").filter(Boolean);
+            const results = [];
+
+            for (let i = 0; i < searchData.length; i++) {
+                const item = searchData[i];
+                const titleNorm = normalize(item.title);
+                const excerptNorm = normalize(item.excerpt || "");
+
+                const matches = terms.every(
+                    (term) => titleNorm.includes(term) || excerptNorm.includes(term)
+                );
+
+                if (matches) {
+                    let score = 0;
+                    terms.forEach((term) => {
+                        if (titleNorm.includes(term)) {
+                            score += titleNorm.startsWith(term) ? 10 : 5;
+                        }
+                        if (excerptNorm.includes(term)) score += 2;
+                    });
+                    results.push({ ...item, score });
+                }
+            }
+
+            results.sort((a, b) => {
+                if (b.score !== a.score) return b.score - a.score;
+                return (b.date || "").localeCompare(a.date || "");
+            });
+
+            return results;
+        }
+
+        // Build result card HTML
+        function buildResultCard(item, query) {
+            const catName = catNames[item.category] || item.category;
+            const subName = subcatNames[item.subcategory] || item.subcategory;
+            const highlightedTitle = highlightText(item.title, query);
+            const highlightedExcerpt = highlightText(item.excerpt || "", query);
+
+            return (
+                '<a class="search-result-card" href="article.html?id=' +
+                item.id +
+                '">' +
+                '<img src="' +
+                (item.image || "https://picsum.photos/400/300") +
+                '" alt="' +
+                item.title +
+                '" loading="lazy">' +
+                '<div class="search-result-card-content">' +
+                '<span class="meta">' +
+                (item.date || "") +
+                " · " +
+                catName +
+                " / " +
+                subName +
+                "</span>" +
+                "<h3>" +
+                highlightedTitle +
+                "</h3>" +
+                "<p>" +
+                highlightedExcerpt +
+                "</p>" +
+                '<span class="read-more">Weiterlesen →</span>' +
+                "</div></a>"
+            );
+        }
+
+        // Get URL parameter
+        function getQueryParam(name) {
+            const params = new URLSearchParams(window.location.search);
+            return params.get(name) || "";
+        }
+
+        // Run search on page load
+        document.addEventListener("DOMContentLoaded", function () {
+            const query = getQueryParam("q");
+            const input = document.getElementById("pageSearchInput");
+            const headerInput = document.getElementById("searchInput");
+            const resultsInfo = document.getElementById("resultsInfo");
+            const resultsGrid = document.getElementById("resultsGrid");
+            const noResults = document.getElementById("noResults");
+
+            if (input) input.value = query;
+            if (headerInput) headerInput.value = query;
+
+            if (query) {
+                const results = search(query);
+                const count = results.length;
+
+                if (count === 0) {
+                    resultsInfo.innerHTML =
+                        '<i class="fas fa-search"></i> ' +
+                        count +
+                        ' Ergebnisse für "<strong>' +
+                        query +
+                        '</strong>"';
+                    resultsInfo.style.display = "block";
+                    noResults.style.display = "block";
+                } else {
+                    resultsInfo.innerHTML =
+                        '<i class="fas fa-check-circle" style="color:var(--secondary-color)"></i> ' +
+                        count +
+                        ' ' +
+                        (count === 1 ? "Ergebnis" : "Ergebnisse") +
+                        ' für "<strong>' +
+                        query +
+                        '</strong>"';
+                    resultsInfo.style.display = "block";
+                    noResults.style.display = "none";
+
+                    let html = "";
+                    for (let i = 0; i < results.length; i++) {
+                        html += buildResultCard(results[i], query);
+                    }
+                    resultsGrid.innerHTML = html;
+                }
+            } else {
+                resultsInfo.innerHTML = "Geben Sie einen Suchbegriff ein, um alle Artikel zu durchsuchen.";
+                resultsInfo.style.display = "block";
+            }
+
+            // Form submit handlers
+            const form = document.getElementById("searchPageForm");
+            if (form) {
+                form.addEventListener("submit", function (e) {
+                    e.preventDefault();
+                    const q = input.value.trim();
+                    if (q) {
+                        window.location.href = "search.html?q=" + encodeURIComponent(q);
+                    }
+                });
+            }
+
+            const headerForm = document.getElementById("searchForm");
+            if (headerForm) {
+                headerForm.addEventListener("submit", function (e) {
+                    e.preventDefault();
+                    const q = headerInput.value.trim();
+                    if (q) {
+                        window.location.href = "search.html?q=" + encodeURIComponent(q);
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
