@@ -12,7 +12,7 @@ const articlesData = {
                         "title": "Deutsche Telekom kündigt neue 5G-Initiative an",
                         "date": "2026-02-01",
                         "excerpt": "Die Deutsche Telekom hat heute eine neue 5G-Initiative angekündigt, die Millionen von Kunden zugutekommen wird.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-telekom.jpg",
                     "file": "deutsche-telekom-kuendigt-neue-5g-initiative-an.md"
                     },
                     {
@@ -20,7 +20,7 @@ const articlesData = {
                         "title": "Telekom berichtet von Rekordjahr 2025",
                         "date": "2025-05-23",
                         "excerpt": "Die Deutsche Telekom blickt auf ein erfolgreiches Geschäftsjahr 2025 zurück.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-telekom.jpg",
                     "file": "telekom-berichtet-von-rekordjahr-2025.md"
                     },
                     {
@@ -28,7 +28,7 @@ const articlesData = {
                         "title": "Telekom startet 5G-Netz in weiteren Städten",
                         "date": "2026-03-27",
                         "excerpt": "Die Deutsche Telekom hat den 5G-Ausbau in weiteren deutschen Städten gestartet.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-telekom.jpg",
                     "file": "telekom-startet-5g-netz-in-weiteren-staedten.md"
                     },
                     {
@@ -36,7 +36,7 @@ const articlesData = {
                         "title": "Telekom testet 6G-Technologie in Deutschland",
                         "date": "2026-02-10",
                         "excerpt": "Die Deutsche Telekom hat begonnen, erste 6G-Technologien in Deutschland zu testen.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-telekom.jpg",
                     "file": "telekom-testet-6g-technologie-in-deutschland.md"
                     }
                 ]
@@ -49,7 +49,7 @@ const articlesData = {
                         "title": "5G Netzwerk-Optimierung 2026: Praktische Tipps",
                         "date": "2026-05-08",
                         "excerpt": "2026年最新5G网络优化技巧，帮助您提升网络速度和稳定性。包含设置建议和故障排除。",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-5g-tech.jpg",
                     "file": "5g-netzwerk-optimierung-2026.md"
                     },
                     {
@@ -57,7 +57,7 @@ const articlesData = {
                         "title": "5G-SA: Standalone-Architektur bei Telekom",
                         "date": "2024-11-13",
                         "excerpt": "Die Deutsche Telekom rollt die 5G Standalone-Architektur bundesweit aus.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-5g-tech.jpg",
                     "file": "5g-sa-standalone-architektur-bei-telekom.md"
                     },
                     {
@@ -65,7 +65,7 @@ const articlesData = {
                         "title": "Carrier Aggregation: Telekom bündelt Frequenzen",
                         "date": "2025-06-27",
                         "excerpt": "Carrier Aggregation wird von der Telekom eingeführt, um die Datenraten zu erhöhen.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-5g-tech.jpg",
                     "file": "carrier-aggregation-telekom-buendelt-frequenzen.md"
                     },
                     {
@@ -73,7 +73,7 @@ const articlesData = {
                         "title": "Edge Computing: Telekom baut Rechenzentren aus",
                         "date": "2025-10-06",
                         "excerpt": "Edge Computing wird von der Telekom für geringe Latenzzeiten genutzt.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-5g-tech.jpg",
                     "file": "edge-computing-telekom-baut-rechenzentren-aus.md"
                     },
                     {
@@ -81,7 +81,7 @@ const articlesData = {
                         "title": "Massive MIMO: Telekom setzt auf neue Antennentechnik",
                         "date": "2025-04-18",
                         "excerpt": "Massive MIMO-Technologie wird von der Deutschen Telekom eingeführt.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-5g-tech.jpg",
                     "file": "massive-mimo-telekom-setzt-auf-neue-antennentechni.md"
                     }
                 ]
@@ -94,7 +94,7 @@ const articlesData = {
                         "title": "MagentaMobil Tarif-Familie im Überblick",
                         "date": "2025-02-19",
                         "excerpt": "Alle MagentaMobil Tarife der Deutschen Telekom im detaillierten Überblick.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-tarife.jpg",
                     "file": "magentamobil-tarif-familie-im-ueberblick.md"
                     },
                     {
@@ -102,7 +102,7 @@ const articlesData = {
                         "title": "Telekom senkt Preise für Datentarife",
                         "date": "2026-04-30",
                         "excerpt": "Die Deutsche Telekom hat die Preise für ihre Datentarife gesenkt.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-tarife.jpg",
                     "file": "telekom-senkt-preise-fuer-datentarife.md"
                     },
                     {
@@ -110,7 +110,7 @@ const articlesData = {
                         "title": "Neue Familien-Tarife bei Telekom",
                         "date": "2026-03-22",
                         "excerpt": "Die Deutsche Telekom führt neue Familien-Tarife mit attraktiven Konditionen ein.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-tarife.jpg",
                     "file": "neue-familien-tarife-bei-telekom.md"
                     },
                     {
@@ -118,7 +118,7 @@ const articlesData = {
                         "title": "Telekom bietet gratis Monat für Neukunden",
                         "date": "2026-01-27",
                         "excerpt": "Neukunden erhalten bei der Deutschen Telekom einen Monat gratis.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-tarife.jpg",
                     "file": "telekom-bietet-gratis-monat-fuer-neukunden.md"
                     }
                 ]
@@ -136,7 +136,7 @@ const articlesData = {
                         "title": "eSIM komplettGuide 2026: Alles was Sie wissen müssen",
                         "date": "2026-05-08",
                         "excerpt": "eSIM komplettGuide 2026: Alles über eSIM-Technologie, Aktivierungsmethoden, Vergleich mit physischen SIMs und Zukunftstrends.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-esim.jpg",
                     "file": "esim-komplettguide-2026.md"
                     },
                     {
@@ -144,7 +144,7 @@ const articlesData = {
                         "title": "eSIM: So aktivieren Sie die elektronische SIM-Karte",
                         "date": "2026-02-05",
                         "excerpt": "Eine Schritt-für-Schritt-Anleitung zur Aktivierung einer eSIM.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-esim.jpg",
                     "file": "esim-so-aktivieren-sie-die-elektronische-sim-karte.md"
                     },
                     {
@@ -152,7 +152,7 @@ const articlesData = {
                         "title": "eSIM vs. Physikalische SIM: Was ist besser?",
                         "date": "2025-03-10",
                         "excerpt": "Der große Vergleich zwischen moderner eSIM-Technologie und traditionellen SIM-Karten.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-esim.jpg",
                     "file": "esim-vs-physikalische-sim.md"
                     },
                     {
@@ -160,7 +160,7 @@ const articlesData = {
                         "title": "iSIM vs eSIM: Was ist der Unterschied?",
                         "date": "2026-01-22",
                         "excerpt": "iSIM und eSIM werden in diesem Artikel detailliert verglichen.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-esim.jpg",
                     "file": "isim-vs-esim-was-ist-der-unterschied.md"
                     }
                 ]
@@ -173,7 +173,7 @@ const articlesData = {
                         "title": "Die besten Prepaid-Tarife 2026",
                         "date": "2026-02-21",
                         "excerpt": "Eine Übersicht der besten Prepaid-Tarife im Jahr 2026.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-prepaid.jpg",
                     "file": "die-besten-prepaid-tarife-2026.md"
                     },
                     {
@@ -181,7 +181,7 @@ const articlesData = {
                         "title": "Prepaid vs Postpaid: Vor- und Nachteile",
                         "date": "2024-05-14",
                         "excerpt": "Prepaid- und Postpaid-Tarife werden in diesem Artikel verglichen.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-prepaid.jpg",
                     "file": "prepaid-vs-postpaid-vor--und-nachteile.md"
                     },
                     {
@@ -189,7 +189,7 @@ const articlesData = {
                         "title": "EU-Roaming bei Prepaid-Karten",
                         "date": "2025-03-13",
                         "excerpt": "EU-Roaming ist bei den meisten Prepaid-Karten inklusive.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-prepaid.jpg",
                     "file": "eu-roaming-bei-prepaid-karten.md"
                     }
                 ]
@@ -202,7 +202,7 @@ const articlesData = {
                         "title": "Datenvolumen sparen: 10 praktische Tipps",
                         "date": "2026-04-14",
                         "excerpt": "Zehn praktische Tipps, um Datenvolumen zu sparen.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-tips.jpg",
                     "file": "datenvolumen-sparen-10-praktische-tipps.md"
                     },
                     {
@@ -210,7 +210,7 @@ const articlesData = {
                         "title": "Datenschutz auf dem Smartphone",
                         "date": "2026-04-20",
                         "excerpt": "Tipps zum Schutz der Privatsphäre auf dem Smartphone.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-tips.jpg",
                     "file": "datenschutz-auf-dem-smartphone.md"
                     }
                 ]
@@ -228,7 +228,7 @@ const articlesData = {
                         "title": "O2 Tarife 2026: Der große Vergleich",
                         "date": "2026-05-08",
                         "excerpt": "Suchen Sie nach einem neuen Mobilfunktarif bei O2? In diesem ausführlichen Vergleich stellen wir Ihnen die besten O2 Tarife 2026 vor.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-o2.jpg",
                     "file": "o2-tarife-2026-der-große-vergleich.md"
                     },
                     {
@@ -236,7 +236,7 @@ const articlesData = {
                         "title": "O2 5G Netz: Abdeckung und Geschwindigkeit im Test",
                         "date": "2026-05-08",
                         "excerpt": "O2 hat in den letzten Jahren massiv in den 5G-Ausbau investiert. Wir testen die O2 5G-Abdeckung und messen die Geschwindigkeiten.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-o2.jpg",
                     "file": "o2-5g-netz-abdeckung-und-geschwindigkeit-im-test.md"
                     }
                 ]
@@ -249,7 +249,7 @@ const articlesData = {
                         "title": "blau Mobilfunk: Günstige Tarife im O2-Netz",
                         "date": "2026-05-08",
                         "excerpt": "blau Mobilfunk bietet faire Prepaid-Tarife im starken O2-Netz. In diesem Test zeigen wir, ob sich blau lohnt.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-blau.jpg",
                     "file": "blau-mobilfunk-günstige-tarife-im-o2-netz.md"
                     },
                     {
@@ -257,7 +257,7 @@ const articlesData = {
                         "title": "blau Prepaid Tarife im Detail-Test",
                         "date": "2026-05-08",
                         "excerpt": "blau Prepaid-Tarife sind bekannt für ihre Transparenz und Fairness. Wir prüfen alle blau Prepaid-Tarife im O2-Netz.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-blau.jpg",
                     "file": "blau-prepaid-tarife-im-detail-test.md"
                     }
                 ]
@@ -270,7 +270,7 @@ const articlesData = {
                         "title": "Vodafone Tarife 2026: Welcher ist der Richtige?",
                         "date": "2026-05-08",
                         "excerpt": "Vodafone ist einer der größten Mobilfunkanbieter in Deutschland. Wir vergleichen die besten Vodafone Tarife 2026.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-vodafone.jpg",
                     "file": "vodafone-tarife-2026-welcher-ist-der-richtige.md"
                     },
                     {
@@ -278,7 +278,7 @@ const articlesData = {
                         "title": "Vodafone 5G: Das leistet das Netz wirklich",
                         "date": "2026-05-08",
                         "excerpt": "Vodafone hat massiv in den 5G-Ausbau investiert. Wir testen das Vodafone 5G-Netz und zeigen, wie schnell es wirklich ist.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-vodafone.jpg",
                     "file": "vodafone-5g-das-leistet-das-netz-wirklich.md"
                     }
                 ]
@@ -291,7 +291,7 @@ const articlesData = {
                         "title": "otelo: Günstige Allnet-Flat im O2-Netz",
                         "date": "2026-05-08",
                         "excerpt": "otelo bietet attraktive Tarife ohne versteckte Kosten im O2-Netz. Wir testen, ob sich otelo lohnt.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-o2.jpg",
                     "file": "otelo-günstige-allnet-flat-im-o2-netz.md"
                     },
                     {
@@ -299,7 +299,7 @@ const articlesData = {
                         "title": "freenet Funk: Flexibel telefonieren ohne Vertrag",
                         "date": "2026-05-08",
                         "excerpt": "freenet Funk bietet innovative Prepaid-Tarife im O2-Netz ohne langfristige Vertragsbindung.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-freenet.jpg",
                     "file": "freenet-funk-flexibel-telefonieren-ohne-vertrag.md"
                     },
                     {
@@ -307,7 +307,7 @@ const articlesData = {
                         "title": "freenet 5G: Highspeed-Internet unterwegs",
                         "date": "2026-05-08",
                         "excerpt": "Mit freenet 5G Highspeed-Internet unterwegs nutzen – welche Tarife sind verfügbar und wie schnell sind sie?",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-freenet.jpg",
                     "file": "freenet-5g-highspeed-internet-unterwegs.md"
                     },
                     {
@@ -315,7 +315,7 @@ const articlesData = {
                         "title": "congstar: Günstig telefonieren im Telekom-Netz",
                         "date": "2026-05-08",
                         "excerpt": "congstar bietet faire Preise für das qualitativ hochwertige Telekom-Netz. Lohnt sich congstar?",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-congstar.jpg",
                     "file": "congstar-günstig-telefonieren-im-telekom-netz.md"
                     },
                     {
@@ -323,7 +323,7 @@ const articlesData = {
                         "title": "congstar Prepaid: Die besten Tarife im Überblick",
                         "date": "2026-05-08",
                         "excerpt": "congstar Prepaid bietet flexible Tarife im Telekom-Netz ohne langfristige Vertragsbindung.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-congstar.jpg",
                     "file": "congstar-prepaid-die-besten-tarife-im-überblick.md"
                     },
                     {
@@ -331,7 +331,7 @@ const articlesData = {
                         "title": "klarmobil: Transparente Tarife im O2-Netz",
                         "date": "2026-05-08",
                         "excerpt": "klarmobil bietet klare Preise ohne versteckte Kosten im O2-Netz. Wir testen alle verfügbaren Tarife.",
-                    "image": "images/default-article.jpg",
+                    "image": "images/cat-o2.jpg",
                     "file": "klarmobil-transparente-tarife-im-o2-netz.md"
                     }
                 ]
