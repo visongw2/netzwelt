@@ -14,7 +14,7 @@ const articles = {
                         "date": "2026-02-01",
                         "excerpt": "Die Deutsche Telekom hat heute eine neue 5G-Initiative angekündigt, die Millionen von Kunden zugutekommen wird.",
                         "file": "deutsche-telekom-kuendigt-neue-5g-initiative-an.md",
-                        "image": "images/cat-telekom.jpg",
+                        "image": "images/cat-telekom-01.jpg",
                     },
                     {
                         "id": "telekom-erreicht-millionen-marke-bei-5g-nutzern",
@@ -22,7 +22,7 @@ const articles = {
                         "date": "2024-06-16",
                         "excerpt": "Die Deutsche Telekom kann eine neue Millionen-Marke bei 5G-Nutzern verkünden.",
                         "file": "telekom-erreicht-millionen-marke-bei-5g-nutzern.md",
-                        "image": "images/cat-telekom.jpg",
+                        "image": "images/cat-telekom-01.jpg",
                     },
                     {
                         "id": "telekom-erweitert-netzabdeckung-in-laendlichen-geb",
@@ -30,7 +30,7 @@ const articles = {
                         "date": "2024-08-16",
                         "excerpt": "Die Deutsche Telekom investiert massiv in die Netzabdeckung ländlicher Gebiete.",
                         "file": "telekom-erweitert-netzabdeckung-in-laendlichen-geb.md",
-                        "image": "images/cat-telekom.jpg",
+                        "image": "images/cat-network-01.jpg",
                     },
                     {
                         "id": "telekom-und-huawei-geruechte-ueber-zusammenarbeit",
@@ -38,7 +38,7 @@ const articles = {
                         "date": "2024-11-06",
                         "excerpt": "Es gibt Gerüchte über eine mögliche Zusammenarbeit zwischen der Deutschen Telekom und Huawei.",
                         "file": "telekom-und-huawei-geruechte-ueber-zusammenarbeit.md",
-                        "image": "images/cat-telekom.jpg",
+                        "image": "images/cat-5g-tech.jpg",
                     },
                     {
                         "id": "telekom-startet-5g-netz-in-weiteren-staedten",
@@ -46,7 +46,7 @@ const articles = {
                         "date": "2026-03-27",
                         "excerpt": "Die Deutsche Telekom hat den 5G-Ausbau in weiteren deutschen Städten gestartet.",
                         "file": "telekom-startet-5g-netz-in-weiteren-staedten.md",
-                        "image": "images/cat-telekom.jpg",
+                        "image": "images/cat-5g-network-01.jpg",
                     },
                     {
                         "id": "telekom-berichtet-von-rekordjahr-2025",
@@ -99,7 +99,7 @@ const articles = {
                         "date": "2024-11-13",
                         "excerpt": "Die Deutsche Telekom rollt die 5G Standalone-Architektur bundesweit aus.",
                         "file": "5g-sa-standalone-architektur-bei-telekom.md",
-                        "image": "images/cat-5g-tech.jpg",
+                        "image": "images/cat-telekom-01.jpg",
                     },
                     {
                         "id": "massive-mimo-telekom-setzt-auf-neue-antennentechni",
@@ -107,7 +107,7 @@ const articles = {
                         "date": "2025-04-18",
                         "excerpt": "Massive MIMO-Technologie wird von der Deutschen Telekom eingeführt.",
                         "file": "massive-mimo-telekom-setzt-auf-neue-antennentechni.md",
-                        "image": "images/cat-5g-tech.jpg",
+                        "image": "images/cat-telekom-01.jpg",
                     },
                     {
                         "id": "netzvirtualisierung-telekom-setzt-auf-nfv",
@@ -115,7 +115,7 @@ const articles = {
                         "date": "2026-04-05",
                         "excerpt": "Network Function Virtualization wird vom Telekom-Netz zum Standard.",
                         "file": "netzvirtualisierung-telekom-setzt-auf-nfv.md",
-                        "image": "images/cat-5g-tech.jpg",
+                        "image": "images/cat-telekom-01.jpg",
                     },
                     {
                         "id": "edge-computing-telekom-baut-rechenzentren-aus",
@@ -123,7 +123,7 @@ const articles = {
                         "date": "2025-10-06",
                         "excerpt": "Edge Computing wird von der Telekom für geringe Latenzzeiten genutzt.",
                         "file": "edge-computing-telekom-baut-rechenzentren-aus.md",
-                        "image": "images/cat-5g-tech.jpg",
+                        "image": "images/cat-network-01.jpg",
                     },
                     {
                         "id": "open-ran-telekom-testet-offene-netzarchitektur",
@@ -131,7 +131,7 @@ const articles = {
                         "date": "2024-01-02",
                         "excerpt": "Die Deutsche Telekom testet Open RAN-Technologie in ihrem Netz.",
                         "file": "open-ran-telekom-testet-offene-netzarchitektur.md",
-                        "image": "images/cat-5g-tech.jpg",
+                        "image": "images/cat-telekom-01.jpg",
                     },
                     {
                         "id": "volte-und-vowifi-bei-telekom",
@@ -139,7 +139,7 @@ const articles = {
                         "date": "2025-02-27",
                         "excerpt": "Voice over LTE und Voice over WiFi werden bei Telekom ausführlich erklärt.",
                         "file": "volte-und-vowifi-bei-telekom.md",
-                        "image": "images/cat-5g-tech.jpg",
+                        "image": "images/cat-telekom.jpg",
                     },
                     {
                         "id": "carrier-aggregation-telekom-buendelt-frequenzen",
@@ -147,7 +147,7 @@ const articles = {
                         "date": "2025-06-27",
                         "excerpt": "Carrier Aggregation wird von der Telekom genutzt, um die Datenraten zu erhöhen.",
                         "file": "carrier-aggregation-telekom-buendelt-frequenzen.md",
-                        "image": "images/cat-5g-tech.jpg",
+                        "image": "images/cat-telekom.jpg",
                     },
                     {
                         "id": "netz-kapazitaet-telekom-verdoppelt-bandbreite",
@@ -155,7 +155,7 @@ const articles = {
                         "date": "2025-04-28",
                         "excerpt": "Die Deutsche Telekom hat die Netzkapazität in Großstädten verdoppelt.",
                         "file": "netz-kapazitaet-telekom-verdoppelt-bandbreite.md",
-                        "image": "images/cat-5g-tech.jpg",
+                        "image": "images/cat-telekom.jpg",
                     },
                     {
                         "id": "glasfaser-ausbau-telekom-erreicht-50-mio-haushalte",
@@ -163,7 +163,7 @@ const articles = {
                         "date": "2024-06-24",
                         "excerpt": "Die Deutsche Telekom hat ihr Ziel von 50 Millionen Glasfaser-Haushalten erreicht.",
                         "file": "glasfaser-ausbau-telekom-erreicht-50-mio-haushalte.md",
-                        "image": "images/cat-5g-tech.jpg",
+                        "image": "images/cat-5g-network-01.jpg",
                     },
                     {
                         "id": "satelliten-internet-telekom-kooperiert-mit-spacex",
@@ -184,7 +184,7 @@ const articles = {
                         "date": "2025-02-19",
                         "excerpt": "Alle MagentaMobil Tarife der Deutschen Telekom im detaillierten Überblick.",
                         "file": "magentamobil-tarif-familie-im-ueberblick.md",
-                        "image": "images/cat-tarife.jpg",
+                        "image": "images/cat-telekom.jpg",
                     },
                     {
                         "id": "telekom-senkt-preise-fuer-datentarife",
@@ -192,7 +192,7 @@ const articles = {
                         "date": "2026-04-30",
                         "excerpt": "Die Deutsche Telekom hat die Preise für ihre Datentarife gesenkt.",
                         "file": "telekom-senkt-preise-fuer-datentarife.md",
-                        "image": "images/cat-tarife.jpg",
+                        "image": "images/cat-youth-01.jpg",
                     },
                     {
                         "id": "neue-familien-tarife-bei-telekom",
@@ -200,7 +200,7 @@ const articles = {
                         "date": "2026-03-22",
                         "excerpt": "Die Deutsche Telekom führt neue Familien-Tarife mit attraktiven Konditionen ein.",
                         "file": "neue-familien-tarife-bei-telekom.md",
-                        "image": "images/cat-tarife.jpg",
+                        "image": "images/cat-telekom.jpg",
                     },
                     {
                         "id": "telekom-bietet-gratis-monat-fuer-neukunden",
@@ -208,7 +208,7 @@ const articles = {
                         "date": "2026-01-27",
                         "excerpt": "Neukunden erhalten bei der Deutschen Telekom einen Monat gratis.",
                         "file": "telekom-bietet-gratis-monat-fuer-neukunden.md",
-                        "image": "images/cat-tarife.jpg",
+                        "image": "images/cat-business-01.jpg",
                     },
                     {
                         "id": "magentaeins-alle-vorteile-im-detail",
@@ -216,7 +216,7 @@ const articles = {
                         "date": "2024-03-27",
                         "excerpt": "MagentaEINS-Pakete werden von der Deutschen Telekom im Detail vorgestellt.",
                         "file": "magentaeins-alle-vorteile-im-detail.md",
-                        "image": "images/cat-tarife.jpg",
+                        "image": "images/cat-telekom-01.jpg",
                     },
                     {
                         "id": "telekom-erhoeht-datenvolumen-ohne-aufpreis",
@@ -224,7 +224,7 @@ const articles = {
                         "date": "2024-10-05",
                         "excerpt": "Die Deutsche Telekom erhöht das Datenvolumen vieler Tarife ohne Aufpreis.",
                         "file": "telekom-erhoeht-datenvolumen-ohne-aufpreis.md",
-                        "image": "images/cat-tarife.jpg",
+                        "image": "images/cat-tarife-01.jpg",
                     },
                     {
                         "id": "business-tarife-telekom-fuer-unternehmen",
@@ -232,7 +232,7 @@ const articles = {
                         "date": "2024-06-02",
                         "excerpt": "Die Deutsche Telekom bietet spezielle Business-Tarife für Unternehmen an.",
                         "file": "business-tarife-telekom-fuer-unternehmen.md",
-                        "image": "images/cat-tarife.jpg",
+                        "image": "images/cat-telekom.jpg",
                     },
                     {
                         "id": "telekom-tarif-comparator-der-beste-tarif-fuer-sie",
@@ -240,7 +240,7 @@ const articles = {
                         "date": "2026-03-28",
                         "excerpt": "Die Deutsche Telekom bietet einen Online-Tarif-Comparator an.",
                         "file": "telekom-tarif-comparator-der-beste-tarif-fuer-sie.md",
-                        "image": "images/cat-tarife.jpg",
+                        "image": "images/cat-family-01.jpg",
                     },
                     {
                         "id": "jugend-tarife-telekom-bietet-rabatte-fuer-junge-le",
@@ -248,7 +248,7 @@ const articles = {
                         "date": "2024-05-16",
                         "excerpt": "Junge Leute erhalten bei der Deutschen Telekom spezielle Rabatte.",
                         "file": "jugend-tarife-telekom-bietet-rabatte-fuer-junge-le.md",
-                        "image": "images/cat-tarife.jpg",
+                        "image": "images/cat-telekom-01.jpg",
                     },
                     {
                         "id": "telekom-fuehrt-flexible-prepaid-optionen-ein",
@@ -256,7 +256,7 @@ const articles = {
                         "date": "2026-04-24",
                         "excerpt": "Die Deutsche Telekom hat neue flexible Prepaid-Optionen eingeführt.",
                         "file": "telekom-fuehrt-flexible-prepaid-optionen-ein.md",
-                        "image": "images/cat-tarife.jpg",
+                        "image": "images/cat-tarife-01.jpg",
                     }
                 ]
             }
@@ -274,7 +274,7 @@ const articles = {
                         "date": "2026-02-05",
                         "excerpt": "Eine Schritt-für-Schritt-Anleitung zur Aktivierung einer eSIM.",
                         "file": "esim-so-aktivieren-sie-die-elektronische-sim-karte.md",
-                        "image": "images/cat-esim.jpg",
+                        "image": "images/cat-dualsim-01.jpg",
                     },
                     {
                         "id": "isim-vs-esim-was-ist-der-unterschied",
@@ -282,7 +282,7 @@ const articles = {
                         "date": "2026-01-22",
                         "excerpt": "iSIM und eSIM werden in diesem Artikel detailliert verglichen.",
                         "file": "isim-vs-esim-was-ist-der-unterschied.md",
-                        "image": "images/cat-esim.jpg",
+                        "image": "images/cat-dualsim-01.jpg",
                     },
                     {
                         "id": "physische-sim-karte-noch-immer-relevant",
@@ -290,7 +290,7 @@ const articles = {
                         "date": "2025-08-15",
                         "excerpt": "Der Artikel untersucht, ob physische SIM-Karten noch zeitgemäß sind.",
                         "file": "physische-sim-karte-noch-immer-relevant.md",
-                        "image": "images/cat-esim.jpg",
+                        "image": "images/cat-dualsim-01.jpg",
                     },
                     {
                         "id": "multi-sim-mehrere-geraete-mit-einer-nummer",
@@ -298,7 +298,7 @@ const articles = {
                         "date": "2026-03-20",
                         "excerpt": "Multi-SIM ermöglicht die Nutzung mehrerer Geräte mit einer Rufnummer.",
                         "file": "multi-sim-mehrere-geraete-mit-einer-nummer.md",
-                        "image": "images/cat-esim.jpg",
+                        "image": "images/cat-dualsim-01.jpg",
                     },
                     {
                         "id": "sim-karten-formate-von-mini-bis-nano",
@@ -306,7 +306,7 @@ const articles = {
                         "date": "2025-10-21",
                         "excerpt": "Alle SIM-Karten-Formate werden in diesem Artikel erklärt.",
                         "file": "sim-karten-formate-von-mini-bis-nano.md",
-                        "image": "images/cat-esim.jpg",
+                        "image": "images/cat-dualsim-01.jpg",
                     },
                     {
                         "id": "esim-bei-aelteren-smartphones-nutzen",
@@ -314,7 +314,7 @@ const articles = {
                         "date": "2025-04-11",
                         "excerpt": "Ältere Smartphones können mit speziellen Adaptern eSIM-fähig gemacht werden.",
                         "file": "esim-bei-aelteren-smartphones-nutzen.md",
-                        "image": "images/cat-esim.jpg",
+                        "image": "images/cat-dualsim-01.jpg",
                     },
                     {
                         "id": "dual-sim-zwei-nummern-auf-einem-handy",
@@ -322,7 +322,7 @@ const articles = {
                         "date": "2024-11-14",
                         "excerpt": "Dual-SIM-Funktionalität wird in diesem Artikel erklärt.",
                         "file": "dual-sim-zwei-nummern-auf-einem-handy.md",
-                        "image": "images/cat-esim.jpg",
+                        "image": "images/cat-esim-01.jpg",
                     },
                     {
                         "id": "sim-karten-sperre-so-schuetzen-sie-ihre-karte",
@@ -359,7 +359,7 @@ const articles = {
                         "date": "2024-05-14",
                         "excerpt": "Prepaid- und Postpaid-Tarife werden in diesem Artikel verglichen.",
                         "file": "prepaid-vs-postpaid-vor--und-nachteile.md",
-                        "image": "images/cat-prepaid.jpg",
+                        "image": "images/cat-prepaid-01.jpg",
                     },
                     {
                         "id": "die-besten-prepaid-tarife-2026",
@@ -367,7 +367,7 @@ const articles = {
                         "date": "2026-02-21",
                         "excerpt": "Eine Übersicht der besten Prepaid-Tarife im Jahr 2026.",
                         "file": "die-besten-prepaid-tarife-2026.md",
-                        "image": "images/cat-prepaid.jpg",
+                        "image": "images/cat-prepaid-01.jpg",
                     },
                     {
                         "id": "prepaid-karten-ohne-grundgebuehr",
@@ -375,7 +375,7 @@ const articles = {
                         "date": "2025-04-25",
                         "excerpt": "Prepaid-Karten ohne monatliche Grundgebühr werden vorgestellt.",
                         "file": "prepaid-karten-ohne-grundgebuehr.md",
-                        "image": "images/cat-prepaid.jpg",
+                        "image": "images/cat-prepaid-01.jpg",
                     },
                     {
                         "id": "eu-roaming-bei-prepaid-karten",
@@ -383,7 +383,7 @@ const articles = {
                         "date": "2025-03-13",
                         "excerpt": "EU-Roaming ist bei den meisten Prepaid-Karten inklusive.",
                         "file": "eu-roaming-bei-prepaid-karten.md",
-                        "image": "images/cat-prepaid.jpg",
+                        "image": "images/cat-prepaid-01.jpg",
                     },
                     {
                         "id": "prepaid-tarife-fuer-senioren",
@@ -391,7 +391,7 @@ const articles = {
                         "date": "2024-03-10",
                         "excerpt": "Spezielle Prepaid-Tarife für Senioren werden vorgestellt.",
                         "file": "prepaid-tarife-fuer-senioren.md",
-                        "image": "images/cat-prepaid.jpg",
+                        "image": "images/cat-prepaid-01.jpg",
                     },
                     {
                         "id": "prepaid-mit-unbegrenztem-datenvolumen",
@@ -444,7 +444,7 @@ const articles = {
                         "date": "2026-04-14",
                         "excerpt": "Zehn praktische Tipps, um Datenvolumen zu sparen.",
                         "file": "datenvolumen-sparen-10-praktische-tipps.md",
-                        "image": "images/cat-tips.jpg",
+                        "image": "images/cat-privacy-01.jpg",
                     },
                     {
                         "id": "smartphone-akkulaufzeit-verbessern",
@@ -452,7 +452,7 @@ const articles = {
                         "date": "2024-07-17",
                         "excerpt": "Tipps zur Verbesserung der Akkulaufzeit eines Smartphones.",
                         "file": "smartphone-akkulaufzeit-verbessern.md",
-                        "image": "images/cat-tips.jpg",
+                        "image": "images/cat-wlan-01.jpg",
                     },
                     {
                         "id": "mobile-daten-optimal-nutzen",
@@ -460,7 +460,7 @@ const articles = {
                         "date": "2024-02-27",
                         "excerpt": "Tipps zur optimalen Nutzung mobiler Daten.",
                         "file": "mobile-daten-optimal-nutzen.md",
-                        "image": "images/cat-tips.jpg",
+                        "image": "images/cat-data-01.jpg",
                     },
                     {
                         "id": "roaming-kosten-vermeiden-tipps-fuer-auslandsreisen",
@@ -468,7 +468,7 @@ const articles = {
                         "date": "2025-07-14",
                         "excerpt": "Tipps, um Roaming-Kosten im Ausland zu vermeiden.",
                         "file": "roaming-kosten-vermeiden-tipps-fuer-auslandsreisen.md",
-                        "image": "images/cat-tips.jpg",
+                        "image": "images/cat-signal-01.jpg",
                     },
                     {
                         "id": "sicheres-mobiles-surfen-vpn-fuer-smartphones",
@@ -476,7 +476,7 @@ const articles = {
                         "date": "2024-08-04",
                         "excerpt": "Ein VPN schützt beim mobilen Surfen.",
                         "file": "sicheres-mobiles-surfen-vpn-fuer-smartphones.md",
-                        "image": "images/cat-tips.jpg",
+                        "image": "images/cat-network-01.jpg",
                     },
                     {
                         "id": "wlan-netzwerk-optimieren",
@@ -484,7 +484,7 @@ const articles = {
                         "date": "2025-01-11",
                         "excerpt": "Tipps zur Optimierung des heimischen WLAN-Netzwerks.",
                         "file": "wlan-netzwerk-optimieren.md",
-                        "image": "images/cat-tips.jpg",
+                        "image": "images/cat-security-01.jpg",
                     },
                     {
                         "id": "mobilfunk-empfang-verbessern",
@@ -492,7 +492,7 @@ const articles = {
                         "date": "2024-07-07",
                         "excerpt": "Tipps zur Verbesserung des Mobilfunk-Empfangs.",
                         "file": "mobilfunk-empfang-verbessern.md",
-                        "image": "images/cat-tips.jpg",
+                        "image": "images/cat-roaming-01.jpg",
                     },
                     {
                         "id": "smartphone-speicher-richtig-nutzen",
@@ -500,7 +500,7 @@ const articles = {
                         "date": "2025-05-16",
                         "excerpt": "Tipps zur optimalen Nutzung des Smartphone-Speichers.",
                         "file": "smartphone-speicher-richtig-nutzen.md",
-                        "image": "images/cat-tips.jpg",
+                        "image": "images/cat-data-01.jpg",
                     },
                     {
                         "id": "mobile-hotspots-einrichten",
@@ -508,7 +508,7 @@ const articles = {
                         "date": "2026-01-26",
                         "excerpt": "Eine Anleitung zum Einrichten eines mobilen Hotspots.",
                         "file": "mobile-hotspots-einrichten.md",
-                        "image": "images/cat-tips.jpg",
+                        "image": "images/cat-battery-01.jpg",
                     },
                     {
                         "id": "datenschutz-auf-dem-smartphone",
@@ -516,7 +516,7 @@ const articles = {
                         "date": "2026-04-20",
                         "excerpt": "Tipps zum Schutz der Privatsphäre auf dem Smartphone.",
                         "file": "datenschutz-auf-dem-smartphone.md",
-                        "image": "images/cat-tips.jpg",
+                        "image": "images/cat-data-01.jpg",
                     }
                 ]
             }
@@ -534,7 +534,7 @@ const articles = {
                         "date": "2026-05-08",
                         "excerpt": "Suchen Sie nach einem neuen Mobilfunktarif bei O2? In diesem ausführlichen Vergleich stellen wir Ihnen die besten O2 Tarife 2026 vor.",
                         "file": "o2-tarife-2026-der-große-vergleich.md",
-                        "image": "images/cat-o2.jpg",
+                        "image": "images/cat-5g-network-01.jpg",
                     },
                     {
                         "id": "o2-5g-netz-abdeckung-und-geschwindigkeit-im-test",
@@ -555,7 +555,7 @@ const articles = {
                         "date": "2026-05-08",
                         "excerpt": "blau Mobilfunk bietet faire Prepaid-Tarife im starken O2-Netz. In diesem Test zeigen wir, ob sich blau lohnt.",
                         "file": "blau-mobilfunk-günstige-tarife-im-o2-netz.md",
-                        "image": "images/cat-blau.jpg",
+                        "image": "images/cat-blau-01.jpg",
                     },
                     {
                         "id": "blau-prepaid-tarife-im-detail-test",
@@ -563,7 +563,7 @@ const articles = {
                         "date": "2026-05-08",
                         "excerpt": "blau Prepaid-Tarife sind bekannt für ihre Transparenz und Fairness. Wir prüfen alle blau Prepaid-Tarife im O2-Netz.",
                         "file": "blau-prepaid-tarife-im-detail-test.md",
-                        "image": "images/cat-blau.jpg",
+                        "image": "images/cat-o2.jpg",
                     }
                 ]
             },
@@ -576,7 +576,7 @@ const articles = {
                         "date": "2026-05-08",
                         "excerpt": "Vodafone ist einer der größten Mobilfunkanbieter in Deutschland. Wir vergleichen die besten Vodafone Tarife 2026.",
                         "file": "vodafone-tarife-2026-welcher-ist-der-richtige.md",
-                        "image": "images/cat-vodafone.jpg",
+                        "image": "images/cat-network-01.jpg",
                     },
                     {
                         "id": "vodafone-5g-das-leistet-das-netz-wirklich",
@@ -605,7 +605,7 @@ const articles = {
                         "date": "2026-05-08",
                         "excerpt": "freenet Funk bietet innovative Prepaid-Tarife im O2-Netz ohne langfristige Vertragsbindung.",
                         "file": "freenet-funk-flexibel-telefonieren-ohne-vertrag.md",
-                        "image": "images/cat-freenet.jpg",
+                        "image": "images/cat-network-01.jpg",
                     },
                     {
                         "id": "freenet-5g-highspeed-internet-unterwegs",
@@ -621,7 +621,7 @@ const articles = {
                         "date": "2026-05-08",
                         "excerpt": "congstar bietet faire Preise für das qualitativ hochwertige Telekom-Netz. Lohnt sich congstar?",
                         "file": "congstar-günstig-telefonieren-im-telekom-netz.md",
-                        "image": "images/cat-congstar.jpg",
+                        "image": "images/cat-telekom.jpg",
                     },
                     {
                         "id": "congstar-prepaid-die-besten-tarife-im-ueberblick",
