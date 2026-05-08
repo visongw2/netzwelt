@@ -521,6 +521,127 @@ const articles = {
                 ]
             }
         }
+    },
+    "anbieter": {
+        "name": "Anbieter & Tarife",
+        "subcategories": {
+            "o2": {
+                "name": "O2 Tarife & Netz",
+                "articles": [
+                    {
+                        "id": "o2-tarife-2026-der-grosse-vergleich",
+                        "title": "O2 Tarife 2026: Der große Vergleich",
+                        "date": "2026-05-08",
+                        "excerpt": "Suchen Sie nach einem neuen Mobilfunktarif bei O2? In diesem ausführlichen Vergleich stellen wir Ihnen die besten O2 Tarife 2026 vor.",
+                        "file": "o2-tarife-2026-der-große-vergleich.md",
+                        "image": "https://picsum.photos/400/300?random=3301"
+                    },
+                    {
+                        "id": "o2-5g-netz-abdeckung-und-geschwindigkeit-im-test",
+                        "title": "O2 5G Netz: Abdeckung und Geschwindigkeit im Test",
+                        "date": "2026-05-08",
+                        "excerpt": "O2 hat in den letzten Jahren massiv in den 5G-Ausbau investiert. Wir testen die O2 5G-Abdeckung und messen die Geschwindigkeiten.",
+                        "file": "o2-5g-netz-abdeckung-und-geschwindigkeit-im-test.md",
+                        "image": "https://picsum.photos/400/300?random=3302"
+                    }
+                ]
+            },
+            "blau": {
+                "name": "blau Mobilfunk",
+                "articles": [
+                    {
+                        "id": "blau-mobilfunk-guenstige-tarife-im-o2-netz",
+                        "title": "blau Mobilfunk: Günstige Tarife im O2-Netz",
+                        "date": "2026-05-08",
+                        "excerpt": "blau Mobilfunk bietet faire Prepaid-Tarife im starken O2-Netz. In diesem Test zeigen wir, ob sich blau lohnt.",
+                        "file": "blau-mobilfunk-günstige-tarife-im-o2-netz.md",
+                        "image": "https://picsum.photos/400/300?random=3303"
+                    },
+                    {
+                        "id": "blau-prepaid-tarife-im-detail-test",
+                        "title": "blau Prepaid Tarife im Detail-Test",
+                        "date": "2026-05-08",
+                        "excerpt": "blau Prepaid-Tarife sind bekannt für ihre Transparenz und Fairness. Wir prüfen alle blau Prepaid-Tarife im O2-Netz.",
+                        "file": "blau-prepaid-tarife-im-detail-test.md",
+                        "image": "https://picsum.photos/400/300?random=3304"
+                    }
+                ]
+            },
+            "vodafone": {
+                "name": "Vodafone",
+                "articles": [
+                    {
+                        "id": "vodafone-tarife-2026-welcher-ist-der-richtige",
+                        "title": "Vodafone Tarife 2026: Welcher ist der Richtige?",
+                        "date": "2026-05-08",
+                        "excerpt": "Vodafone ist einer der größten Mobilfunkanbieter in Deutschland. Wir vergleichen die besten Vodafone Tarife 2026.",
+                        "file": "vodafone-tarife-2026-welcher-ist-der-richtige.md",
+                        "image": "https://picsum.photos/400/300?random=3305"
+                    },
+                    {
+                        "id": "vodafone-5g-das-leistet-das-netz-wirklich",
+                        "title": "Vodafone 5G: Das leistet das Netz wirklich",
+                        "date": "2026-05-08",
+                        "excerpt": "Vodafone hat massiv in den 5G-Ausbau investiert. Wir testen das Vodafone 5G-Netz und zeigen, wie schnell es wirklich ist.",
+                        "file": "vodafone-5g-das-leistet-das-netz-wirklich.md",
+                        "image": "https://picsum.photos/400/300?random=3306"
+                    }
+                ]
+            },
+            "weitere": {
+                "name": "Weitere Anbieter",
+                "articles": [
+                    {
+                        "id": "otelo-guenstige-allnet-flat-im-o2-netz",
+                        "title": "otelo: Günstige Allnet-Flat im O2-Netz",
+                        "date": "2026-05-08",
+                        "excerpt": "otelo bietet attraktive Tarife ohne versteckte Kosten im O2-Netz. Wir testen, ob sich otelo lohnt.",
+                        "file": "otelo-günstige-allnet-flat-im-o2-netz.md",
+                        "image": "https://picsum.photos/400/300?random=3307"
+                    },
+                    {
+                        "id": "freenet-funk-flexibel-telefonieren-ohne-vertrag",
+                        "title": "freenet Funk: Flexibel telefonieren ohne Vertrag",
+                        "date": "2026-05-08",
+                        "excerpt": "freenet Funk bietet innovative Prepaid-Tarife im O2-Netz ohne langfristige Vertragsbindung.",
+                        "file": "freenet-funk-flexibel-telefonieren-ohne-vertrag.md",
+                        "image": "https://picsum.photos/400/300?random=3308"
+                    },
+                    {
+                        "id": "freenet-5g-highspeed-internet-unterwegs",
+                        "title": "freenet 5G: Highspeed-Internet unterwegs",
+                        "date": "2026-05-08",
+                        "excerpt": "Mit freenet 5G Highspeed-Internet unterwegs nutzen – welche Tarife sind verfügbar und wie schnell sind sie?",
+                        "file": "freenet-5g-highspeed-internet-unterwegs.md",
+                        "image": "https://picsum.photos/400/300?random=3309"
+                    },
+                    {
+                        "id": "congstar-guenstig-telefonieren-im-telekom-netz",
+                        "title": "congstar: Günstig telefonieren im Telekom-Netz",
+                        "date": "2026-05-08",
+                        "excerpt": "congstar bietet faire Preise für das qualitativ hochwertige Telekom-Netz. Lohnt sich congstar?",
+                        "file": "congstar-günstig-telefonieren-im-telekom-netz.md",
+                        "image": "https://picsum.photos/400/300?random=3310"
+                    },
+                    {
+                        "id": "congstar-prepaid-die-besten-tarife-im-ueberblick",
+                        "title": "congstar Prepaid: Die besten Tarife im Überblick",
+                        "date": "2026-05-08",
+                        "excerpt": "congstar Prepaid bietet flexible Tarife im Telekom-Netz ohne langfristige Vertragsbindung.",
+                        "file": "congstar-prepaid-die-besten-tarife-im-überblick.md",
+                        "image": "https://picsum.photos/400/300?random=3311"
+                    },
+                    {
+                        "id": "klarmobil-transparente-tarife-im-o2-netz",
+                        "title": "klarmobil: Transparente Tarife im O2-Netz",
+                        "date": "2026-05-08",
+                        "excerpt": "klarmobil bietet klare Preise ohne versteckte Kosten im O2-Netz. Wir testen alle verfügbaren Tarife.",
+                        "file": "klarmobil-transparente-tarife-im-o2-netz.md",
+                        "image": "https://picsum.photos/400/300?random=3312"
+                    }
+                ]
+            }
+        }
     }
 };
 
