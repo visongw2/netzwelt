@@ -54,6 +54,12 @@ def generate_article_js(articles_dict):
         
         if file_name in articles_dict:
             content_text = escape_js_string(articles_dict[file_name])
+            # 检查是否已经有 content 字段，避免重复添加
+            remaining = match.string[match.end():]
+            # 检查后面是否已经有 "content" 字段
+            if '"content"' in remaining[:200]:  # 在接下来一小段文本中检查
+                print(f"  ⏭️  跳过（已有content）: {file_name}")
+                return match.group(0)
             return f'"file": "{file_path}",\n                        "content": "{content_text}",'
         else:
             print(f"  ⚠️  未找到对应的 markdown 文件: {file_name}")
