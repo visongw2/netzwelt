@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Test</title>
+    <!-- Google SEO: 地区定向 - 告诉 Google 这是德语/德国内容 -->
+    <link rel="alternate" hreflang="de" href="https://netzpul.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://netzpul.com/" />
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5M0SGMDNQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D5M0SGMDNQ');
+    </script>
+  </head>
+<body>
+    <h1>JavaScript Loading Test</h1>
+    <div id="test1"><p>Test 1: Inline script</p></div>
+    <div id="test2"><p>Test 2: External script</p></div>
+    <div id="test3"><p>Test 3: Article data</p></div>
+    
+    <script>
+        // Test 1: Inline script
+        document.getElementById('test1').innerHTML = '<p style="color:green;">✓ Inline JavaScript is working!</p>';
+    </script>
+    
+    <script src="js/main-simple.js"></script>
+</body>
+</html>

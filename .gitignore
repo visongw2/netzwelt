@@ -1,0 +1,15 @@
+# 排除的文件和目录
+*.zip
+*备份*.md
+*说明.md
+*.png
+netzpul-运营计划书.md
+conversation-summary.md
+SEO-VERIFICATION-CHECKLIST.md
+.deploy*.bat
+update-*.bat
+update-*.ps1
+*.py
+test-*.html
+.codebuddy/
+.workbuddy/

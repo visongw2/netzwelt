@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Debug - Step by Step</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f0f0f0; }
+        .step { background: white; padding: 20px; margin: 10px 0; border-left: 4px solid #002D6D; }
+        .success { color: green; }
+        .error { color: red; }
+        .article { border: 1px solid #ddd; padding: 15px; margin: 10px 0; background: white; }
+    </style>
+    <!-- Google SEO: 地区定向 - 告诉 Google 这是德语/德国内容 -->
+    <link rel="alternate" hreflang="de" href="https://netzpul.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://netzpul.com/" />
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5M0SGMDNQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D5M0SGMDNQ');
+    </script>
+  </head>
+<body>
+    <h1>🔍 JavaScript Debug - Step by Step</h1>
+    
+    <div class="step">
+        <h2>Step 1: Basic HTML</h2>
+        <p class="success">✓ If you can see this, basic HTML is working!</p>
+    </div>
+    
+    <div class="step">
+        <h2>Step 2: Inline JavaScript Test</h2>
+        <p id="js-test">JavaScript NOT working</p>
+        <script>
+            document.getElementById('js-test').innerHTML = '<span class="success">✓ Inline JavaScript IS working!</span>';
+        </script>
+    </div>
+    
+    <div class="step">
+        <h2>Step 3: External JavaScript File Load Test</h2>
+        <p id="external-test">Loading external JS...</p>
+        <script src="js/main-simple-test.js"></script>
+    </div>
+    
+    <div class="step">
+        <h2>Step 4: Hardcoded Article (No JavaScript)</h2>
+        <div class="article">
+            <h3>Test Article (Static HTML)</h3>
+            <p><strong>Date:</strong> 2026-01-15</p>
+            <p>This is a test article hardcoded in HTML (no JavaScript needed).</p>
+            <p><strong>If you can see this, CSS and HTML are working!</strong></p>
+        </div>
+    </div>
+    
+    <div class="step">
+        <h2>Step 5: Article Data Test</h2>
+        <div id="data-test">Testing article data...</div>
+        <script>
+            try {
+                // Try to create test data
+                var testData = {
+                    "telekom": {
+                        "subcategories": {
+                            "news": {
+                                "articles": [
+                                    { "id": "test-1", "title": "Test Article", "date": "2026-01-01" }
+                                ]
+                            }
+                        }
+                    }
+                };
+                document.getElementById('data-test').innerHTML = '<span class="success">✓ Article data creation works!</span><br>Found ' + testData['telekom'].subcategories['news'].articles.length + ' test article(s)';
+            } catch(e) {
+                document.getElementById('data-test').innerHTML = '<span class="error">✗ Error: ' + e.message + '</span>';
+            }
+        </script>
+    </div>
+    
+    <div class="step">
+        <h2>Step 6: DOM Manipulation Test</h2>
+        <div id="dom-test">Testing DOM manipulation...</div>
+        <script>
+            try {
+                var domTest = document.getElementById('dom-test');
+                if (domTest) {
+                    domTest.innerHTML = '<span class="success">✓ DOM manipulation works!</span><br>You can dynamically update HTML content.';
+                } else {
+                    document.getElementById('dom-test').innerHTML = '<span class="error">✗ Could not find DOM element</span>';
+                }
+            } catch(e) {
+                document.getElementById('dom-test').innerHTML = '<span class="error">✗ Error: ' + e.message + '</span>';
+            }
+        </script>
+    </div>
+    
+    <hr>
+    <p><strong>Next Steps:</strong></p>
+    <ol>
+        <li>If all steps show ✓ (success), then JavaScript IS working and the issue is somewhere else.</li>
+        <li>If any step shows ✗ (error), that tells us where the problem is.</li>
+        <li>Open Browser Developer Tools (F12) and check the <strong>Console</strong> tab for any error messages.</li>
+    </ol>
+</body>
+</html>

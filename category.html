@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kategorie – netzpul</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="alternate" hreflang="de" href="https://netzpul.com/category.html" />
+    <link rel="alternate" hreflang="x-default" href="https://netzpul.com/category.html" />
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5M0SGMDNQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D5M0SGMDNQ');
+    </script>
+  </head>
+<body>
+    <!-- Header with Category Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                    <a href="index.html">
+                        <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="18" y1="32" x2="18" y2="14" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+                            <line x1="13" y1="18" x2="23" y2="18" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+                            <line x1="18" y1="32" x2="12" y2="32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="18" y1="32" x2="24" y2="32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M12 11 Q10 13.5 12 16" stroke="#E20074" stroke-width="2" stroke-linecap="round" fill="none"/>
+                            <path d="M9 8.5 Q5.5 13 9 17.5" stroke="#E20074" stroke-width="1.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+                            <path d="M24 11 Q26 13.5 24 16" stroke="#E20074" stroke-width="2" stroke-linecap="round" fill="none"/>
+                            <path d="M27 8.5 Q30.5 13 27 17.5" stroke="#E20074" stroke-width="1.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+                            <circle cx="18" cy="12.5" r="1.8" fill="#E20074"/>
+                        </svg>
+                        <div class="logo-text">
+                            <span class="logo-title">netz<span>pul</span></span>
+                            <span class="logo-subtitle">5G · eSIM · Mobilfunk</span>
+                        </div>
+                    </a>
+            </div>
+            
+            <!-- Main Category Navigation -->
+            <nav class="main-nav">
+                <ul>
+                    <li class="category-item" data-category="telekom">
+                        <a href="#telekom">Telekom & Netz <i class="fas fa-chevron-down"></i></a>
+                        <div class="subcategory-dropdown">
+                            <a href="category.html?cat=telekom&sub=news" data-sub="news">📰 Telekom Neuigkeiten</a>
+                            <a href="category.html?cat=telekom&sub=technology" data-sub="technology">🔧 Netztechnologie</a>
+                            <a href="category.html?cat=telekom&sub=tarife" data-sub="tarife">💰 Tarife & Preise</a>
+                        </div>
+                    </li>
+                    <li class="category-item" data-category="mobilfunk">
+                        <a href="#mobilfunk">Mobilfunk & SIM <i class="fas fa-chevron-down"></i></a>
+                        <div class="subcategory-dropdown">
+                            <a href="category.html?cat=mobilfunk&sub=sim-types" data-sub="sim-types">📱 SIM-Karten Typen</a>
+                            <a href="category.html?cat=mobilfunk&sub=prepaid" data-sub="prepaid">💳 Prepaid & Verträge</a>
+                            <a href="category.html?cat=mobilfunk&sub=tips" data-sub="tips">💡 Nutzungstipps</a>
+                        </div>
+                    </li>
+                    <li><a href="about.html">Über mich</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Category Header -->
+    <section class="category-header">
+        <div class="container">
+            <h1 id="categoryTitle">Kategorie</h1>
+            <div class="subcategory-tabs" id="subcategoryTabs">
+                <!-- Subcategory tabs will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles List -->
+    <main class="main">
+        <div class="container">
+            <div class="articles-list" id="articlesList">
+                <!-- Articles will be loaded here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Enhanced Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-home"></i> Startseite</a></li>
+                        <li><a href="category.html?cat=telekom"><i class="fas fa-broadcast-tower"></i> Telekom & Netz</a></li>
+                        <li><a href="category.html?cat=mobilfunk"><i class="fas fa-sim-card"></i> Mobilfunk & SIM</a></li>
+                        <li><a href="about.html"><i class="fas fa-user"></i> Über mich</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Rechtliches</h3>
+                    <ul>
+                        <li><a href="impressum.html"><i class="fas fa-gavel"></i> Impressum</a></li>
+                        <li><a href="datenschutz.html"><i class="fas fa-shield-alt"></i> Datenschutz</a></li>
+                        <li><a href="agb.html"><i class="fas fa-file-contract"></i> AGB</a></li>
+                        <li><a href="cookie-richtlinie.html"><i class="fas fa-cookie"></i> Cookie-Richtlinie</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kategorien</h3>
+                    <ul>
+                        <li><a href="category.html?cat=telekom&sub=news"><i class="fas fa-newspaper"></i> Telekom Neuigkeiten</a></li>
+                        <li><a href="category.html?cat=telekom&sub=technology"><i class="fas fa-cogs"></i> Netztechnologie</a></li>
+                        <li><a href="category.html?cat=mobilfunk&sub=sim-types"><i class="fas fa-mobile-alt"></i> SIM-Karten Typen</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontakt & Info</h3>
+                    <ul>
+                        <li><a href="kontakt.html"><i class="fas fa-envelope"></i> Kontakt</a></li>
+                        <li><a href="rss.xml"><i class="fas fa-rss"></i> RSS Feed</a></li>
+                        <li><a href="sitemap.xml"><i class="fas fa-sitemap"></i> Sitemap</a></li>
+                        <li><a href="faq.html"><i class="fas fa-question-circle"></i> FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <nav class="footer-nav">
+                    <a href="index.html">Startseite</a>
+                    <a href="impressum.html">Impressum</a>
+                    <a href="datenschutz.html">Datenschutz</a>
+                    <a href="about.html">Über mich</a>
+                    <a href="category.html?cat=telekom">Telekom</a>
+                    <a href="category.html?cat=mobilfunk">Mobilfunk</a>
+                    <a href="kontakt.html">Kontakt</a>
+                </nav>
+                <p>&copy; 2026 netzpul. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/category.js"></script>
+</body>
+</html>

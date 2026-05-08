@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel - Test Seite</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        h1 { color: #333; margin-bottom: 10px; }
+        .meta { color: #666; font-size: 14px; margin-bottom: 20px; }
+        .category-badge { display: inline-block; background: #007bff; color: white; padding: 4px 12px; border-radius: 4px; font-size: 12px; margin-bottom: 10px; }
+        .article-image { width: 100%; height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0; }
+        .excerpt { font-size: 18px; color: #555; margin: 20px 0; padding: 15px; background: #f8f9fa; border-left: 4px solid #007bff; }
+        .content { line-height: 1.8; color: #333; }
+        .content h2 { margin: 20px 0 10px 0; color: #333; }
+        .content p { margin-bottom: 15px; }
+        .content code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 14px; }
+        .content pre { background: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto; margin: 15px 0; }
+        .back-link { margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; }
+        .back-link a { color: #007bff; text-decoration: none; }
+        .error { background: #f8d7da; color: #721c24; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .debug { background: #d1ecf1; color: #0c5460; padding: 15px; border-radius: 5px; margin: 20px 0; font-size: 14px; }
+    </style>
+    <link rel="alternate" hreflang="de" href="https://netzpul.com/article.html" />
+    <link rel="alternate" hreflang="x-default" href="https://netzpul.com/article.html" />
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5M0SGMDNQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D5M0SGMDNQ');
+    </script>
+  </head>
+<body>
+    <div class="container">
+        <div id="articleContent"></div>
+        <div class="back-link">
+            <a href="index.html">← Zurück zur Übersicht</a>
+        </div>
+    </div>
+
+    <script>
+        // 内联完整功能，无外部依赖
+        
+        // 测试文章数据
+        const testArticle = {
+            id: "test-artikel",
+            title: "Test Artikel - Article Detail Page Funktionstest",
+            date: "2026-05-02",
+            excerpt: "Dies ist eine Test-Seite zur Überprüfung, ob die Artikel-Detailseite korrekt funktioniert.",
+            image: "https://picsum.photos/800/300?random=9999",
+            file: "test.md"
+        };
+
+        // 模拟Markdown内容
+        const testMarkdown = `
+# Test Artikel
+
+## Einleitung
+
+Dies ist ein **Test-Artikel** zur Überprüfung der Artikel-Detailseite. Wenn Sie diesen Text sehen, funktioniert die Markdown-Rendering-Funktion korrekt.
+
+## Features
+
+- ✅ Titel wird angezeigt
+- ✅ Datum wird angezeigt
+- ✅ Bild wird geladen
+- ✅ Markdown wird gerendert
+- ✅ Kategorie-Badge wird angezeigt
+
+## Code Beispiel
+
+\`\`\`javascript
+function loadArticle() {
+    const articleId = getUrlParameter('id');
+    console.log('Loading article:', articleId);
+}
+\`\`\`
+
+## Fazit
+
+Wenn alle Punkte oben angezeigt werden, ist die Artikel-Detailseite erfolgreich repariert worden.
+
+**Datum:** 2026-05-02  
+**Kategorie:** Test  
+**Autor:** System
+        `;
+
+        // 渲染文章
+        function renderArticle() {
+            const container = document.getElementById('articleContent');
+            
+            let html = '';
+            html += '<div class="category-badge">Test Kategorie</div>';
+            html += '<h1>' + testArticle.title + '</h1>';
+            html += '<div class="meta">Veröffentlicht am ' + testArticle.date + '</div>';
+            
+            if (testArticle.image) {
+                html += '<img class="article-image" src="' + testArticle.image + '" alt="' + testArticle.title + '">';
+            }
+            
+            html += '<div class="excerpt">' + testArticle.excerpt + '</div>';
+            html += '<div class="content" id="articleContentBody">Markdown wird geladen...</div>';
+            
+            container.innerHTML = html;
+            
+            // 模拟Markdown渲染
+            setTimeout(function() {
+                const contentDiv = document.getElementById('articleContentBody');
+                if (contentDiv) {
+                    // 简单渲染（实际应使用marked.js）
+                    let rendered = testMarkdown
+                        .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+                        .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+                        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                        .replace(/- (.+)$/gm, '<li>$1</li>')
+                        .replace(/`(.+?)`/g, '<code>$1</code>')
+                        .replace(/\n\n/g, '</p><p>')
+                        .replace(/^/, '<p>')
+                        .replace(/$/, '</p>');
+                    contentDiv.innerHTML = rendered;
+                }
+            }, 500);
+        }
+
+        // 页面加载后执行
+        document.addEventListener('DOMContentLoaded', function() {
+            renderArticle();
+            
+            // 调试信息
+            const debugDiv = document.createElement('div');
+            debugDiv.className = 'debug';
+            debugDiv.innerHTML = '<strong>Debug-Informationen:</strong><br>' +
+                '✅ Test-Seite成功加载<br>' +
+                '✅ JavaScript 正常执行<br>' +
+                '✅ DOMContentLoaded 事件触发<br>' +
+                '✅ 文章内容已渲染<br><br>' +
+                '<strong>Nächste Schritte:</strong><br>' +
+                '1. 在浏览器中打开 <code>article.html?id=telekom-artikel-1</code><br>' +
+                '2. 按 F12 打开开发者工具<br>' +
+                '3. 查看 Console 标签页是否有错误<br>' +
+                '4. 查看 Network 标签页确认 JS 和 MD 文件是否成功加载';
+            document.querySelector('.container').appendChild(debugDiv);
+        });
+    </script>
+</body>
+</html>

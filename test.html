@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Deutsche Telekom & Mobilfunk Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google SEO: 地区定向 - 告诉 Google 这是德语/德国内容 -->
+    <link rel="alternate" hreflang="de" href="https://netzpul.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://netzpul.com/" />
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5M0SGMDNQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D5M0SGMDNQ');
+    </script>
+  </head>
+<body>
+    <h1>Test Page - Articles Rendering</h1>
+    
+    <div id="telekomArticles">
+        <p>Loading Telekom articles...</p>
+    </div>
+    
+    <div id="mobilfunkArticles">
+        <p>Loading Mobilfunk articles...</p>
+    </div>
+    
+    <div id="debug" style="background:#f0f0f0; padding:20px; margin:20px; border:1px solid #ccc;">
+        <h3>Debug Info:</h3>
+        <div id="debugOutput"></div>
+    </div>
+
+    <script>
+        // Inline test JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            var debugDiv = document.getElementById('debugOutput');
+            debugDiv.innerHTML += '<p>DOM Content Loaded</p>';
+            
+            // Test data
+            var testArticles = [
+                { id: 'test-1', title: 'Test Article 1', date: '2026-01-01', excerpt: 'This is test article 1', image: 'https://picsum.photos/400/300?random=1' },
+                { id: 'test-2', title: 'Test Article 2', date: '2026-01-02', excerpt: 'This is test article 2', image: 'https://picsum.photos/400/300?random=2' }
+            ];
+            
+            debugDiv.innerHTML += '<p>Test articles created: ' + testArticles.length + '</p>';
+            
+            // Try to render
+            var container = document.getElementById('telekomArticles');
+            if (container) {
+                debugDiv.innerHTML += '<p>Found telekomArticles container</p>';
+                
+                var html = '';
+                for (var i = 0; i < testArticles.length; i++) {
+                    var article = testArticles[i];
+                    html += '<div class="article-card">';
+                    html += '<img class="article-card-image" src="' + article.image + '" alt="' + article.title + '">';
+                    html += '<div class="article-card-content">';
+                    html += '<h3><a href="#">' + article.title + '</a></h3>';
+                    html += '<p>' + article.excerpt + '</p>';
+                    html += '</div></div>';
+                }
+                
+                container.innerHTML = html;
+                debugDiv.innerHTML += '<p>Rendered ' + testArticles.length + ' test articles</p>';
+            } else {
+                debugDiv.innerHTML += '<p style="color:red;">ERROR: telekomArticles container not found!</p>';
+            }
+        });
+    </script>
+</body>
+</html>
