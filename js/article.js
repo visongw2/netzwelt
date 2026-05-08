@@ -45,7 +45,8 @@ const articlesData = {
                         "title": "5G Netzwerk-Optimierung 2026: Praktische Tipps",
                         "date": "2026-05-08",
                         "excerpt": "2026年最新5G网络优化技巧，帮助您提升网络速度和稳定性。包含设置建议和故障排除。",
-                        "file": "5g-netzwerk-optimierung-2026.md"
+                        "file": "5g-netzwerk-optimierung-2026.md",
+                        "image": "images/cat-5g-network-02.jpg"
                     },
                     {
                         "id": "5g-sa-standalone-architektur-bei-telekom",
@@ -123,7 +124,8 @@ const articlesData = {
                         "title": "eSIM komplettGuide 2026: Alles was Sie wissen müssen",
                         "date": "2026-05-08",
                         "excerpt": "eSIM komplettGuide 2026: Alles über eSIM-Technologie, Aktivierungsmethoden, Vergleich mit physischen SIMs und Zukunftstrends.",
-                        "file": "esim-komplettguide-2026.md"
+                        "file": "esim-komplettguide-2026.md",
+                        "image": "images/cat-esim-new-01.jpg"
                     },
                     {
                         "id": "esim-so-aktivieren-sie-die-elektronische-sim-karte",
@@ -137,7 +139,8 @@ const articlesData = {
                         "title": "eSIM vs. Physikalische SIM: Was ist besser?",
                         "date": "2025-03-10",
                         "excerpt": "Der große Vergleich zwischen moderner eSIM-Technologie und traditionellen SIM-Karten.",
-                        "file": "esim-vs-physikalische-sim.md"
+                        "file": "esim-vs-physikalische-sim.md",
+                        "image": "images/cat-esim-01.jpg"
                     },
                     {
                         "id": "isim-vs-esim-was-ist-der-unterschied",
