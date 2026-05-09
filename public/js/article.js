@@ -1,6 +1,6 @@
 // Article Detail Page JavaScript
 // Articles data (same structure as in main.js)
-const articles = {
+const articlesData = {
     "telekom": {
         "name": "Telekom & Netz",
         "subcategories": {
@@ -643,62 +643,6 @@ const articles = {
         }
     }
 };
-
-// Function to render articles for a category
-function renderArticles(categoryId, containerId, limit) {
-    try {
-        var container = document.getElementById(containerId);
-        if (!container) {
-            console.error('Container not found:', containerId);
-            return;
-        }
-        
-        var category = articles[categoryId];
-        if (!category) {
-            console.error('Category not found:', categoryId);
-            return;
-        }
-        
-        // Get all articles from all subcategories
-        var allArticles = [];
-        for (var subKey in category.subcategories) {
-            allArticles = allArticles.concat(category.subcategories[subKey].articles);
-        }
-        
-        // Limit number of articles
-        if (limit) {
-            allArticles = allArticles.slice(0, limit);
-        }
-        
-        // Render articles
-        var html = '';
-        for (var i = 0; i < allArticles.length; i++) {
-            var article = allArticles[i];
-            html += '<div class="article-card">';
-            html += '<img class="article-card-image" src="' + article.image + '" alt="' + article.title + '" loading="lazy">';
-            html += '<div class="article-card-content">';
-            html += '<span class="meta">' + article.date + '</span>';
-            html += '<h3><a href="article.html?id=' + article.id + '">' + article.title + '</a></h3>';
-            html += '<p class="excerpt">' + article.excerpt + '</p>';
-            html += '<a href="article.html?id=' + article.id + '" class="read-more">Weiterlesen →</a>';
-            html += '</div></div>';
-        }
-        
-        container.innerHTML = html;
-        console.log('Articles rendered for', categoryId, ':', allArticles.length);
-    } catch (e) {
-        console.error('Error rendering articles:', e);
-    }
-}
-
-// Initialize homepage
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM loaded, rendering articles...');
-    renderArticles('telekom', 'telekomArticles', 6);
-    renderArticles('mobilfunk', 'mobilfunkArticles', 6);
-    renderArticles('anbieter', 'anbieterArticles', 6);
-});
-;
 
 // ===== 以下是新增的渲染逻辑 =====
 
