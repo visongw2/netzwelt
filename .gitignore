@@ -17,6 +17,7 @@ backup_restore/
 blog/
 articles/
 articles-html/
+!public/articles/
 __pycache__/
 
 # 关键：排除 .git 目录，防止 Wrangler 部署时出错
