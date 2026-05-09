@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://netzpul.com/sitemap.xml
+Sitemap: https://netzpul.com/sitemap.html
+
+# German telecom & mobile content
+# Optimized for Google.de

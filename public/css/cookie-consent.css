@@ -1,0 +1,137 @@
+/*
+ * Cookie Consent Banner - GDPR Compliant
+ * German language design
+ */
+
+#cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 999999;
+    padding: 20px;
+    display: none; /* Hidden by default, shown by JS */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.cookie-banner-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cookie-banner-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.cookie-banner-text h3 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+
+.cookie-banner-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.cookie-banner-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.cookie-banner-text a:hover {
+    text-decoration: underline;
+}
+
+.cookie-banner-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cookie-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.cookie-btn-accept {
+    background: #007bff;
+    color: white;
+}
+
+.cookie-btn-accept:hover {
+    background: #0056b3;
+}
+
+.cookie-btn-decline {
+    background: #6c757d;
+    color: white;
+}
+
+.cookie-btn-decline:hover {
+    background: #545b62;
+}
+
+.cookie-btn-settings {
+    background: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.cookie-btn-settings:hover {
+    background: #007bff;
+    color: white;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .cookie-banner-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .cookie-banner-text {
+        min-width: 100%;
+    }
+    
+    .cookie-banner-buttons {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .cookie-btn {
+        flex: 1;
+        min-width: 120px;
+    }
+}
+
+/* Animation */
+#cookie-banner {
+    animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

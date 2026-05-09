@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Seite nicht gefunden | netzpul</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="alternate" hreflang="de" href="https://netzpul.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://netzpul.com/" />
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5M0SGMDNQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D5M0SGMDNQ');
+    </script>
+    <style>
+        .error-container {
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        .error-code {
+            font-size: 120px;
+            font-weight: 800;
+            color: var(--color-text-tertiary, #ccc);
+            margin: 0;
+            line-height: 1;
+        }
+        .error-title {
+            font-size: 28px;
+            color: var(--color-text-primary, #333);
+            margin: 1rem 0;
+        }
+        .error-desc {
+            font-size: 16px;
+            color: var(--color-text-secondary, #666);
+            max-width: 500px;
+            margin-bottom: 2rem;
+        }
+        .error-actions {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .btn-home {
+            background: var(--color-accent-primary, #E20074);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .btn-contact {
+            background: transparent;
+            color: var(--color-text-primary, #333);
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            border: 1px solid var(--color-border-secondary, #ddd);
+        }
+        .popular-links {
+            margin-top: 3rem;
+            text-align: left;
+            max-width: 500px;
+        }
+        .popular-links h3 {
+            font-size: 18px;
+            margin-bottom: 1rem;
+        }
+        .popular-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        .popular-links li {
+            padding: 8px 0;
+            border-bottom: 1px solid var(--color-border-tertiary, #eee);
+        }
+        .popular-links a {
+            color: var(--color-accent-primary, #E20074);
+            text-decoration: none;
+        }
+    </style>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=2">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="18" y1="32" x2="18" y2="14" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+                        <line x1="13" y1="18" x2="23" y2="18" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+                        <line x1="18" y1="32" x2="12" y2="32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="18" y1="32" x2="24" y2="32" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M12 11 Q10 13.5 12 16" stroke="#E20074" stroke-width="2" stroke-linecap="round" fill="none"/>
+                        <path d="M9 8.5 Q5.5 13 9 17.5" stroke="#E20074" stroke-width="1.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+                        <path d="M24 11 Q26 13.5 24 16" stroke="#E20074" stroke-width="2" stroke-linecap="round" fill="none"/>
+                        <path d="M27 8.5 Q30.5 13 27 17.5" stroke="#E20074" stroke-width="1.7" stroke-linecap="round" fill="none" opacity="0.75"/>
+                        <circle cx="18" cy="12.5" r="1.8" fill="#E20074"/>
+                    </svg>
+                    <div class="logo-text">
+                        <span class="logo-title">netz<span>pul</span></span>
+                        <span class="logo-subtitle">5G · eSIM · Mobilfunk</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 404 Content -->
+    <main class="main">
+        <div class="error-container">
+            <h1 class="error-code">404</h1>
+            <h2 class="error-title">Ups! Seite nicht gefunden</h2>
+            <p class="error-desc">
+                Die von Ihnen gesuchte Seite existiert nicht oder wurde verschoben. 
+                Kehren Sie zur Startseite zurück oder nutzen Sie die Navigation.
+            </p>
+            <div class="error-actions">
+                <a href="index.html" class="btn-home">
+                    <i class="fas fa-home"></i> Zur Startseite
+                </a>
+                <a href="kontakt.html" class="btn-contact">
+                    <i class="fas fa-envelope"></i> Kontakt aufnehmen
+                </a>
+            </div>
+
+            <div class="popular-links">
+                <h3>Beliebte Seiten</h3>
+                <ul>
+                    <li><a href="index.html">🏠 Startseite</a></li>
+                    <li><a href="category.html?cat=telekom">📡 Telekom & Netz</a></li>
+                    <li><a href="category.html?cat=mobilfunk">📱 Mobilfunk & SIM</a></li>
+                    <li><a href="about.html">ℹ️ Über mich</a></li>
+                    <li><a href="kontakt.html">📧 Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-home"></i> Startseite</a></li>
+                        <li><a href="category.html?cat=telekom"><i class="fas fa-broadcast-tower"></i> Telekom & Netz</a></li>
+                        <li><a href="category.html?cat=mobilfunk"><i class="fas fa-sim-card"></i> Mobilfunk & SIM</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Rechtliches</h3>
+                    <ul>
+                        <li><a href="impressum.html">Impressum</a></li>
+                        <li><a href="datenschutz.html">Datenschutz</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 netzpul. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
