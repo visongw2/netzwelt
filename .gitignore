@@ -13,3 +13,15 @@ update-*.ps1
 test-*.html
 .codebuddy/
 .workbuddy/
+backup_restore/
+blog/
+articles/
+articles-html/
+__pycache__/
+
+# 关键：排除 .git 目录，防止 Wrangler 部署时出错
+.git/
+
+# 排除 Wrangler 配置文件（如果存在）
+wrangler.jsonc
+wrangler.toml
