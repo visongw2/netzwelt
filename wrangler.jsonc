@@ -3,7 +3,9 @@
   "name": "netzpul",
   "compatibility_date": "2026-05-09",
   "assets": {
-    "directory": "./public"
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
   },
   "compatibility_flags": [
     "nodejs_compat"
