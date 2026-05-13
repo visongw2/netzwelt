@@ -622,7 +622,7 @@ function loadMarkdownContent(article) {
     }
     
     // 否则尝试加载外部文件（需要HTTP服务器）
-    var markdownPath = 'public/articles/' + article.file;
+    var markdownPath = '/articles/' + article.file;
     
     fetch(markdownPath)
         .then(function(response) {
@@ -910,7 +910,7 @@ async function loadArticleWithSearch(articleId) {
     
     // 未找到，尝试从文件加载
     var fileName = articleId + '.md';
-    var markdownPath = 'public/articles/' + fileName;
+    var markdownPath = '/articles/' + fileName;
     
     try {
         var response = await fetch(markdownPath);
