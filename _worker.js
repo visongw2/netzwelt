@@ -1,4 +1,4 @@
-// Cloudflare Workers Static Assets Handler
+// Cloudflare Workers with Static Assets
 // This worker serves static files from the ASSETS binding
 
 export default {
@@ -8,9 +8,9 @@ export default {
     
     // Try to serve static assets first
     try {
-      const response = await env.ASSETS.fetch(request);
-      if (response.status !== 404) {
-        return response;
+      const assetResponse = await env.ASSETS.fetch(request);
+      if (assetResponse.status !== 404) {
+        return assetResponse;
       }
     } catch (e) {
       // Asset not found, continue to fallback

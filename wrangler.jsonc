@@ -2,10 +2,10 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "netzpul",
   "compatibility_date": "2026-05-09",
+  "main": "_worker.js",
   "assets": {
     "directory": "./public",
-    "binding": "ASSETS",
-    "not_found_handling": "single-page-application"
+    "binding": "ASSETS"
   },
   "compatibility_flags": [
     "nodejs_compat"
