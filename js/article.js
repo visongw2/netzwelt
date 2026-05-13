@@ -622,7 +622,7 @@ function loadMarkdownContent(article) {
     }
     
     // 否则尝试加载外部文件（需要HTTP服务器）
-    var markdownPath = 'articles/' + article.file;
+    var markdownPath = 'public/articles/' + article.file;
     
     fetch(markdownPath)
         .then(function(response) {
@@ -891,11 +891,11 @@ function getArticleFileName(articleId) {
     // 如果articlesData中有记录，使用记录的文件名
     var result = findArticleById(articleId);
     if (result) {
-        return 'articles/' + result.article.file;
+        return 'public/articles/' + result.article.file;
     }
     
     // 否则使用ID作为文件名
-    return 'articles/' + articleId + '.md';
+    return 'public/articles/' + articleId + '.md';
 }
 
 // 加载文章内容（带搜索备用方案）
@@ -910,7 +910,7 @@ async function loadArticleWithSearch(articleId) {
     
     // 未找到，尝试从文件加载
     var fileName = articleId + '.md';
-    var markdownPath = 'articles/' + fileName;
+    var markdownPath = 'public/articles/' + fileName;
     
     try {
         var response = await fetch(markdownPath);
