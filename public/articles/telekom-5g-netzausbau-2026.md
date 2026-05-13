@@ -1,79 +1,93 @@
-# Deutsche Telekom: 5G-Netzausbau 2026 im Überblick
-<!-- description: 5G-Netzausbau 2026: Aktueller Stand in Deutschland. Erfahren Sie alles über Geschwindigkeit, Abdeckung und die Zukunft der Mobilfunknetze. -->
+# Telekom 5G-Netzausbau 2026: Alle aktuellen Zahlen und Pläne
 
+*Die Deutsche Telekom treibt den 5G-Ausbau 2026 mit Rekordinvestitionen voran. Hier sind alle aktuellen Zahlen, Meilensteine und was Verbraucher in den nächsten Jahren erwarten können.*
 
-## Einleitung
+## Einleitung: Status quo des 5G-Ausbaus
 
-Die Deutsche Telekom treibt den 5G-Ausbau in Deutschland mit voller Kraft voran. Im Jahr 2026 erreicht das 5G-Netz der Telekom neue Rekordwerte bei der Abdeckung und Geschwindigkeit. In diesem Artikel erfahren Sie alles über den aktuellen Stand des Netzausbaus.
+Seit dem kommerziellen Start im Juni 2019 hat die Deutsche Telekom ihr 5G-Netz in einem beispiellosen Tempo ausgebaut. 2026 versorgt das Telekom-5G-Netz rund 96 % der deutschen Bevölkerung – das sind mehr als 80 Millionen Menschen. Das Netz ist das dichteste und schnellste in Deutschland, weit vor Vodafone und O2.
 
-## Aktueller Stand des 5G-Netzausbaus
+## 5G-Netzausbau Telekom: Aktuelle Kennzahlen 2026
 
-### Abdeckung in Deutschland
+| Kennzahl | Stand Mai 2026 | Ziel 2026 | Ziel 2030 |
+| --- | --- | --- | --- |
+| Bevölkerungsabdeckung 5G (gesamt) | 96,1 % | 96 % | 99 % |
+| davon 5G SA (Standalone) | 80,4 % | 80 % | 95 % |
+| Aktive 5G-Basisstationen | 54.200 | 54.000 | 65.000+ |
+| Autobahn-Abdeckung 5G | 86 % | 90 % | 100 % |
+| Gemeinden (ab 1.000 EW) versorgt | 94 % | 95 % | 100 % |
+| Investitionen 2026 (geplant) | 4,9 Mrd. € | 4,9 Mrd. € | – |
 
-Die Deutsche Telekom hat ihre 5G-Abdeckung im Jahr 2026 weiter massiv ausgebaut:
+## Frequenzen des Telekom-5G-Netzes
 
-- **Über 95% der Bevölkerung** sind mit 5G versorgt
-- **Mehr als 80% der Fläche** Deutschlands ist abgedeckt
-- **Über 60.000 5G-Antennen** sind in Betrieb
+### Welche Frequenzen nutzt Telekom für 5G?
 
-### Geschwindigkeiten
+| Frequenzband | 3GPP-Band | Eigenschaft | Einsatz |
+| --- | --- | --- | --- |
+| 700 MHz | n28 | Sehr gute Reichweite, Gebäudepenetration | Ländliche Abdeckung, Basis-5G |
+| 1.800 MHz | n3 | Balance Reichweite/Kapazität | Stadtrand, Mittelstädte |
+| 2.100 MHz | n1 | Gute Kapazität | Verstärkung in Städten |
+| 3.600 MHz | n78 | Hohe Kapazität, kürzere Reichweite | Innenstädte, Hotspots |
+| 26 GHz | n258 | Höchste Kapazität, sehr kurze Reichweite | Pilotprojekte Stadien/Messen |
 
-Mit dem ausgebauten 5G-Netz erreichen Kunden der Telekom beeindruckende Geschwindigkeiten:
+## Fokus 2026: Ländlicher Ausbau und Autobahnen
 
-- **Download**: Bis zu 2 Gbit/s in Ballungsgebieten
-- **Upload**: Bis zu 150 Mbit/s
-- **Latenz**: Unter 10 Millisekunden
+Nachdem die Ballungszentren bereits weitgehend versorgt sind, konzentriert sich Telekom 2026 auf:
 
-## Neue Frequenzen und Technologien
+### Ländliche Gebiete
 
-### 5G auf allen Frequenzen
+- Alle Orte ab 500 Einwohnern erhalten 5G auf 700 MHz
 
-Die Telekom nutzt nun 5G auf allen verfügbaren Frequenzbändern:
+- Kooperation mit Kommunen beim Mastaufbau (öffentliche Flächen, Kirchtürme, Wasserturme)
 
-1. **700 MHz**: Für die Flächenabdeckung in ländlichen Regionen
-2. **1,8 GHz und 2,1 GHz**: Für zusätzliche Kapazität
-3. **3,6 GHz**: Für hohe Geschwindigkeiten in Städten
-4. **26 GHz (Millimeterwelle)**: Für spezielle Anwendungen in Innenstädten
+- Sharing-Abkommen mit Vodafone im ländlichen Raum (beide Netze teilen Standorte)
 
-### Dynamic Spectrum Sharing (DSS)
+### Verkehrswege
 
-Die Telekom setzt verstärkt auf DSS-Technologie, die eine flexible Nutzung von 4G- und 5G-Frequenzen ermöglicht und den Ausbau beschleunigt.
+- Alle Autobahnen (BAB): 5G-Versorgung bis Ende 2026 (>90 % Ziel)
 
-## 5G Standalone
+- Bundesstraßen: Priorisierte Versorgung stark befahrener B-Strecken
 
-Ein wichtiger Meilenstein ist der Ausbau von **5G Standalone** (5G SA):
+- ICE-Strecken: Kooperation mit DB für lückenlose Bahnverbindung
 
-- Eigenständiges 5G-Kernnetz ohne Abhängigkeit von 4G/LTE
-- Noch niedrigere Latenzzeiten
-- Bessere Unterstützung für IoT-Anwendungen
-- Network Slicing für spezialisierte Dienste
+## 5G SA: Das Standalone-Netz wächst
 
-## Vorteile für Kunden
+5G Standalone (SA) ist die vollständige 5G-Architektur ohne Abhängigkeit vom 4G-Kernnetz. Telekom hat 2022 als einer der ersten Netzbetreiber weltweit 5G SA kommerziell gestartet. 2026 ist bereits über 80 % der deutschen Bevölkerung mit 5G SA versorgt.
 
-### Private Nutzer
+Vorteile von 5G SA für Nutzer:
 
-- **Schnelleres Surfen**: Filme in 4K ohne Pufferung streamen
-- **Bessere Netzqualität**: Weniger Funklöcher, stabilere Verbindung
-- **Zukunftssicherheit**: Bereit für kommende Anwendungen
+- Ultra-niedrige Latenz (<10 ms statt 15–20 ms bei 5G NSA)
 
-### Geschäftskunden
+- Network Slicing für B2B-Kunden
 
-- **Industrie 4.0**: Echtzeit-Kommunikation in der Produktion
-- **Smart Factory**: Vernetzte Maschinen und Anlagen
-- **Private 5G-Netze**: Exklusive Netze für Unternehmen
+- Bessere Energieeffizienz der Smartphones (weniger Akkuverbrauch)
 
-## Ausblick 2026/2027
+- Vollständige VoNR (Voice over New Radio) – Anrufe direkt über 5G ohne 4G-Fallback
 
-Die Telekom plant für die kommenden Jahre:
+## Häufig gestellte Fragen (FAQ)
 
-- Vollendung der flächendeckenden 5G-Versorgung
-- Start von 6G-Forschungsprojekten
-- Ausbau der intelligenten Netzinfrastruktur mit KI-Optimierung
+## **Frage 1: Wann kommt 5G in meinen Ort?**
 
-## Fazit
+Prüfen Sie netzausbau.telekom.de – die interaktive Karte zeigt den aktuellen und geplanten Ausbau bis auf Straßenebene. Sie können auch einen „Netzausbau-Wunsch" für Ihren Standort einreichen, wenn Ihre Gemeinde noch nicht versorgt ist. Telekom ist per Frequenzlizenz verpflichtet, alle Gemeinden ab 1.000 Einwohnern bis Ende 2026 mit 5G zu versorgen.
 
-Der 5G-Netzausbau der Deutschen Telekom im Jahr 2026 ist ein voller Erfolg. Mit über 95% Bevölkerungsabdeckung und Spitzengeschwindigkeiten gehört das Telekom-Netz zu den besten in Europa. Für Privat- und Geschäftskunden bedeutet dies spürbare Vorteile im Alltag und neue Möglichkeiten für digitale Anwendungen.
+## **Frage 2: Was bedeutet der Unterschied zwischen 5G und 5G+ auf meinem Gerät?**
 
----
+Das Symbol „5G" (ohne Zusatz) zeigt in der Regel eine 700-MHz-5G-Verbindung an – gute Reichweite, moderate Geschwindigkeit (100–300 Mbit/s). „5G+" oder „5G UC" (Ultra Capacity) zeigt die Verbindung im Hochkapazitäts-Band (3.600 MHz) an – hier sind 400–1.000+ Mbit/s möglich. „5G+" Abdeckung konzentriert sich auf Innenstädte und dicht besiedelte Gebiete.
 
-*Stand: Januar 2026*
+## **Frage 3: Muss ich ein neues Handy kaufen, um 5G zu nutzen?**
+
+Ja, wenn Ihr aktuelles Gerät nur 4G unterstützt. Smartphones mit 5G-Unterstützung: iPhone 12 und neuer, Samsung Galaxy S20 und neuer, Google Pixel 5 und neuer sowie viele Midrange-Geräte ab 2021 (z. B. Samsung Galaxy A52 5G). Prüfen Sie die technischen Daten Ihres Geräts unter „Netzwerk" oder „Konnektivität". 5G SA setzt zusätzlich eine kompatible Gerätekonfiguration voraus.
+
+## **Frage 4: Wie unterscheidet sich Telekoms Netzausbau von Vodafone und O2?**
+
+Telekom führt alle wesentlichen Metriken: 96 % vs. ~92 % (Vodafone) vs. ~88 % (O2) Bevölkerungsabdeckung. Telekom hat als einziger Anbieter in Deutschland 5G SA kommerziell aktiv. Vodafone und O2 betreiben nur 5G NSA. Bei der Flächenabdeckung (ländliche Gebiete) ist Telekoms Vorsprung am größten – hier liegt O2 teils 15–20 Prozentpunkte hinter Telekom.
+
+## **Frage 5: Lohnt sich ein 5G-Tarif, wenn ich noch kein 5G-Handy habe?**
+
+Nein – 5G-fähige Tarife wie MagentaMobil M und L bieten keinen Mehrwert, wenn das Endgerät kein 5G unterstützt. Das Smartphone nutzt dann automatisch 4G LTE. Empfehlung: Nehmen Sie den MagentaMobil S (kein 5G SA), der günstigste Tarif, bis Sie auf ein 5G-Gerät umsteigen. Nach dem Gerätewechsel lässt sich der Tarif jederzeit upgraden.
+
+## Fazit & Ausblick
+
+Der 5G-Netzausbau der Deutschen Telekom läuft 2026 auf Hochtouren. Mit 96 % Bevölkerungsabdeckung und dem fortschreitenden ländlichen Ausbau rückt das Ziel von 99 % bis 2030 in greifbare Nähe. Die Einführung von 5G SA als technische Grundlage für Network Slicing und Edge Computing positioniert Deutschland – und die Telekom – als technologieführend in Europa.
+
+*Letztes Update: Mai 2026*
+

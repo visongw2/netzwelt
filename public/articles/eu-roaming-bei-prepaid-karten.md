@@ -1,244 +1,181 @@
-# EU-Roaming bei Prepaid-Karten: Umfassende Anleitung 2026*
-<!-- description: Prepaid-SIM-Karten Vergleich 2026: Finden Sie die günstigste Prepaid-Karte. Vergleichen Sie Tarife, Datenpakete und Preise. -->
+# EU-Roaming bei Prepaid-Karten: Alle Regeln 2026
 
+*Seit 2017 gilt in der EU: Kein Roaming-Aufpreis. Doch wie sieht es bei Prepaid-Karten aus? Wir klären alle Regeln für EU-Roaming bei Prepaid und geben Tipps für die Nutzung im Ausland.*
 
-*Seit Juni 2017 gilt in der EU die "Roam-like-at-home"-Regelung: Telefonate, SMS und Datennutzung sollen im EU-Ausland nicht mehr extra berechnet werden. Doch wie sieht die Praxis bei Prepaid-Karten aus? Dieser umfassende Artikel beleuchtet alle Details zu EU-Roaming bei Prepaid-Karten – inklusive Fair Use Policy (FUP), Kosten, Tipps und haufigen Problemen.*
+## Grundlagen: EU-Roaming seit 2017
 
-## Einleitung*
+Am 15. Juni 2017 trat die EU-Roaming-Verordnung in Kraft. Seitdem können Verbraucher ihr Mobiltelefon in allen EU-Ländern zu den gleichen Bedingungen wie zu Hause nutzen – ohne zusätzliche Roaming-Gebühren.
 
-Das **Roaming** (das Nutzen des eigenen Mobilfunktarifs im Ausland) war früher ein "Kostenfalle". Wandergebühren von **mehreren Euro pro Minute** oder **pro Megabyte** waren üblich.
+**Was bedeutet "Roaming zu Inlandspreisen"?**
 
-**Die EU-Roaming-Verordnung (2017):**
-- Abschaffung der Wandergebühren innerhalb der EU.
-- Seit **Juni 2017** gelten im EU-Ausland dieselben Konditionen wie im Inland ("Roam-like-at-home").
-- **Seit 2022:** Die Verordnung wurde bis **2032** verlangert.
+- Keine zusätzlichen Kosten für eingehende Anrufe
 
-**Doch aufgepast:** Es gibt immer noch **Einschränkungen** (Fair Use Policy - FUP). Dies gilt besonders für **Prepaid-Karten**, bei denen das Datenvolumen oft begrenzt ist.
+- Keine Aufschläge für abgehende Anrufe innerhalb der EU
 
-In diesem Artikel analysieren wir detailliert:
-1. **Wie EU-Roaming bei Prepaid-Karten funktioniert.**
-2. **Fair Use Policy (FUP) – welche Fallen es gibt.**
-3. **Kosten und Limits** (was ist inklusive, was kostet extra?).
-4. **Tipps zur Kostenersparnis** im EU-Ausland.
-5. **Haufige Probleme** und Lösungen.
+- Datennutzung zum gleichen Preis wie im Heimatland
 
-## Grundlagen: Wie EU-Roaming funktioniert*
+- SMS zum Inlandspreis
 
-### Was ist "Roam-like-at-home"?*
+## Gilt EU-Roaming auch für Prepaid?
 
-"Roam-like-at-home" bedeutet:
-- Wenn Sie im **EU-Ausland** sind, nutzen Sie Ihre **inländischen Tarifkonditionen**.
-- **Beispiel:** Sie haben eine Telekom MagentaMobil Prepaid S (5 GB Inlandsdatenvolumen für 9,95 €). Wenn Sie nach Österreich reisen, können Sie ebenfalls **5 GB Datenvolumen** nutzen, ohne Aufpreis.
+**Ja!** Die EU-Roaming-Regelung gilt für alle Mobilfunkprodukte, einschließlich Prepaid-Karten. Sie haben als Prepaid-Nutzer die gleichen Rechte wie Postpaid-Kunden.
 
-### Welche Länder sind in der EU-Roaming-Regelung inbegriffen?*
+Die Verordnung unterscheidet nicht zwischen Vertrags- und Prepaid-Kunden. Alle Mobilfunknutzer innerhalb der EU profitieren von der Abschaffung der Roaming-Aufschläge.
 
-**EU-Mitgliedstaaten (2026):*
-- Österreich, Belgien, Bulgarn, Kroatien, Zypern, Tschechien, Dänemark, Estland, Finnland, Frankreich, Griechenland, Irland, Italien, Lettland, Litauen, Luxemburg, Malta, Niederlande, Polen, Portugal, Rumänien, Slowakei, Slowenien, Spanien, Schweden, Ungarn.
+## Welche Länder sind eingeschlossen?
 
-**Nicht-EU-Länder, aber inklusive:* 
-- **EEA-Länder:** Iseland, Lichtenstein, Norwegen.
-- **Weitere:** Schweiz (teilweise, je nach Anbieter), Vereinigtes Königreich (seit Brexit: nicht mehr automatisch inklusive! ).
+### EU-Mitgliedsstaaten (27 Länder)
 
-**Wichtig:** Die **Schweiz** ist **nicht** in der EU, wird aber von **vielen Anbietern** (Telekom, Vodafone) wie ein EU-Land behandelt (muss aber im Tarif ausdrücklich stehen!).
+- Belgien, Bulgarien, Dänemark, Deutschland, Estland, Finnland, Frankreich
 
-### Wie die Abrechnung funktioniert*
+- Griechenland, Irland, Italien, Kroatien, Lettland, Litauen, Luxemburg
 
-1. **Im Inland:** Sie nutzen Ihr Datenvolumen (z.B. 5 GB).
-2. **Im EU-Ausland:** Dieselbe Nutzung wird von Ihrem Inlandsvolumen abgezogen.
-3. **FUP-Limit erreicht:** Wenn Sie eine bestimmte Menge (abhängig vom Tarif) im Ausland verbraucht haben, können **Zusatzkosten** anfallen.
+- Malta, Niederlande, Österreich, Polen, Portugal, Rumänien, Schweden
 
-## Fair Use Policy (FUP) – Die versteckten Fallen*
+- Slowakei, Slowenien, Spanien, Tschechien, Ungarn, Zypern
 
-Die **Fair Use Policy (FUP)** soll verhindern, dass Menschen dauerhaft im Ausland leben und deutsche Prepaid-Karten nutzen (ohne in Deutschland zu wohnen).
+### Wirtschaftsraum (EWR)
 
-### Wie die FUP berechnet wird*
+- Island
 
-Jeder Anbieter hat eine **FUP-Formel**. Ein Beispiel (Telekom, Stand 2026):
+- Liechtenstein
 
-**Formel:**
-- Ihr Inlandsdatenvolumen × 2% × Monate des Vertragsverhältnisses = FUP-Limit.
+- Norwegen
 
-**Beispielrechnung:**
-- Sie haben **MagentaMobil Prepaid M** (12 GB Inlandsdatenvolumen).
-- Sie sind seit **6 Monaten** Kunde.
-- **FUP-Limit:** 12 GB × 0,02 × 6 = **1,44 GB**.
-- Wenn Sie mehr als 1,44 GB im EU-Ausland verbrauchen, könnte eine **FUP-Gebühr** anfallen.
+### Wichtig: Die Schweiz gehört NICHT zur EU!
 
-### Welche Kosten bei FUP-Überschreitung anfallen können*
+Die Schweiz ist kein EU-Mitglied und fällt daher nicht unter die Roaming-Regulierung. Für Schweizer Aufenthalte können Roaming-Gebühren anfallen.
 
-| Anbieter | FUP-Gebühr (bei Überschreitung) | Wie wird abgerechnet? |
-|-----------|-----------------------------|---------------------|
-| **Telekom** | 0,33 € pro MB (theoretisch) | In der Praxis: Oft Warnung per SMS, dann Drosselung |
-| **Vodafone** | 0,50 € pro MB (theoretisch) | Warnung per SMS, dann Abbruch der Datenverbindung |
-| **O2** | 0,25 € pro MB (theoretisch) | Warnung per SMS |
-| **Aldi Talk / Lidl Connect** | Hängt vom Netzbetreiber ab (meist Telekom) | Wie Telekom |
+## Die Fair-Use-Policy
 
-**Wichtig:** In der Praxis senden Anbieter **Warn-SMS**, bevor Gebühren anfallen. Sie können dann:
-1. Datenvolumen aufladen (oft günstiger).
-2. WLAN nutzen.
-3. Datenroaming deaktivieren.
+### Was ist Fair Use?
 
-## EU-Roaming bei den großen Anbietern (2026)*
+Um Missbrauch zu verhindern, gilt bei EU-Roaming eine Fair-Use-Policy. Diese soll verhindern, dass Kunden dauerhaft in einem anderen EU-Land Roaming-Dienste nutzen, statt einen lokalen Anbieter zu wählen.
 
-### 1. Telekom MagentaMobil Prepaid*
+### Regeln für Fair Use
 
-**Inklusivleistungen:**
-- ✅ Telefonate (aus dem Inlandsguthaben) ins deutsche Netz und ins bereiste Ausland.
-- ✅ SMS in das deutsche Netz und ins bereiste Ausland.
-- ✅ Datennutzung (basiert auf Inlandsvolumen, aber mit FUP-Limit!).
+Die nationalen Regulierungsbehörden haben folgende Kriterien festgelegt:
 
-**Kosten im Ausland (Beispiel Österreich):**
-- ✅ Telefonate nach Deutschland: Aus dem Inlandsguthaben (wie in Deutschland).
-- ✅ SMS nach Deutschland: Aus dem Inlandsguthaben.
-- ✅ Datennutzung: Aus dem Inlandsdatenvolumen (aber FUP-Limit beachten!).
+- **Mindestpräsenz:** Regelmäßiger Aufenthalt im Heimatland nachweisbar
 
-**Wichtige Hinweise:**
-- **Vodafone-Netz in Österreich:** Oft bessere Abdeckung als Telekom – nutzen Sie dies!
-- **Schweiz:** Inklusive bei den meisten MagentaMobil Prepaid-Tarifen (aber FUP-Limit gilt!).
+- **Kein dauerhaftes Roaming:** Nutzung sollte vorwiegend im Heimatland erfolgen
 
-### 2. Vodafone CallYa Digital*
+- **Reasonable Use:** Keine systematische Ausnutzung günstiger Roaming-Tarife
 
-**Inklusivleistungen:**
-- ✅ Telefonate, SMS, Datennutzung (im Rahmen des Datenvolumens).
-- ✅ FUP-Limit gilt ebenfalls.
+### Was passiert bei Missbrauch?
 
-**Kosten im Ausland:**
-- ✅ Telefonate: Ab 0,09 € pro Minute (je nach Tarif).
-- ✅ SMS: Ab 0,09 € pro SMS.
-- ✅ Datenvolumen: Aus dem Inlandsvolumen (FUP-Limit!).
+Bei nachgewiesenem Missbrauch können Anbieter:
 
-### 3. O2 my Prepaid*
+- Zusätzliche Roaming-Gebühren erheben (max. regulatorisches Limit)
 
-**Inklusivleistungen:**
-- ✅ Telefonate, SMS, Datennutzung (im Rahmen des Datenvolumens).
-- ✅ FUP-Limit gilt.
+- Den Roaming-Dienst einschränken
 
-**Kosten im Ausland:**
-- ✅ Telefonate: Ab 0,15 € pro Minute.
-- ✅ SMS: Ab 0,19 € pro SMS.
-- ✅ Datennutzung: Aus dem Inlandsvolumen (FUP-Limit!).
+- Den Vertrag kündigen
 
-### 4. Discounter (Aldi Talk, Lidl Connect, WinSIM)*
+### Beispiele für erlaubte Nutzung
 
-Diese nutzen das **Telekom-Netz** (via MVNO). Die Roaming-Konditionen sind **identisch mit der Telekom**, da sie das Netz mieten.
+- ✓ Urlaubsreisen innerhalb der EU
 
-**Beispiel Aldi Talk:**
-- ✅ EU-Roaming inklusive (wie Telekom).
-- ✅ FUP-Limit gilt (wie Telekom).
-- ❌ **Aber:** Kundenservice oft schlechter erreichbar als bei Telekom-Direkt.
+- ✓ Geschäftsreisen
 
-## Haufige Probleme und Lösungen*
+- ✓ Grenzgänger (tägliche Pendler)
 
-### 1. "Keine Netzverbindung" im Ausland*
+- ✓ Studierende im Erasmus-Programm
 
-**Ursache:**
-- Roaming ist auf dem Smartphone deaktiviert.
-- Netzauswahl steht auf "Manuell" und das richtige Netz wurde nicht gewählt.
+## Roaming-Limits bei Prepaid
 
-**Lösung:**
-- Aktivieren Sie **Datenroaming** (Einstellungen → Mobilfunk → Datenroaming).
-- Stellen Sie die Netzauswahl auf **"Automatisch"**.
+### Typische Limits
 
-### 2. "Datenvolumen ist im Ausland sehr schnell aufgebraucht"*
+| Anbieter | Daten-Roaming-Limit | Anmerkung |
+| --- | --- | --- |
+| Telekom Prepaid | Volles Inlandsvolumen | Keine Einschränkung |
+| Vodafone CallYa | Volles Inlandsvolumen | Keine Einschränkung |
+| o2 Prepaid | Volles Inlandsvolumen | Keine Einschränkung |
+| Aldi Talk | Volles Inlandsvolumen | Fair-Use-Regelung |
 
-**Ursache:**
-- Hintergrund-App-Aktualisierungen.
-- Videosstreaming in hoch Auflösung (HD/4K).
+### Was passiert bei Volumenverbrauch?
 
-**Lösung:**
-- Aktivieren Sie **Datensparmodus** (iOS/Android).
-- Nutzen Sie **WLAN** (im Hotel, Café).
-- Laden Sie Inhalte (Musik, Videos) **offline herunter** (bevor Sie reisen!).
+Wie im Inland wird Ihr Datenvolumen auch im EU-Ausland verbraucht. Wenn Sie Ihr Volumen aufgebrauchen, gelten die gleichen Regeln wie zu Hause:
 
-### 3. "FUP-Warnung erhalten"*
+- Drosselung auf niedrige Geschwindigkeit
 
-**Ursache:**
-- Sie haben das FUP-Limit erreicht (zu viel Datenvolumen im Ausland verbraucht).
+- Zusätzliche Datenpakete können gebucht werden
 
-**Lösung:**
-- Laden Sie **Datenvolumen auf** (oft günstiger als FUP-Gebühren).
-- Nutzen Sie **WLAN** für datenintensive Anwendungen.
-- Deaktivieren Sie **Datenroaming**, wenn Sie kein Datenvolumen mehr haben.
+- Keine Überraschungsrechnungen möglich
 
-### 4. "Schweiz ist teuer" (Vodafone, O2)*
+## Tipps für Roaming mit Prepaid
 
-**Ursache:**
-- Die Schweiz ist **kine EU**, daher gelten andere Konditionen.
+**netzpul-Tipps:** Aktivieren Sie vor Reiseantritt mobiles Datenvolumen in den Einstellungen. Prüfen Sie Ihren Verbrauch regelmäßig und buchen Sie bei Bedarf rechtzeitig Zusatzpakete. So vermeiden Sie Drosselung und bleiben immer erreichbar.
 
-**Lösung:**
-- Nutzen Sie **WLAN** in der Schweiz.
-- Oder: Wechseln Sie zu einem Tarif, der die Schweiz inklusive hat (meist Telekom, Aldi Talk, Lidl Connect).
+### Vor der Reise
 
-## Spartipps für EU-Roaming*
+- **Datenpaket prüfen:** Ist genug Volumen für die Reise vorhanden?
 
-### 1. WLAN nutzen, wo es nur geht*
+- **Roaming aktivieren:** In den Smartphone-Einstellungen einschalten
 
-Dies ist der **effektivste** Tipp. Nutzen Sie WLAN:
-- Im Hotel.
-- Im Café (viele bieten kostenloses WLAN).
-- Auf dem Kreuzfathofen (Raststätten).
-- In öffentlichen Gebäuden (Bahnhöfe, Flughäfen).
+- **Netzbetreiber wählen:** Automatisch oder manuell einen lokalen Partner wählen
 
-### 2. Datensparmodus aktivieren*
+- **Kontostand prüfen:** Ausreichend Guthaben für die Reise aufladen
 
-**Auf iPhone:**
-- Einstellungen → Mobilfunk → Niedriger Datenmodus.
+### Während der Reise
 
-**Auf Android:**
-- Einstellungen → Netz & Internet → Mobiles Netzwerk → Datensparmodus.
+- **Offline-Karten:** Für Navigation ohne Datenverbrauch nutzen
 
-### 3. Offline-Inhalte nutzen*
+- **WLAN nutzen:** Wo verfügbar, auf WLAN ausweichen
 
-Laden Sie Inhalte **herunter, bevor Sie reisen**:
-- **Musik:** Spotify, Apple Music, Amazon Music (Playlisten offline herunterladen).
-- **Videos:** Netflix, YouTube Premium (Filme/Serien herunterladen).
-- **Karten:** Google Maps (Kartenbereiche offline speichern).
+- **Roaming-Partner:** Im Display angezeigten Netzbetreiber beachten
 
-### 4. Hintergrund-Datenaktualisierung deaktivieren*
+## Vor- und Nachteile
 
-**Auf iPhone:**
-- Einstellungen → Allgemein → Hintergrundaktualisierung → Deaktivieren.
+### Vorteile
 
-**Auf Android:**
-- Einstellungen → Apps → [App-Name] → Datenverbrauch → Hintergrund-Daten deaktivieren.
+- ✓ Keine zusätzlichen Roaming-Kosten in der EU
 
-### 5. Lokale Prepaid-Karte kaufen*
+- ✓ Gleiche Bedingungen wie im Inland
 
-Wenn Sie **länger als 1 Woche** in einem EU-Land bleiben:
-- Kaufen Sie eine **lokale Prepaid-Karte** (oft günstiger als FUP-Gebühren oder Aufladungen).
-- **Beispiel:** 10 € für 10 GB Datenvolumen in Polen (viel günstiger als deutsche FUP-Gebühren!).
+- ✓ Funktioniert mit allen Prepaid-Anbietern
 
-## Zukunft von EU-Roaming*
+- ✓ Keine versteckten Kosten
 
-### Was passiert nach 2032?*
+### Nachteile
 
-Die aktuelle EU-Roaming-Verordnung gilt **bis 2032**. Es ist sehr wahrscheinlich, dass sie **wieder verlangert** wird (die EU sieht Roaming-Gebühren als "älteste Zeiten").
+- ✗ Nicht in der Schweiz gültig
 
-### Wird es jemals "unbegrenztes" Roaming geben?*
+- ✗ Fair-Use-Einschränkungen bei Dauernutzung
 
-**Theoretisch:** Ja.
-**Praktisch:** Die FUP-Limits verhindern Missbrauch. Es wird wohl **immer eine Art Fair-Use-Limit** geben.
+- ✗ Nicht alle Länder außerhalb EU sind eingeschlossen
 
-### 5G-Roaming*
+## Häufig gestellte Fragen (FAQ)
 
-**Stand 2026:**
-- 5G-Roaming ist in den meisten EU-Ländern verfügbar (Telekom, Vodafone, O2).
-- **Aber:** Die Geschwindigkeit kann durch **Netz-Roaming-Vereinbarungen** begrenzt sein (z.B. max. 100 Mbit/s im Ausland, auch wenn Sie im Inland 300 Mbit/s haben).
+## **Gibt es versteckte Kosten bei EU-Roaming mit Prepaid?**
 
-## Fazit*
+Nein, innerhalb der EU dürfen keine zusätzlichen Roaming-Gebühren erhoben werden. Es können nur die regulären Prepaid-Preise gelten. Achten Sie darauf, ob Ihr Anbieter im EU-Ausland服务质量 einschränkt (z.B. Drosselung).
 
-** EU-Roaming bei Prepaid-Karten** ist heutzutage sehr komfortabel – dank "Roam-like-at-home". Aber es gibt immer noch **Fallen** (Fair Use Policy).
+## **Kann ich in der Schweiz Roaming nutzen?**
 
-**Unsere Empfehlungen:**
-1. **Aufpassen auf FUP-Limits:** Wenn Sie viel im Ausland sind, könnten Gebühren anfallen.
-2. **WLAN nutzen:** Der effektivste Weg, Roaming-Kosten zu sparen.
-3. **Datensparmodus aktivieren:** Reduziert den Datenverbrauch automatisch.
-4. **Lokale Prepaid-Karte:** Für längere Aufenthalte oft günstiger.
+Die Schweiz gehört nicht zur EU und fällt daher nicht unter die Roaming-Regulierung. Für die Schweiz können Roaming-Gebühren anfallen. Prüfen Sie die Konditionen Ihres Anbieters oder nutzen Sie eine lokale Schweizer SIM-Karte.
 
-**Wichtig:** Die Schweiz ist **kine EU**. Prüfen Sie, ob Ihr Tarif die Schweiz inklusive hat (Telekom, Aldi Talk, Lidl Connect meist ja; Vodafone, O2 teilweise nein).
+## **Was passiert wenn ich dauerhaft im EU-Ausland lebe?**
 
-**Ausblick:** Bis 2032 ist EU-Roaming gesetzlich geschützt. Nutzen Sie es, aber mit Verstand – und aktivieren Sie **Datensparmodus**, wenn Sie kein unbegrenztes Datenvolumen haben.
+Bei dauerhaftem Aufenthalt in einem anderen EU-Land können Anbieter Roaming-Gebühren erheben. Die Regulierung gilt für Reisen, nicht für ständigen Wohnsitzwechsel. Erwägen Sie in diesem Fall einen lokalen Mobilfunkvertrag.
 
----
+## **Sind auch MMS im EU-Roaming kostenlos?**
 
-*Stand der Informationen: Mai 2026. Die genauen FUP-Limits und Kosten können sich je nach Anbieter und Tarif ändern. Für aktuelle Informationen besuchen Sie die offiziellen Webseiten der Anbieter.*
+Ja, MMS (Bildnachrichten) fallen unter die Roaming-Regulierung und können zu Inlandspreisen innerhalb der EU versendet werden.
+
+## Fazit
+
+EU-Roaming bei Prepaid-Karten funktioniert reibungslos und kostet keinen Aufpreis. Alle deutschen Mobilfunkanbieter – von Telekom über Vodafone bis zu Discountern wie Aldi Talk – müssen die EU-Roaming-Regelung einhalten. Nutzen Sie Ihr Prepaid-Handy also bedenkenlos im europäischen Urlaub.
+
+**Gesamtbewertung:**
+
+- Regulierung: ★★★★★ (5/5)
+
+- Kundenfreundlichkeit: ★★★★★ (5/5)
+
+- Abdeckung: ★★★★☆ (4/5)
+
+- Transparenz: ★★★★☆ (4/5)
+
+*Letztes Update: Mai 2026*
+
