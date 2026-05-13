@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "netzpul",
+  "compatibility_date": "2026-05-09",
+  "assets": {
+    "directory": "./public"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
