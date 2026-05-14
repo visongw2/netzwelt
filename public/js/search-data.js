@@ -1,5 +1,6 @@
 // Search index - flat array of all articles for fast search
 // Auto-generated from main.js articlesData
+// Deploy trigger: 2026-05-15 force re-upload
 const searchData = [
   // ===== telekom / news =====
   {
